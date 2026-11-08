@@ -1,0 +1,309 @@
+{{ header }}{{ column_left }}{{ seoloadstyles }}
+<section class="sticky-header sticky-header235">
+        <!-- sidebar left start-->
+        {{ seomenu }}
+        <!-- sidebar left end-->
+
+        <!-- body content start-->
+        <div class="body-content" >
+            <!-- header section start-->
+            <div class="header-section">
+
+                <!--logo and logo icon start-->
+                <div class="icon-logo dark-logo-bg hidden-xs hidden-sm">
+                    <a href="index.html">
+                        <img src="view/javascript/aios/img/logo-icon.png" alt="">
+                        <!--<i class="fa fa-maxcdn"></i>-->
+                    </a>
+                </div>
+                <!--logo and logo icon end-->
+
+                <!--toggle button start-->
+                <a class="toggle-btn"><i class="fa fa-outdent"></i></a>
+                <!--toggle button end-->
+
+                <!--mega menu start-->
+               {{ seomegamenu }}
+                <!--mega menu end-->
+
+                <div class="notification-wrap">
+                <!--left notification start-->
+                <div class="left-notification">
+                <ul class="notification-menu">
+
+                <!--task info start-->
+                {{ seotask }}
+                <!--task info end-->
+
+                 <!--notification info start-->
+                {{ seonotification }}
+                <!--notification info end-->
+               
+                </ul>
+                </div>
+                <!--left notification end-->
+                
+                </div>
+
+            </div>
+            <!-- header section end-->
+
+            <!--body wrapper start-->
+          <div class="wrapper">
+
+    <div class="container-fluid">
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Check broken links on store and repair them</h3>
+      </div>
+      <div class="panel-body">
+        <div class="well">
+          <div class="row">
+            <form action="{{ action }}" method="post" enctype="multipart/form-data" id="form" class="form-horizontal">
+            <div class="form-group">
+              <label class="col-sm-2 control-label" for="input-sort-order">{{ mstatus }}</label>
+              <div class="col-sm-10">
+                <select name="redirectstatus" onchange="javascript:handleSelect(this)" class="form-control">
+                    {% if redirectstatus %}
+                    <option value="1" selected="selected">{{ text_enabled }}</option>
+                    <option value="0">{{ text_disabled }}</option>
+                    {% else %}
+                    <option value="1">{{ text_enabled }}</option>
+                    <option value="0" selected="selected">{{ text_disabled }}</option>
+                    {% endif %}
+                  </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-2 control-label" for="input-sort-order">{{ text_redirect_table }}</label>
+              <div class="col-sm-10">
+               <a href="{{ redirect_table }}" class="btn btn-primary"><i class="fa fa-link"></i> Broken links on your store</a>  
+              </div>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+          <div class="container-fluid">
+          <div class="pull-right">
+                <a onclick="addRow();" data-toggle="tooltip" title="Add New Redirect" class="btn btn-primary"><i class="fa fa-plus"></i></a>
+          </div>
+        </div>
+        <br>
+       
+        <table class="table table-striped custom-table table-hover">
+          <thead>
+            <tr class="redirect">
+               <td class="center" style="width:8%;">{% if sort == 'times_used' %}
+                <a href="{{ sort_times_used }}" title="Number of times redirected"  class="{{ order|lower }}">{{ times_used }}</a>
+                {% else %}
+                <a href="{{ sort_times_used }}" title="Number of times redirected" >{{ times_used }}</a>
+                {% endif %}
+              </td>
+              <td class="center">{% if sort == 'fromUrl' %}
+                <a href="{{ sort_fromUrl }}" title="The url which needs to be redirected" class="{{ order|lower }}">{{ from_url }}</a>
+                {% else %}
+                <a href="{{ sort_fromUrl }}" title="The url which needs to be redirected">{{ from_url }}</a>
+                {% endif %}
+              <td class="center">{% if sort == 'toUrl' %}
+                <a href="{{ sort_toUrl }}"  title="The target Url" class="{{ order|lower }}">{{ to_url }}</a>
+                {% else %}
+                <a href="{{ sort_toUrl }}" title="The target Url">{{ to_url }}</a>
+                {% endif %}
+              <td class="center" title="Test Url"  style="width:8%;">{{ url_test }}</td>
+              <td class="center" width="12" title="Delete">{{ delete }}</td>
+              <td class="center" width="12">{% if sort == 'status' %}
+                <a href="{{ sort_status }}" title="Enable and disable redirection individually" class="{{ order|lower }}">{{ status }}</a>
+                {% else %}
+                <a href="{{ sort_status }}" title="Enable and disable redirection individually">{{ status }}</a>
+                {% endif %}
+              <td class="center" width="14" title="Save">Action</td>
+            </tr>
+          </thead>
+          <tbody>
+           {% if fromTable %}
+             <tr style="background:#eee;">
+              <td>-</td>
+              <td class="center"><textarea style="width:95%" name="redirectf-100"/>{{ fromTable }}</textarea></td>
+              <td class="center"><textarea style="width:95%" name="redirectt-100"/></textarea></td>
+              <td class="center"><a target="_blank" href="" name="test-100"></a></td>
+             <td class="center"><a class="btn btn-danger" onclick="$(this).parent().parent().remove()"><i class="fa fa-minus"></i></a></td>
+             <td class="center">
+                <select name="redirects-100">
+                    <option value="1" selected="selected">{{ text_enabled }}</option>
+                    <option value="0">{{ text_disabled }}</option>
+                  </select>
+               </td>
+             <td class="center"><a class="insert-100 btn btn-primary" onclick="insert(-100)">Insert</a></td>
+            </tr>
+            {% endif %}
+            {% if redirectlist %}
+            {% for redirect in redirectlist %}
+            <tr class="delete{{ redirect.index }}">
+              <td class="center">
+                <span><a onclick="reset1({{ redirect.index }})" class="btn btn-primary">{{ redirect.times_used }} <i class="fa fa-refresh"></i></a></span>
+              </td>
+              <td class="center"><textarea style="width:95%" name="redirectf{{ redirect.index }}"/>{{ redirect.fromUrl }}</textarea></td>
+              <td class="center"><textarea style="width:95%" name="redirectt{{ redirect.index }}"/>{{ redirect.toUrl }}</textarea></td>
+              <td class="center"><a href="{{ redirect.fromUrl }}" name="test{{ redirect.index }}" target="_blank" class="btn btn-primary">Test Redirection</a></td>
+              <td class="center"><a class="btn btn-danger" onclick="delete1({{ redirect.index }})" class="btn btn-primary"><i class="fa fa-minus"></i></a></td>
+              <td class="center"><select name="redirects{{ redirect.index }}">
+                    {% if redirect.status %}
+                    <option value="1" selected="selected">{{ text_enabled }}</option>
+                    <option value="0">{{ text_disabled }}</option>
+                    {% else %}
+                    <option value="1">{{ text_enabled }}</option>
+                    <option value="0" selected="selected">{{ text_disabled }}</option>
+                    {% endif %}
+                </select>
+              </td>
+              <td class="center"><a class="update{{ redirect.index }} btn btn-primary" onclick="update({{ redirect.index }})" class="">Update</a></a></td>
+            </tr>
+            {% endfor %}
+            {% else %}
+            <tr>
+              <td class="text-center" colspan="8">{{ text_no_results }}</td>
+            </tr>
+            {% endif %}
+          </tbody>
+        </table>
+      </form>
+      <div class="pagination">{{ pagination }}</div>
+    </div>
+  </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
+<script type="text/javascript">
+newRow = -1;
+  function addRow() {
+    $('\
+      <tr class="delete'+newRow+'">\
+        <td class="center">Insert Details First</td>\
+        <td class="center"><textarea style="width:95%" name="redirectf' + newRow + '"></textarea></td>\
+        <td class="center"><textarea style="width:95%" name="redirectt' + newRow + '"></textarea></td>\
+        <td class="center"><a target="_blank" href="" name="test' + newRow + '"></a></td>\
+        <td class="center"><a onclick="$(this).parent().parent().remove()" class="btn btn-primary"><i class="fa fa-minus"></i></a></td>\
+         <td class="center"><select name="redirects' + newRow + '"><option value="1" selected="selected">{{ text_enabled }}</option>\
+                    <option value="0">{{ text_disabled }}</option></select>\
+        </td>\
+        <td class="center"><a class="insert'+newRow+' btn btn-primary " onclick="insert('+newRow+')"><i class="fa fa-save"></i></a></td>\
+      </tr>\
+    ').insertBefore('table.table-striped tbody tr:first');
+    newRow--;
+  };
+</script>
+<script type="text/javascript">
+function update(id) {
+    $('.alert').remove();
+    var to = $('textarea[name = "redirectt'+id+'"]').val();
+    var fr = $('textarea[name = "redirectf'+id+'"]').val();
+    var s = $('select[name = "redirects'+id+'"]').val();
+    if(to != '' && fr != '') {
+      $.ajax({
+        url: 'index.php?route=extension/module/aioseo/updatelink&user_token={{ user_token }}',
+        type: 'POST',
+        data: { 'id': id, 'toUrl' : to,'fromUrl': fr, 'status' : s },
+        success: function(data) {
+            if(data.warning != 'undefined') {
+              $('#form').parent().before('<div class="alert alert-danger"><i class="fa fa-check-circle"></i> '+data.warning+' <button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+              $('html, body').animate({ scrollTop: 0 }, 'slow');
+            } else {
+                $('.update'+id+'').html('Updated').css('background-color','green');
+                $('a[name="test'+id+'"]').attr("href",fr).html("Test Redirection");
+            }    
+        }
+      });
+    }
+};
+
+</script>
+<script>
+function insert(id) {
+    $('.alert').remove();
+    var to = $('textarea[name = "redirectt'+id+'"]').val();
+    var fr = $('textarea[name = "redirectf'+id+'"]').val();
+    var s = $('select[name = "redirects'+id+'"]').val();
+    var newid = id;
+    if(to == '') {
+     $('#form').parent().before('<div class="alert alert-danger"><i class="fa fa-check-circle"></i>You have not entered url to redirect<button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+     return false;
+    }
+    if(fr == '') {
+     $('#form').parent().before('<div class="alert alert-danger"><i class="fa fa-check-circle"></i>You have not entered where should the url be redirected<button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+     return false;
+    }
+    $.ajax({
+      url: 'index.php?route=extension/module/aioseo/inserting&user_token={{ user_token }}',
+      type: 'POST',
+      dataType: 'json',
+      data: { 'id': id, 'toUrl' : to,'fromUrl': fr, 'status' : s },
+      success: function(data) {
+          if(data.warning != undefined) {
+            $('#form').parent().before('<div class="alert alert-danger"><i class="fa fa-check-circle"></i> '+data.warning+' <button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+            $('html, body').animate({ scrollTop: 0 }, 'slow');
+          } else {
+            $('body .insert'+newid).html('Inserted').css('background-color','green');
+            $('body a[name="test'+newid+'"]').attr("href",fr).addClass("btn btn-primary").html("Test Redirection");
+          } 
+      }
+    });
+    
+};
+
+</script>
+<script type="text/javascript">
+function handleSelect(elm) {
+    $('.alert').remove();
+    $.ajax({
+      url: 'index.php?route=extension/module/aioseo/insertlink&user_token={{ user_token }}&value=' + elm.value,
+      dataType: 'json',
+      success: function(data) {
+        if(data.warning != undefined) {
+              $('#form').parent().before('<div class="alert alert-danger"><i class="fa fa-check-circle"></i> '+data.warning+' <button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+              $('html, body').animate({ scrollTop: 0 }, 'slow');
+          } else {
+          $('#form').parent().before('<div class="alert alert-success"><i class="fa fa-check-circle"></i> Settings have been saved <button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+        }
+      }
+    });
+};
+</script>
+<script>
+function delete1(id) {
+  $('.alert').remove();
+  var newid = id;
+    $.ajax({
+    url: 'index.php?route=extension/module/aioseo/deletelink&user_token={{ user_token }}&id=' +  id,
+    dataType: 'json',
+    success: function(data) {
+          if(data.warning != undefined) {
+              $('#form').parent().before('<div class="alert alert-danger"><i class="fa fa-check-circle"></i> '+data.warning+' <button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+              $('html, body').animate({ scrollTop: 0 }, 'slow');
+          } else {
+            $('.delete'+newid).remove();
+          }
+    }
+  });
+}
+</script>
+<script>
+function reset1(id) {
+  $('.alert').remove();
+  $.ajax({
+    url: 'index.php?route=extension/module/aioseo/resetlink&user_token={{ user_token }}&id=' +  id,
+    dataType: 'json',
+    success: function(data) {
+        if(data.warning != undefined) {
+              $('#form').parent().before('<div class="alert alert-danger"><i class="fa fa-check-circle"></i> '+data.warning+' <button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+              $('html, body').animate({ scrollTop: 0 }, 'slow');
+        } else {
+           $('label[name="resetvalue'+id+'"]').html("0");
+        } 
+    }
+  });
+};
+</script>
+  {{ footer }}
+{{ seoloadscripts }}

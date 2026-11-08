@@ -1,0 +1,162 @@
+<?php $val = array (
+  'data' => 
+  array (
+    512 => 
+    array (
+      'module_id' => 512,
+      'php' => 
+      array (
+        'type' => 'custom',
+        'schedule' => 
+        array (
+          'from' => '',
+          'to' => '',
+          'between' => true,
+        ),
+        'position' => 'default',
+        'positionTablet' => '',
+        'positionPhone' => 'default',
+        'classes' => 
+        array (
+          0 => '',
+        ),
+      ),
+      'js' => 
+      array (
+      ),
+      'fonts' => 
+      array (
+      ),
+      'css' => ' ',
+    ),
+    243 => 
+    array (
+      'module_id' => 243,
+      'php' => 
+      array (
+        'type' => 'custom',
+        'schedule' => 
+        array (
+          'from' => '',
+          'to' => '',
+          'between' => true,
+        ),
+        'position' => 'details',
+        'positionTablet' => 'default',
+        'positionPhone' => 'details',
+        'classes' => 
+        array (
+          0 => '',
+        ),
+      ),
+      'js' => 
+      array (
+      ),
+      'fonts' => 
+      array (
+      ),
+      'css' => ' ',
+    ),
+    284 => 
+    array (
+      'module_id' => 284,
+      'php' => 
+      array (
+        'type' => 'custom',
+        'schedule' => 
+        array (
+          'from' => '',
+          'to' => '',
+          'between' => true,
+        ),
+        'position' => 'details',
+        'positionTablet' => 'default',
+        'positionPhone' => 'details',
+        'classes' => 
+        array (
+          0 => '',
+        ),
+      ),
+      'js' => 
+      array (
+      ),
+      'fonts' => 
+      array (
+      ),
+      'css' => ' ',
+    ),
+    534 => 
+    array (
+      'module_id' => 534,
+      'php' => 
+      array (
+        'type' => 'custom',
+        'schedule' => 
+        array (
+          'from' => '',
+          'to' => '',
+          'between' => true,
+        ),
+        'position' => 'top',
+        'positionTablet' => '',
+        'positionPhone' => '',
+        'classes' => 
+        array (
+          0 => '',
+        ),
+      ),
+      'js' => 
+      array (
+      ),
+      'fonts' => 
+      array (
+      ),
+      'css' => ' ',
+    ),
+    1087 => 
+    array (
+      'module_id' => 1087,
+      'php' => 
+      array (
+        'type' => 'custom',
+        'schedule' => 
+        array (
+          'from' => '',
+          'to' => '',
+          'between' => true,
+        ),
+        'position' => 'details',
+        'positionTablet' => 'default',
+        'positionPhone' => 'details',
+        'classes' => 
+        array (
+          0 => '',
+        ),
+      ),
+      'js' => 
+      array (
+      ),
+      'fonts' => 
+      array (
+      ),
+      'css' => ' ',
+    ),
+  ),
+  'all' => 
+  array (
+    512 => 512,
+    243 => 243,
+    284 => 284,
+    534 => 534,
+    1087 => 1087,
+  ),
+  'special' => 
+  array (
+  ),
+  'outofstock' => 
+  array (
+  ),
+  'custom' => 
+  array (
+  ),
+);

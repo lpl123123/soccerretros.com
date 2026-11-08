@@ -1,0 +1,287 @@
+<?php $val = array (
+  'css' => ' .top-menu-1068 .top-menu-item-2{display:block}div.top-menu-1068 .j-menu li.top-menu-item-2>a:before{content:\'\\e9fe\' !important;font-family:icomoon !important}.top-menu-1068>ul>.top-menu-item-2>a{text-align:left}.top-menu-1068>ul>.top-menu-item-2>a>.links-text{display:block}.top-menu-1068>ul>.top-menu-item-2>a .count-badge{position:relative}div.top-menu-1068>ul.j-menu>li.top-menu-item-2.drop-menu>div.dropdown-menu.j-dropdown{left:calc(var(--menu-item-gap,0px)/2);right:auto;transform:translate3d(0,var(--dropdown-from),0);align-items:flex-start;--align-scroll:var(--align-scroll-start,0);--translate-x:0}div.top-menu-1068>ul.j-menu>li.top-menu-item-2.drop-menu:first-child>div.dropdown-menu.j-dropdown{left:0;right:auto;transform:translate3d(0,var(--dropdown-from),0);align-items:flex-start}div.top-menu-1068>ul.j-menu>li.top-menu-item-2.drop-menu:last-child>div.dropdown-menu.j-dropdown{left:calc(var(--menu-item-gap,0px)/2);right:auto;transform:translate3d(0,var(--dropdown-from),0);align-items:flex-start}div.top-menu-1068>ul.j-menu>li.top-menu-item-2.dropdown>div.dropdown-menu.j-dropdown:before{--triangle-right:var(--triangle-right-offset,0px);--triangle-left:var(--triangle-left-offset,0px)}div.top-menu-1068>ul.j-menu>li.top-menu-item-2.drop-menu.animating>div.dropdown-menu.j-dropdown{--dropdown-from:0} .top-menu-1068 .j-menu .j-menu li.top-menu-item-3>a:before{content:\'\\e9ff\' !important;font-family:icomoon !important}.top-menu-1068 .top-menu-item-3{display:block}.top-menu-1068 .j-menu .j-menu li.top-menu-item-4>a:before{content:\'\\ea02\' !important;font-family:icomoon !important}.top-menu-1068 .top-menu-item-4{display:block}.top-menu-1068 .top-menu-item-5{display:block}div.top-menu-1068 .j-menu li.top-menu-item-5>a:before{content:\'\\eb02\' !important;font-family:icomoon !important;transform:translate3d(0px,-1px,0) !important}.top-menu-1068 .j-menu li.top-menu-item-5>a:first-child,.top-menu-1068 .j-menu li.top-menu-item-5>a:first-child .links-text{text-decoration:none !important;-webkit-text-decoration:none !important}.top-menu-1068>ul>.top-menu-item-5>a{text-align:left}.top-menu-1068>ul>.top-menu-item-5>a>.links-text{display:block}.top-menu-1068>ul>.top-menu-item-5>a .count-badge{position:relative}@media (max-width:360px){.top-menu-1068>ul>.top-menu-item-5>a{text-align:center}.top-menu-1068>ul>.top-menu-item-5>a>.links-text{display:none}.top-menu-1068>ul>.top-menu-item-5>a .count-badge{position:absolute;top:auto;right:auto}.top-menu-1068>.j-menu>.top-menu-item-5.dropdown>a:after{display:none}.top-menu-1068>.j-menu>.top-menu-item-5.dropdown>a{--dropdown-indicator:0px}} .top-menu-1068 .top-menu-item-6{display:block}.top-menu-1068 .top-menu-item-7{display:block}.top-menu-1068 .top-menu-item-8{display:block}.top-menu-1068 .top-menu-item-9{display:block}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'dropdown_color_scheme' => '',
+    'scheduledStatus' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'status' => true,
+    'module_id' => 1068,
+    'classes' => 
+    array (
+      0 => 'top-menu',
+      1 => 'top-menu-1068',
+      2 => '',
+      3 => NULL,
+    ),
+    'image_width' => 24,
+    'image_height' => 24,
+    'image_resize' => 'fill',
+    'edit' => 'module_header/top_menu/edit/1068',
+    'name' => 'Mobile / Account, More ⋯',
+    'items' => 
+    array (
+      2 => 
+      array (
+        'dropdown_color_scheme' => '',
+        'title' => 'Account',
+        'link' => 
+        array (
+          'type' => 'page',
+          'id' => '',
+          'href' => 'https://soccerretros.com/account',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'top-menu-item',
+          2 => 'top-menu-item-2',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => true,
+          'drop-menu' => true,
+          'icon-only' => false,
+        ),
+        'items' => 
+        array (
+          3 => 
+          array (
+            'title' => 'Account',
+            'link' => 
+            array (
+              'type' => 'page',
+              'id' => '',
+              'href' => 'https://soccerretros.com/account',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item',
+              1 => 'top-menu-item-3',
+              'dropdown' => false,
+              'icon-only' => NULL,
+            ),
+            'items' => 
+            array (
+            ),
+            'thumb' => '',
+            'thumb2x' => '',
+          ),
+          4 => 
+          array (
+            'title' => 'Logout',
+            'link' => 
+            array (
+              'type' => 'page',
+              'id' => '',
+              'href' => 'https://soccerretros.com/logout',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item',
+              1 => 'top-menu-item-4',
+              'dropdown' => false,
+              'icon-only' => NULL,
+            ),
+            'items' => 
+            array (
+            ),
+            'thumb' => '',
+            'thumb2x' => '',
+          ),
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+      ),
+      5 => 
+      array (
+        'dropdown_color_scheme' => '',
+        'title' => 'More',
+        'link' => 
+        array (
+          'type' => 'information',
+          'id' => '4',
+          'href' => 'https://soccerretros.com/about-us.html',
+          'name' => 'About Us',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'top-menu-item',
+          2 => 'top-menu-item-5',
+          'has-image' => false,
+          3 => NULL,
+          4 => '',
+          'multi-level' => false,
+          'dropdown' => true,
+          'drop-menu' => true,
+          'icon-only' => false,
+        ),
+        'items' => 
+        array (
+          6 => 
+          array (
+            'title' => 'About us',
+            'link' => 
+            array (
+              'type' => 'information',
+              'id' => '4',
+              'href' => 'https://soccerretros.com/about-us.html',
+              'name' => 'About Us',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item',
+              1 => 'top-menu-item-6',
+              'dropdown' => false,
+              'icon-only' => NULL,
+            ),
+            'items' => 
+            array (
+            ),
+            'thumb' => '',
+            'thumb2x' => '',
+          ),
+          7 => 
+          array (
+            'title' => 'FAQ',
+            'link' => 
+            array (
+              'type' => 'information',
+              'id' => '7',
+              'href' => 'https://soccerretros.com/faq.html',
+              'name' => 'FAQ',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item',
+              1 => 'top-menu-item-7',
+              'dropdown' => false,
+              'icon-only' => NULL,
+            ),
+            'items' => 
+            array (
+            ),
+            'thumb' => '',
+            'thumb2x' => '',
+          ),
+          8 => 
+          array (
+            'title' => 'Contact',
+            'link' => 
+            array (
+              'type' => 'page',
+              'id' => '',
+              'href' => 'https://soccerretros.com/contact',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item',
+              1 => 'top-menu-item-8',
+              'dropdown' => false,
+              'icon-only' => NULL,
+            ),
+            'items' => 
+            array (
+            ),
+            'thumb' => '',
+            'thumb2x' => '',
+          ),
+          9 => 
+          array (
+            'title' => 'Unlimited Menus',
+            'link' => 
+            array (
+              'type' => 'information',
+              'id' => '10',
+              'href' => '',
+              'name' => '',
+              'total' => NULL,
+              'attrs' => 
+              array (
+              ),
+              'classes' => 
+              array (
+              ),
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item',
+              1 => 'top-menu-item-9',
+              'dropdown' => false,
+              'icon-only' => NULL,
+            ),
+            'items' => 
+            array (
+            ),
+            'thumb' => '',
+            'thumb2x' => '',
+          ),
+        ),
+        'thumb' => '',
+        'thumb2x' => '',
+      ),
+    ),
+  ),
+);

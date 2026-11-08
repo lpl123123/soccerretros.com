@@ -1,0 +1,140 @@
+{{ header }}{{ column_left }}{{ seoloadstyles }}
+<section class="sticky-header sticky-header235">
+        <!-- sidebar left start-->
+        {{ seomenu }}
+        <!-- sidebar left end-->
+
+        <!-- body content start-->
+        <div class="body-content" >
+            <!-- header section start-->
+            <div class="header-section">
+
+                <!--logo and logo icon start-->
+                <div class="icon-logo dark-logo-bg hidden-xs hidden-sm">
+                    <a href="index.html">
+                        <img src="view/javascript/aios/img/logo-icon.png" alt="">
+                        <!--<i class="fa fa-maxcdn"></i>-->
+                    </a>
+                </div>
+                <!--logo and logo icon end-->
+
+                <!--toggle button start-->
+                <a class="toggle-btn"><i class="fa fa-outdent"></i></a>
+                <!--toggle button end-->
+
+                <!--mega menu start-->
+               {{ seomegamenu }}
+                <!--mega menu end-->
+
+                <div class="notification-wrap">
+                <!--left notification start-->
+                <div class="left-notification">
+                <ul class="notification-menu">
+
+                <!--task info start-->
+                {{ seotask }}
+                <!--task info end-->
+
+                 <!--notification info start-->
+                {{ seonotification }}
+                <!--notification info end-->
+               
+                </ul>
+                </div>
+                <!--left notification end-->
+                
+                </div>
+
+            </div>
+            <!-- header section end-->
+
+            <!--body wrapper start-->
+          <div class="wrapper">
+              {% if success %}
+  <div class="alert alert-success"><i class="fa fa-check-circle"></i> {{ success }}
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+  </div>
+  {% endif %}
+<div id="content">
+  <div id="cssmenu">
+  </div>
+     <div class="page-header">
+      <div class="container-fluid">
+        <div class="pull-right">
+             <a href="{{ clear_all }}" class="btn btn-primary"><i class="fa fa-eraser"></i> Clear All</a>
+             <a href="{{ cancel }}" class="btn btn-primary"><i class="fa fa-reply"></i> Back</a>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title"><i class="fa fa-list"></i> Check your broken links below</h3>
+      </div>
+      <div class="panel-body">
+       <div class="alert alert-danger">
+         This page consist of all Url's that has failed on the store.<br>
+          It is automatically updated as an when some url fails over the store.<br>
+           <button type="button" class="close" data-dismiss="alert">&times;</button>
+        </div>
+        <table class="table table-striped custom-table table-hover">
+          <thead>
+            <tr>
+              <td class="center">{% if sort == 'date' %}
+                <a href="{{ sort_date }}" title="Date Of Failure" class="{{ order|lower }}">{{ date }}</a>
+                {% else %}
+                <a href="{{ sort_date }}" title="Date Of Failure">{{ date }}</a>
+                {% endif %}
+              <td class="center">{% if sort == 'failed_url' %}
+                <a href="{{ sort_failed_url }}" title="Failed Url In Store Front" class="{{ order|lower }}">{{ failed_url }}</a>
+                {% else %}
+                <a href="{{ sort_failed_url }}" title="Failed Url In Store Front">{{ failed_url }}</a>
+                {% endif %}
+              <td class="center">{% if sort == 'count' %}
+                <a href="{{ sort_count }}" title="Rate Of Failure" class="{{ order|lower }}">{{ count }}</a>
+                {% else %}
+                <a href="{{ sort_count }}" title="Rate Of Failure">{{ count }}</a>
+                {% endif %}
+              </td>
+              <td class="center" title="Assign Redirection To Failed Links">
+                {{ create_redirect }}
+              </td>
+            </tr>
+          </thead>
+          <tbody>
+            {% if redirectlist %}
+            {% for redirect in redirectlist %}
+            <form action="{{ redirect.action }}" method="post" enctype="multipart/form-data" id="form{{ redirect.index }}">
+            <tr>
+              <td class="center">{{ redirect.date }}</td>
+              <td class="center" style="width:60%;height:30px;"><textarea disabled style="width:95%" name="fromTable"/>{{ redirect.failedUrl }}</textarea></td>
+              <td class="center failcount">{{ redirect.count }}</td>
+              <td class="center"><a onclick="$(this).parent().parent().find('textarea').attr('disabled', false);$('#form{{ redirect.index }}').submit()" class="btn btn-warning" >{{ insert_redirect }}</a></td>
+            </tr>
+          </form>
+            {% endfor %}
+            {% else %}
+            <tr>
+              <td class="text-center" colspan="8">{{ text_no_results }}</td>
+            </tr>
+            {% endif %}
+          
+          </tbody>
+        </table>
+      <div class="pagination">{{ pagination }}</div>
+    </div>
+  </div>
+    </div>
+</div>
+</div>
+<script>
+ $(".delete").click(function(){
+      if (!confirm('Are you sure you want to delete this?')) {
+        return false;
+      } else {
+        return true;
+      }
+  }); 
+</script>
+  {{ footer }}
+{{ seoloadscripts }}

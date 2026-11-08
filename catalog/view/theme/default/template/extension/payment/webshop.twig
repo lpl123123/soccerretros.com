@@ -1,0 +1,201 @@
+﻿<form id="payment" class="form-horizontal">
+  <fieldset>
+    <legend>{{ text_credit_card }}</legend>
+    <div class="form-group">
+      <label class="col-sm-2 control-label" for="input-image">{{ entry_cc_type }}</label>
+      <div class="col-sm-4">
+		<img src="catalog/view/theme/default/image/webshop/logo.jpg" alt="Credit Card" />
+      </div>
+    </div>
+	<div class="form-group required">
+      <label class="col-sm-2 control-label" for="input-cc-number">{{ entry_cc_number }}</label>
+      <div class="col-sm-4">
+        <input type="text" name="webshop_cc_number" value="" placeholder="{{ entry_cc_number }}" id="webshop_cardNo" class="form-control" />
+      </div>
+    </div>
+	<div class="form-group required">
+      <label class="col-sm-2 control-label" for="input-cc-expire-date">{{ entry_cc_expire_date }}</label>
+      <div class="col-sm-2">
+        <select name="webshop_cc_expire_date_month" id="webshop_expirationMonth" class="form-control">
+		  {% for month in months %}
+          <option value="{{ month.value }}">{{ month.text }}</option>
+          {% endfor %}
+        </select>
+       </div>
+       <div class="col-sm-2">
+        <select name="webshop_cc_expire_date_year" class="form-control" id="webshop_expirationYear">
+		   {% for year in year_expire %}
+          <option value="{{ year.value }}">{{ year.text }}</option>
+          {% endfor %}
+        </select>
+      </div>
+    </div>
+	<div class="form-group required">
+      <label class="col-sm-2 control-label" for="input-cc-cvv2">{{ entry_cc_cvv2 }}</label>
+      <div class="col-sm-2">
+        <input type="text" name="webshop_cvv" value="" placeholder="{{ entry_cc_cvv2 }}" maxlength="4" id="webshop_cvv" class="form-control" />
+      </div>
+	  <div class="col-sm-2">
+		<div id="what"><a></a><div class="what1"></div></div>
+      </div>
+    </div>
+	<div class="form-group">
+      <div class="col-sm-4">
+		<div class="buttons">
+		  <div class="pull-right">
+			<input type="button" value="{{ button_confirm }}" id="button-confirm" class="btn btn-primary" />
+		  </div>
+		</div>
+      </div>
+    </div>
+</fieldset>
+</form>
+
+<style type="text/css">
+#what{line-height:15px; margin-left:8px; position:relative; float:left; margin-top: 2px;}
+#what a{cursor:pointer; background:url(catalog/view/theme/default/image/webshop/picture.jpg) 0 -64px no-repeat; width:48px; height:28px; display:block;}
+#what .what1{display:none;}
+#what:hover .what1{display:block; position:absolute; top:29px; left:2px; padding:10px; border:1px solid #dcdcdc; width:265px; height:166px;
+background:#fff url(catalog/view/theme/default/image/webshop/picture.jpg) 10px -98px no-repeat;z-index:10000;}
+.creditCardRequire{color:red;margin-right:5px;}
+.attention {
+    background: #fff5cc none no-repeat scroll 10px center;
+    border: 1px solid #f2dd8c;
+    border-radius: 5px;
+    color: #555555;
+    cursor: pointer;
+    height: 30px;
+    padding: 5px 0 5px 10px;
+  
+</style>
+<script type="text/javascript"><!--
+$("#webshop_cardNo").keydown(function(e){
+	cardvalid(e);
+});
+$('#webshop_cardNo').keyup(function(e){
+	var array = [];
+	var card = $('#webshop_cardNo').val().replace(/(^\s+)|(\s+$)/g,"").replace(/\s/g,"");
+	if(card.length>16){
+		card = card.substring(0,16);
+	}
+	if(card.length>=4){
+		array.push(card.substring(0,4));
+	} else {
+		array.push(card.substring(0,card.length));
+	}
+	if(card.length>=8){
+		array.push(card.substring(4,8));
+	} else {
+		array.push(card.substring(4,card.length));
+	}
+	if(card.length>=12){
+		array.push(card.substring(8,12));
+	} else {
+		array.push(card.substring(8,card.length));
+	}
+	if(card.length>=16){
+		array.push(card.substring(12,16));
+	} else {
+		array.push(card.substring(12,card.length));
+	}
+	$('#webshop_cardNo').val(array.join(" ").replace(/(^\s+)|(\s+$)/g,""));
+});
+function cardvalid(event) {
+	if(!(event.keyCode==46)&&!(event.keyCode==8)&&!(event.keyCode==37)&&!(event.keyCode==39)) {
+		if(!((event.keyCode>=48&&event.keyCode<=57)||(event.keyCode>=96&&event.keyCode<=105))) {
+			event.returnValue=false;
+		}
+	}
+	
+}
+$('#button-confirm').bind('click', function() {
+	var cardNo = $("#webshop_cardNo").val();
+	cardNo=cardNo.replace(/[\D]/g,'');
+	var CVV = $("#webshop_cvv").val()
+    var regV=/^4\d{15}$/;
+	var regM1 = /^5\d{15}$/;
+	var regM2 = /^2[2-7]\d{14}$/;
+	var regJ = /^35\d{14}$/;
+	var regD = /^3[068]\d{12}$/;
+	var regAE = /^3[47]\d{13}$/;
+	var regDi = /^6011\d{12}$/;
+	 var cvv_reg=/^[0-9]{3}$/;
+	 var cvv_regAE=/^[0-9]{4}$/;
+	 var mate = false;
+	 var mtCvv = false;
+	if(cardNo.match(regV)!=null){
+			mate = true;
+	}else if(cardNo.match(regM1)!=null){
+		   mate = true;
+	}else if(cardNo.match(regM2)!=null){
+		   mate = true;
+	}else if(cardNo.match(regJ)!=null){
+		   mate = true;
+	}else if(cardNo.match(regD)!=null){
+		   mate = true;
+	}else if(cardNo.match(regAE)!=null ){
+		   mate = true;
+	}else if(cardNo.match(regDi)!=null){
+		   mate = true;
+	}
+	
+	if ((CVV.match(cvv_reg)!=null && cardNo.match(regAE)==null) || (CVV.match(cvv_regAE)!=null && cardNo.match(regAE)!=null)){
+		mtCvv = true;
+	}
+
+	if(!mate){
+		alert("{{ cardNoError }}");
+		$("#webshop_cardNo").focus();
+		return false;
+	}
+
+	if(!mtCvv){
+		alert("{{ cardCvvError }}");
+		$("#webshop_cvv").focus();
+		return false;
+	}
+
+	var expirationMonth = $("#webshop_expirationMonth").val();
+	if(expirationMonth=="00"){
+		alert("{{ expireMonthError }}");
+		return false;
+	}
+	var expirationYear = $("#webshop_expirationYear").val();
+	if(expirationYear=="00"){
+		alert("{{ expireYearError }}");
+		return false;
+	}
+	$.ajax({
+		url: 'index.php?route=extension/payment/webshop/send',
+		type: 'post',
+		data: $('#payment :input'),
+		dataType: 'json',		
+		beforeSend: function() {
+			$('#button-confirm').button('loading');
+			$('#button-confirm').attr('disabled', true);
+			$('#payment').before('<div class="attention"><img src="catalog/view/theme/default/image/webshop/loading.jpg" alt="" />{{ text_wait }}</div>');
+		},
+		complete: function() {
+			$('#button-confirm').button('reset');
+			$('.attention').remove();
+		},				
+		success: function(json) {
+			if (json['redirectURL']) {
+				location = json['redirectURL'];
+			}
+			if (json['error']) {
+				//alert(json['error']);
+				location = 'index.php?route=extension/payment/webshop/result';
+			}
+			if (json['success']) {
+				//alert(json['success']);
+				location = 'index.php?route=checkout/success';
+			}
+		},
+		error: function(json) {
+			//alert(json['error']);
+			location = 'index.php?route=extension/payment/webshop/result';
+		}
+	});
+});
+//--></script>

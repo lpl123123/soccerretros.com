@@ -1,0 +1,159 @@
+{{ header }}{{ column_left }}
+<div id="content">
+  <div class="page-header">
+    <div class="container-fluid">
+      <div class="pull-right">
+        <button type="button" id="button-run-all" class="btn btn-warning"><i class="fa fa-play-circle"></i> 执行所有到期任务</button>
+        <button type="button" onclick="location.reload();" class="btn btn-default"><i class="fa fa-refresh"></i></button>
+      </div>
+      <h1>Gemini AI 博客助手</h1>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div id="batch-progress" style="display:none; margin-bottom:20px;">
+        <div class="progress" style="height:30px; border-radius:15px;">
+            <div id="batch-progress-bar" class="progress-bar progress-bar-success progress-bar-striped active" style="width:0%; line-height:30px; font-weight:bold;">0%</div>
+        </div>
+        <div class="text-center" id="batch-status-text">正在准备任务...</div>
+    </div>
+
+    {% if success %}<div class="alert alert-success"><i class="fa fa-check-circle"></i> {{ success }}</div>{% endif %}
+
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="#tab-list" data-toggle="tab">任务队列</a></li>
+          <li><a href="#tab-add" data-toggle="tab">创建任务</a></li>
+          <li><a href="#tab-prompt" data-toggle="tab">模板管理</a></li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="tab-list">
+            <div class="table-responsive">
+              <table class="table table-bordered table-hover">
+                <thead><tr><th>关键词</th><th>模板</th><th>时间</th><th>状态</th><th class="text-right">操作</th></tr></thead>
+                <tbody id="task-table-body">
+                  {% for task in tasks %}
+                  <tr id="task-{{ task.task_id }}" data-id="{{ task.task_id }}" data-status="{{ task.status }}">
+                    <td>{{ task.keywords }}</td><td>{{ task.prompt_name }}</td><td>{{ task.schedule_time }}</td>
+                    <td class="task-status">
+                      {% if task.status == 0 %}<span class="label label-warning">待处理</span>{% endif %}
+                      {% if task.status == 1 %}<span class="label label-primary"><i class="fa fa-spinner fa-spin"></i> 处理中</span>{% endif %}
+                      {% if task.status == 2 %}<span class="label label-success">已发布</span>{% endif %}
+                      {% if task.status == 3 %}<span class="label label-danger" title="{{ task.error_log }}">失败</span>{% endif %}
+                    </td>
+                    <td class="text-right">
+                      {% if task.status != 2 %}<button type="button" onclick="runTask('{{ task.task_id }}');" class="btn btn-success btn-xs btn-execute"><i class="fa fa-play"></i></button>{% endif %}
+                      <button type="button" onclick="editTask('{{ task.task_id }}');" class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button>
+                      <a href="index.php?route=tool/gemini_blog&user_token={{ user_token }}&delete_task={{ task.task_id }}" class="btn btn-danger btn-xs" onclick="return confirm('删除？');"><i class="fa fa-trash-o"></i></a>
+                    </td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!-- 其他选项卡保持原来的 HTML ... -->
+          <div class="tab-pane" id="tab-add">
+            <form action="" method="post" class="form-horizontal">
+              <input type="hidden" name="action" value="add_task">
+              <div class="form-group"><label class="col-sm-2 control-label">关键词</label><div class="col-sm-10"><input type="text" name="keywords" class="form-control" required /></div></div>
+              <div class="form-group"><label class="col-sm-2 control-label">模板</label><div class="col-sm-10"><select name="prompt_id" class="form-control">{% for prompt in prompts %}<option value="{{ prompt.prompt_id }}">{{ prompt.title }}</option>{% endfor %}</select></div></div>
+              <div class="form-group"><label class="col-sm-2 control-label">图片链接</label><div class="col-sm-10"><textarea name="image_urls" rows="3" class="form-control"></textarea></div></div>
+              <div class="form-group"><label class="col-sm-2 control-label">插入内链</label><div class="col-sm-10"><textarea name="target_links" rows="3" class="form-control"></textarea></div></div>
+              <div class="form-group"><label class="col-sm-2 control-label">发布时间</label><div class="col-sm-3"><div class="input-group datetime"><input type="text" name="schedule_time" value="{{ "now"|date("Y-m-d H:i") }}" class="form-control" data-date-format="YYYY-MM-DD HH:mm" /><span class="input-group-btn"><button class="btn btn-default" type="button"><i class="fa fa-calendar"></i></button></span></div></div></div>
+              <div class="text-right"><button type="submit" class="btn btn-primary">提交任务</button></div>
+            </form>
+          </div>
+          <div class="tab-pane" id="tab-prompt">
+            <form action="" method="post" class="form-horizontal well">
+              <input type="hidden" name="action" value="save_prompt">
+              <div class="form-group"><label class="col-sm-2 control-label">模板标题</label><div class="col-sm-10"><input type="text" name="title" class="form-control" required /></div></div>
+              <div class="form-group"><label class="col-sm-2 control-label">Prompt内容</label><div class="col-sm-10"><textarea name="content" rows="5" class="form-control" required></textarea></div></div>
+              <div class="text-right"><button type="submit" class="btn btn-success">保存模板</button></div>
+            </form>
+            <table class="table table-bordered">
+                <tbody>{% for prompt in prompts %}<tr><td>{{ prompt.title }}</td><td class="text-right"><button type="button" onclick="editPrompt('{{ prompt.prompt_id }}');" class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button> <a href="index.php?route=tool/gemini_blog&user_token={{ user_token }}&delete_prompt={{ prompt.prompt_id }}" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></a></td></tr>{% endfor %}</tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 结构 -->
+<div class="modal fade" id="modal-task-edit" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><form action="" method="post"><div class="modal-header"><h4 class="modal-title">编辑任务</h4></div><div class="modal-body"><input type="hidden" name="action" value="edit_task"><input type="hidden" name="task_id" id="edit-task-id"><div class="form-group"><label>关键词</label><input type="text" name="keywords" id="edit-task-keywords" class="form-control"></div><div class="form-group"><label>图片链接</label><textarea name="image_urls" id="edit-task-images" rows="3" class="form-control"></textarea></div><div class="form-group"><label>时间</label><input type="text" name="schedule_time" id="edit-task-time" class="form-control"></div></div><div class="modal-footer"><button type="submit" class="btn btn-primary">保存</button></div></form></div></div></div>
+<div class="modal fade" id="modal-prompt-edit" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><form action="" method="post"><div class="modal-header"><h4 class="modal-title">编辑模板</h4></div><div class="modal-body"><input type="hidden" name="action" value="edit_prompt"><input type="hidden" name="prompt_id" id="edit-prompt-id"><div class="form-group"><label>标题</label><input type="text" name="title" id="edit-prompt-title" class="form-control"></div><div class="form-group"><label>内容</label><textarea name="content" id="edit-prompt-content" rows="10" class="form-control"></textarea></div></div><div class="modal-footer"><button type="submit" class="btn btn-primary">更新</button></div></form></div></div></div>
+
+<script type="text/javascript"><!--
+$('.datetime').datetimepicker({ language: 'zh-cn', pickDate: true, pickTime: true });
+
+function editPrompt(id) { $.ajax({ url: 'index.php?route=tool/gemini_blog/getPromptInfo&user_token={{ user_token }}&prompt_id=' + id, dataType: 'json', success: function(json) { $('#edit-prompt-id').val(json.prompt_id); $('#edit-prompt-title').val(json.title); $('#edit-prompt-content').val(json.content); $('#modal-prompt-edit').modal('show'); } }); }
+function editTask(id) { $.ajax({ url: 'index.php?route=tool/gemini_blog/getTaskInfo&user_token={{ user_token }}&task_id=' + id, dataType: 'json', success: function(json) { $('#edit-task-id').val(json.task_id); $('#edit-task-keywords').val(json.keywords); $('#edit-task-images').val(json.image_urls); $('#edit-task-time').val(json.schedule_time); $('#modal-task-edit').modal('show'); } }); }
+
+var taskQueue = [];
+var totalToRun = 0;
+
+$('#button-run-all').on('click', function() {
+    taskQueue = [];
+    $('#task-table-body tr').each(function() {
+        var status = $(this).attr('data-status');
+        if (status == '0' || status == '3') { taskQueue.push($(this).attr('data-id')); }
+    });
+    if (taskQueue.length == 0) { alert('没有待处理的任务'); return; }
+    if (!confirm('确认执行 ' + taskQueue.length + ' 个 AI 博客任务？')) return;
+    totalToRun = taskQueue.length;
+    $('#batch-progress').show();
+    $('#button-run-all').prop('disabled', true);
+    processQueue();
+});
+
+function processQueue() {
+    if (taskQueue.length == 0) {
+        $('#batch-progress-bar').removeClass('active').text('任务已全部执行完毕');
+        return;
+    }
+    var id = taskQueue.shift();
+    var completed = totalToRun - taskQueue.length;
+    var percent = Math.round((completed / totalToRun) * 100);
+    $('#batch-progress-bar').css('width', percent + '%').text(percent + '%');
+    $('#batch-status-text').text('正在处理 ID: ' + id);
+    
+    executeOneTask(id, function() {
+        setTimeout(processQueue, 3500); // 间隔执行，防止 API 过热
+    });
+}
+
+function runTask(id) {
+    if(!confirm('执行 AI 发布？')) return;
+    executeOneTask(id, null);
+}
+
+function executeOneTask(id, callback) {
+    var $row = $('#task-' + id);
+    $row.find('.task-status').html('<span class="label label-primary"><i class="fa fa-spinner fa-spin"></i> 处理中</span>');
+    $row.find('.btn-execute').prop('disabled', true);
+    $.ajax({
+        url: 'index.php?route=tool/gemini_blog/runTask&user_token={{ user_token }}&task_id=' + id,
+        dataType: 'json',
+        success: function(json) {
+            // 安全解析 JSON
+            if (typeof json !== 'object') { try { json = JSON.parse(json); } catch(e) {} }
+            if (json && json.success) {
+                $row.find('.task-status').html('<span class="label label-success">已发布</span>');
+                $row.find('.btn-execute').hide();
+                $row.attr('data-status', '2');
+            } else {
+                $row.find('.task-status').html('<span class="label label-danger">失败</span>');
+                $row.find('.btn-execute').prop('disabled', false);
+            }
+            if (callback) callback();
+        },
+        error: function() {
+            $row.find('.task-status').html('<span class="label label-danger">网络异常</span>');
+            if (callback) callback();
+        }
+    });
+}
+//--></script>
+{{ footer }}

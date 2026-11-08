@@ -1,0 +1,146 @@
+<?php
+
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Extension\CoreExtension;
+use Twig\Extension\SandboxExtension;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Source;
+use Twig\Template;
+use Twig\TemplateWrapper;
+
+/* journal3/template/journal3/module/blog_comments.twig */
+class __TwigTemplate_36b7f551ee87dd8a9ce276ba6e13e46d extends Template
+{
+    private Source $source;
+    /**
+     * @var array<string, Template>
+     */
+    private array $macros = [];
+
+    public function __construct(Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->parent = false;
+
+        $this->blocks = [
+        ];
+    }
+
+    protected function doDisplay(array $context, array $blocks = []): iterable
+    {
+        $macros = $this->macros;
+        // line 1
+        if ((($tmp = ($context["items"] ?? null)) && $tmp instanceof Markup ? (string) $tmp : $tmp)) {
+            // line 2
+            yield "  <div class=\"";
+            yield CoreExtension::getAttribute($this->env, $this->source, ($context["journal3"] ?? null), "classes", [($context["classes"] ?? null)], "method", false, false, false, 2);
+            yield "\">
+    <button aria-label=\"Edit\" class=\"admin-edit\" type=\"button\" data-edit=\"";
+            // line 3
+            yield ($context["edit"] ?? null);
+            yield "\"><em class=\"fa fa-pencil\" data-placement=\"auto\" data-toggle=\"tooltip-hover\" data-tooltip-class=\"admin-edit-tooltip\" title=\"Edit ";
+            yield ($context["name"] ?? null);
+            yield "\"></em></button>
+    ";
+            // line 4
+            if ((($tmp = ($context["title"] ?? null)) && $tmp instanceof Markup ? (string) $tmp : $tmp)) {
+                // line 5
+                yield "      <h3 class=\"title module-title\">";
+                yield ($context["title"] ?? null);
+                yield "</h3>
+    ";
+            }
+            // line 7
+            yield "    <div class=\"module-body\">
+      ";
+            // line 8
+            $context['_parent'] = $context;
+            $context['_seq'] = CoreExtension::ensureTraversable(($context["items"] ?? null));
+            foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
+                // line 9
+                yield "        <div class=\"";
+                yield CoreExtension::getAttribute($this->env, $this->source, ($context["journal3"] ?? null), "classes", [CoreExtension::getAttribute($this->env, $this->source, $context["item"], "classes", [], "any", false, false, false, 9)], "method", false, false, false, 9);
+                yield "\">
+          <a class=\"side-image\" href=\"";
+                // line 10
+                yield CoreExtension::getAttribute($this->env, $this->source, $context["item"], "href", [], "any", false, false, false, 10);
+                yield "\">
+            <img src=\"https://s.gravatar.com/avatar/";
+                // line 11
+                yield CoreExtension::getAttribute($this->env, $this->source, $context["item"], "avatar", [], "any", false, false, false, 11);
+                yield "?s=";
+                yield ($context["imageSize"] ?? null);
+                yield "\" alt=\"";
+                yield CoreExtension::getAttribute($this->env, $this->source, $context["item"], "subtitle", [], "any", false, false, false, 11);
+                yield "\" width=\"";
+                yield ($context["imageSize"] ?? null);
+                yield "\" height=\"";
+                yield ($context["imageSize"] ?? null);
+                yield "\"/>
+          </a>
+          <div class=\"side-details\">
+            <a class=\"side-title\" href=\"";
+                // line 14
+                yield CoreExtension::getAttribute($this->env, $this->source, $context["item"], "href", [], "any", false, false, false, 14);
+                yield "\">";
+                yield CoreExtension::getAttribute($this->env, $this->source, $context["item"], "title", [], "any", false, false, false, 14);
+                yield "</a>
+            <div class=\"side-subtitle\">
+              <span>";
+                // line 16
+                yield CoreExtension::getAttribute($this->env, $this->source, $context["item"], "subtitle", [], "any", false, false, false, 16);
+                yield "</span>
+            </div>
+          </div>
+        </div>
+      ";
+            }
+            $_parent = $context['_parent'];
+            unset($context['_seq'], $context['_key'], $context['item'], $context['_parent']);
+            $context = array_intersect_key($context, $_parent) + $_parent;
+            // line 21
+            yield "    </div>
+  </div>
+";
+        }
+        yield from [];
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getTemplateName(): string
+    {
+        return "journal3/template/journal3/module/blog_comments.twig";
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function isTraitable(): bool
+    {
+        return false;
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getDebugInfo(): array
+    {
+        return array (  111 => 21,  100 => 16,  93 => 14,  79 => 11,  75 => 10,  70 => 9,  66 => 8,  63 => 7,  57 => 5,  55 => 4,  49 => 3,  44 => 2,  42 => 1,);
+    }
+
+    public function getSourceContext(): Source
+    {
+        return new Source("", "journal3/template/journal3/module/blog_comments.twig", "");
+    }
+}

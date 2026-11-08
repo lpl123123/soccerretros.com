@@ -1,0 +1,100 @@
+{{ header }}{{ column_left }}{{ seoloadstyles }}
+<section class="sticky-header sticky-header235">
+        <!-- sidebar left start-->
+        {{ seomenu }}
+        <!-- sidebar left end-->
+
+        <!-- body content start-->
+        <div class="body-content" >
+            <!-- header section start-->
+            <div class="header-section">
+
+                <!--logo and logo icon start-->
+                <div class="icon-logo dark-logo-bg hidden-xs hidden-sm">
+                    <a href="index.html">
+                        <img src="view/javascript/aios/img/logo-icon.png" alt="">
+                        <!--<i class="fa fa-maxcdn"></i>-->
+                    </a>
+                </div>
+                <!--logo and logo icon end-->
+
+                <!--toggle button start-->
+                <a class="toggle-btn"><i class="fa fa-outdent"></i></a>
+                <!--toggle button end-->
+
+                <!--mega menu start-->
+               {{ seomegamenu }}
+                <!--mega menu end-->
+
+                <div class="notification-wrap">
+                <!--left notification start-->
+                <div class="left-notification">
+                <ul class="notification-menu">
+
+                <!--task info start-->
+                {{ seotask }}
+                <!--task info end-->
+
+                 <!--notification info start-->
+                {{ seonotification }}
+                <!--notification info end-->
+               
+                </ul>
+                </div>
+                <!--left notification end-->
+                
+                </div>
+
+            </div>
+            <!-- header section end-->
+
+            <!--body wrapper start-->
+          <div class="wrapper">
+
+  {% if error_warning %}
+  <div class="alert alert-danger"><i class="fa fa-exclamation-circle"></i> {{ error_warning }}
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+  </div>
+   {% endif %}
+  {% if success %}
+  <div class="alert alert-success"><i class="fa fa-check-circle"></i> {{ success }}
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+  </div>
+  {% endif %}
+
+
+        <div class="alert alert-warning alert-block fade in">
+          <button data-dismiss="alert" class="close close-sm" type="button">
+                            <i class="fa fa-times"></i>
+                        </button>
+        {{ seordata }}
+        </div>
+        <form action="{{ sitemapg }}" method="post" enctype="multipart/form-data" id="sitemapg">
+
+            {% if sitemapenabled %}
+              <br><div style="text-align:center;"><a href="{{ sitemapexists }}" target="_blank" class="sitemap btn btn-round btn-success">Check Sitemap</a></div>
+            {% else %}
+             <br><div style="text-align:center;"><a onclick="$('#sitemapg').submit();" class="btn btn-success m-b-10" >Enable Sitemap</a></div>
+            {% endif %}
+
+        </form>
+</div>
+
+    <div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h1 class="modal-title">How to generate seo automatically?</h1>
+            </div>
+            <div class="modal-body">
+               {{ help }}
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+  </div>
+  {{ footer }}
+{{ seoloadscripts }}

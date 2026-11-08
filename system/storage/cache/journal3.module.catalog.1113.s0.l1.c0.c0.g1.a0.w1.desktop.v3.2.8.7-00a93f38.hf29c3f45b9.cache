@@ -1,0 +1,1223 @@
+<?php $val = array (
+  'css' => '.module-catalog-1113 .item-assets .subitems{display:none !important;flex-direction:row;--overflow-x:auto;--overflow-y:hidden;max-height:100%;columns:unset;column-gap:unset}.module-catalog-1113 .item-assets .subitems>div+div{margin-inline-start:var(--catalog-link-gap,6px)}.module-catalog-1113 .ipr-grid .module-item.swiper-slide{margin-right:0;width:calc((100% - 1*0px)/2 - .01px)}.module-catalog-1113 .ipr-grid .module-item:not(.swiper-slide){padding:0;width:calc(100%/2 - .01px)}.one-column #content .module-catalog-1113 .ipr-grid .module-item.swiper-slide{margin-right:0;width:calc((100% - 0*0px)/1 - .01px)}.one-column #content .module-catalog-1113 .ipr-grid .module-item:not(.swiper-slide){padding:0;width:calc(100%/1 - .01px)}.two-column #content .module-catalog-1113 .ipr-grid .module-item.swiper-slide{margin-right:0;width:calc((100% - 0*0px)/1 - .01px)}.two-column #content .module-catalog-1113 .ipr-grid .module-item:not(.swiper-slide){padding:0;width:calc(100%/1 - .01px)}.side-column .module-catalog-1113 .ipr-grid .module-item.swiper-slide{margin-right:0;width:calc((100% - 0*0px)/1 - .01px)}.side-column .module-catalog-1113 .ipr-grid .module-item:not(.swiper-slide){padding:0;width:calc(100%/1 - .01px)}.module-catalog-1113 .subitem>a s{color:rgba(46,63,117,1);background-color:rgba(215,228,254,1);--background-color:rgba(215,228,254,1);border-radius:3px;--element-border-radius:3px}.module-catalog-1113 .catalog-title{display:flex;color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1));text-decoration-style:dotted;-webkit-text-decoration-style:dotted;text-decoration-line:underline;-webkit-text-decoration-line:underline;text-decoration-thickness:1px;-webkit-text-decoration-thickness:1px;text-underline-offset:3px;width:auto;margin-inline:0 auto;justify-content:flex-start;align-items:center;white-space:normal;overflow:initial;text-overflow:initial;-webkit-line-clamp:2}.no-touchevents .module-catalog-1113 .catalog-title:hover{color:hsla(var(--j-color-scheme-text-link-h),var(--j-color-scheme-text-link-s),calc(var(--j-color-scheme-text-link-l) - 0%),calc(var(--j-color-scheme-text-link-a)*1));text-decoration-style:dotted;-webkit-text-decoration-style:dotted;text-decoration-line:underline;-webkit-text-decoration-line:underline;text-decoration-thickness:1px;-webkit-text-decoration-thickness:1px;text-underline-offset:3px}.module-catalog-1113 .subitems{display:flex;align-items:flex-start;--catalog-link-gap:var(--j-gap-spacing---4);--column-count:auto;--column-width:150px;--column-gap:32px;column-rule-style:none}.module-catalog-1113 .subitem a{padding-bottom:1px;--element-padding-bottom:1px;font-family:\'Inter\';font-weight:400;font-size:var(--j-font_size-font-size--title-menu);color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1));letter-spacing:-.1px}.no-touchevents .module-catalog-1113 .subitem:hover a{color:hsla(var(--j-color-scheme-text-link-h),var(--j-color-scheme-text-link-s),calc(var(--j-color-scheme-text-link-l) - 0%),calc(var(--j-color-scheme-text-link-a)*1));text-decoration-style:dotted;-webkit-text-decoration-style:dotted;text-decoration-line:underline;-webkit-text-decoration-line:underline;text-decoration-thickness:1px;-webkit-text-decoration-thickness:1px;text-underline-offset:3px}.module-catalog-1113 .subitem.view-more span{color:hsla(var(--j-color-scheme-text-link-h),var(--j-color-scheme-text-link-s),calc(var(--j-color-scheme-text-link-l) - 0%),calc(var(--j-color-scheme-text-link-a)*1))}.no-touchevents .module-catalog-1113 .subitem.view-more:hover span{color:hsla(var(--j-color-scheme-text-link-hover-h),var(--j-color-scheme-text-link-hover-s),calc(var(--j-color-scheme-text-link-hover-l) - 0%),calc(var(--j-color-scheme-text-link-hover-a)*1));text-decoration-style:dotted;-webkit-text-decoration-style:dotted;text-decoration-line:underline;-webkit-text-decoration-line:underline;text-decoration-thickness:1px;-webkit-text-decoration-thickness:1px;text-underline-offset:3px}.module-catalog-1113 .subitem.view-more:after{content:\'\\f105\' !important;font-family:icomoon !important;color:hsla(var(--j-color-scheme-text-link-h),var(--j-color-scheme-text-link-s),calc(var(--j-color-scheme-text-link-l) - 0%),calc(var(--j-color-scheme-text-link-a)*1));transform:translate3d(0px,1px,0);margin-left:6px;--element-margin-left:6px}.no-touchevents .module-catalog-1113 .subitem.view-more:hover:after{color:hsla(var(--j-color-scheme-text-link-hover-h),var(--j-color-scheme-text-link-hover-s),calc(var(--j-color-scheme-text-link-hover-l) - 0%),calc(var(--j-color-scheme-text-link-hover-a)*1))}.module-catalog-1113 .subitem>a{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}.module-catalog-1113 .subitem:before{margin-right:var(--j-gap-spacing---3);--element-margin-right:var(--j-gap-spacing---3)}.module-catalog-1113 .catalog-image img,.module-catalog-1113 .catalog-image:after{border-radius:4px;--element-border-radius:4px}.module-catalog-1113 .catalog-image{justify-content:center;align-items:center;order:2;display:flex}.module-catalog-1113 .item-content:before{display:none}.module-catalog-1113 .catalog-image:before{inset-inline:0 auto;inset-block:0 auto}.module-catalog-1113 .item-assets{--catalog-gap:var(--j-gap-spacing---6);--image-max-width:25%;--image-min-width:25px;flex-direction:row;flex-wrap:wrap}.module-catalog-1113 .catalog-image img{width:auto;height:auto}.module-catalog-1113 .module-item .item-content .item-assets{flex-direction:row;flex-wrap:wrap}.module-catalog-1113 .module-item .item-content .catalog-image{order:0;display:flex}.module-catalog-1113 .flex-grid>*{flex-grow:0}div.module-catalog-1113 .auto-grid{--grid-min-width:180px;--grid-max-col:6;--scrollbar-top-space:var(--scrollbar-top-spacing,0px);--scrollbar-bottom-space:var(--scrollbar-bottom-spacing,0px);--scroll-padding:var(--scroll-padding-custom,var(--content-gutter,0px))}.module-catalog-1113{--center-insufficient:initial;--inline-margin:initial;--center-insufficient-carousel:initial}.module-catalog-1113 .auto-grid{margin-inline-start:unset;margin-inline-end:unset;--fr:1fr}.module-catalog-1113 .auto-grid .auto-grid-items{grid-auto-flow:row dense;overflow-x:initial;padding-inline-start:unset;padding-inline-end:unset}.module-catalog-1113 .auto-grid .auto-carousel-controls{display:none}.module-catalog-1113 .auto-grid .auto-carousel-items:after{display:none}.module-catalog-1113 .auto-grid .auto-grid-items.is-gliding a{pointer-events:auto}.module-catalog-1113 .auto-grid>.auto-grid-items:before{--fader-status:1;display:block}.module-catalog-1113 .auto-grid>.auto-grid-items:after{--fader-status:1;display:block}div.module-catalog-1113 .auto-carousel-bar{display:flex;margin:var(--scrollbar-top-spacing,0) max(0px,var(--scroll-padding,0px)) var(--scrollbar-bottom-spacing,0) max(0px,var(--scroll-padding,0px))}div.module-catalog-1113 .auto-carousel-controls.auto-carousel-bar{max-height:none}.touchevents div.module-catalog-1113 .auto-grid-items:not(.is-dragging)>*{scroll-snap-align:start}div.module-catalog-1113{--auto-carousel-controls-max-width:min(min(var(--content-max-width,100%) - var(--scroll-padding,0px)*2,var(--content-max-width,100%) - var(--content-gutter,0)*2),100% - var(--scroll-padding,0px)*2)}div.module-catalog-1113 .masonry-grid{--masonry-cols-gap:var(--j-gap-spacing-gap-4)} .module-catalog-1113 .subitem s{
+  font-size: 100%;
+  opacity: .7;
+}
+.main-menu-1045 .mega-menu-content .item-content{
+	flex-direction: row-reverse;
+}    .module-catalog-1113 .module-item-5 .item-assets{--image-max-width:50%;--image-min-width:50px}div.module-catalog-1113 .module-item-5 .item-content .item-assets{flex-direction:row;flex-wrap:wrap}div.module-catalog-1113 .module-item-5 .item-content .catalog-image{order:0;display:flex}                          ',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Inter' => 
+      array (
+        400 => '400',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => '',
+    'images' => true,
+    'imageDimensions' => 
+    array (
+      'width' => 25,
+      'height' => 25,
+      'resize' => 'fit',
+    ),
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 3,
+          'spacing' => 0,
+        ),
+        '' => 
+        array (
+          'spacing' => 0,
+          'items' => 2,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'carousel' => false,
+    'moduleStyle' => 'DEFAULT',
+    'viewMoreText' => 'View More',
+    'limit' => '4',
+    'gridType' => 'auto',
+    'status' => true,
+    'module_id' => 1113,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-catalog',
+      2 => 'module-catalog-1113',
+      3 => NULL,
+      4 => '',
+      'carousel-mode' => false,
+      'image-on-hover' => false,
+      'align-to-content' => false,
+    ),
+    'edit' => 'module_layout/catalog/edit/1113',
+    'name' => 'Europa League Menu Child',
+    'swiper_carousel' => false,
+    'carouselOptions' => 
+    array (
+      'speed' => 0,
+      'autoplay' => false,
+      'pauseOnHover' => false,
+      'loop' => false,
+    ),
+    'is_demos' => false,
+    'dummy_image' => 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZAQMAAAD+JxcgAAAABlBMVEUAAAAEAgSXNbeIAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAAxJREFUCNdjYBhAAAAAfQABzBzHbAAAAABJRU5ErkJggg==',
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => 'Sportwear',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'limit' => '',
+        'index' => 1,
+        'id' => '1113-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          2 => NULL,
+          3 => '',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/logo/Arsenal-football-team-logo-25x25h.webp',
+        'name' => 'Arsenal',
+        'href' => 'https://soccerretros.com/europa-league.html/arsenal.html',
+        'total' => 0,
+        'image2x' => 'https://soccerretros.com/image/cache/catalog/logo/Arsenal-football-team-logo-50x50h.webp',
+      ),
+      2 => 
+      array (
+        'title' => 'Sportwear',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'limit' => '',
+        'index' => 2,
+        'id' => '1113-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          2 => NULL,
+          3 => '',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/logo/Barcelona-football-team-logo-25x25h.webp',
+        'name' => 'FC Barcelona',
+        'href' => 'https://soccerretros.com/europa-league.html/fc-barcelona.html',
+        'total' => 0,
+        'image2x' => 'https://soccerretros.com/image/cache/catalog/logo/Barcelona-football-team-logo-50x50h.webp',
+      ),
+      3 => 
+      array (
+        'title' => 'Sportwear',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'limit' => '',
+        'index' => 3,
+        'id' => '1113-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          2 => NULL,
+          3 => '',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/logo/Manchester-United-football-team-logo-25x25h.webp',
+        'name' => 'Manchester United',
+        'href' => 'https://soccerretros.com/europa-league.html/manchester-united.html',
+        'total' => 0,
+        'image2x' => 'https://soccerretros.com/image/cache/catalog/logo/Manchester-United-football-team-logo-50x50h.webp',
+      ),
+      4 => 
+      array (
+        'title' => 'Sportwear',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'limit' => '',
+        'index' => 4,
+        'id' => '1113-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+          2 => NULL,
+          3 => '',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/logo/Real-Madrid-football-team-logo-25x25h.webp',
+        'name' => 'Real Madrid',
+        'href' => 'https://soccerretros.com/europa-league.html/real-madrid.html',
+        'total' => 0,
+        'image2x' => 'https://soccerretros.com/image/cache/catalog/logo/Real-Madrid-football-team-logo-50x50h.webp',
+      ),
+      5 => 
+      array (
+        'title' => 'Sportwear',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'limit' => '',
+        'index' => 5,
+        'id' => '1113-5',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-5',
+          2 => NULL,
+          3 => '',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/logo/atalanta-football-team-logo-25x25.webp',
+        'name' => 'Atalanta',
+        'href' => 'https://soccerretros.com/europa-league.html/atalanta.html',
+        'total' => 0,
+        'image2x' => 'https://soccerretros.com/image/cache/catalog/logo/atalanta-football-team-logo-50x50.webp',
+      ),
+      6 => 
+      array (
+        'title' => 'Sportwear',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'limit' => '',
+        'index' => 6,
+        'id' => '1113-6',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-6',
+          2 => NULL,
+          3 => '',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/logo/Bundesliga-football-team-logo-25x25.webp',
+        'name' => 'Bundesliga',
+        'href' => 'https://soccerretros.com/europa-league.html/bundesliga.html',
+        'total' => 0,
+        'image2x' => 'https://soccerretros.com/image/cache/catalog/logo/Bundesliga-football-team-logo-50x50.webp',
+      ),
+      7 => 
+      array (
+        'title' => 'Apparel',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'limit' => '',
+        'index' => 7,
+        'id' => '1113-7',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-7',
+          2 => NULL,
+          3 => '',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/logo/bologna-football-team-logo-25x25.png.webp',
+        'name' => 'Bologna FC',
+        'href' => 'https://soccerretros.com/europa-league.html/bologna-fc.html',
+        'total' => 0,
+        'image2x' => 'https://soccerretros.com/image/cache/catalog/logo/bologna-football-team-logo-50x50.png.webp',
+      ),
+      8 => 
+      array (
+        'title' => 'Clothing',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'limit' => '',
+        'index' => 8,
+        'id' => '1113-8',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-8',
+          2 => NULL,
+          3 => '',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/logo/cagliari_bg-football-team-logo-25x25.png.webp',
+        'name' => 'Cagliari Calcio',
+        'href' => 'https://soccerretros.com/europa-league.html/cagliari-calcio.html',
+        'total' => 0,
+        'image2x' => 'https://soccerretros.com/image/cache/catalog/logo/cagliari_bg-football-team-logo-50x50.png.webp',
+      ),
+      9 => 
+      array (
+        'title' => 'Lingerie',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'limit' => '',
+        'index' => 9,
+        'id' => '1113-9',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-9',
+          2 => NULL,
+          3 => '',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/logo/fiorentina-football-team-logo-25x25.png.webp',
+        'name' => 'Fiorentina',
+        'href' => 'https://soccerretros.com/europa-league.html/fiorentina.html',
+        'total' => 0,
+        'image2x' => 'https://soccerretros.com/image/cache/catalog/logo/fiorentina-football-team-logo-50x50.png.webp',
+      ),
+      10 => 
+      array (
+        'title' => 'Swimwear',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'limit' => '',
+        'index' => 10,
+        'id' => '1113-10',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-10',
+          2 => NULL,
+          3 => '',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/logo/frosinone-calcio-football-team-logo-25x25.png.webp',
+        'name' => 'Frosinone Calcio',
+        'href' => 'https://soccerretros.com/europa-league.html/frosinone-calcio.html',
+        'total' => 0,
+        'image2x' => 'https://soccerretros.com/image/cache/catalog/logo/frosinone-calcio-football-team-logo-50x50.png.webp',
+      ),
+      11 => 
+      array (
+        'title' => 'Knitwear',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'limit' => '',
+        'index' => 11,
+        'id' => '1113-11',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-11',
+          2 => NULL,
+          3 => '',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/logo/Genoa-CFC-football-team-logo-25x25h.jpg.webp',
+        'name' => 'Genoa CFC',
+        'href' => 'https://soccerretros.com/europa-league.html/genoa-cfc.html',
+        'total' => 0,
+        'image2x' => 'https://soccerretros.com/image/cache/catalog/logo/Genoa-CFC-football-team-logo-50x50h.jpg.webp',
+      ),
+      12 => 
+      array (
+        'title' => 'Jackets',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'limit' => '',
+        'index' => 12,
+        'id' => '1113-12',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-12',
+          2 => NULL,
+          3 => '',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/logo/Hellas-Verona-FC-football-team-logo-25x25h.png.webp',
+        'name' => 'Hellas Verona',
+        'href' => 'https://soccerretros.com/europa-league.html/hellas-verona.html',
+        'total' => 0,
+        'image2x' => 'https://soccerretros.com/image/cache/catalog/logo/Hellas-Verona-FC-football-team-logo-50x50h.png.webp',
+      ),
+      13 => 
+      array (
+        'title' => 'Shoes',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'limit' => '',
+        'index' => 13,
+        'id' => '1113-13',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-13',
+          2 => NULL,
+          3 => '',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/logo/fc-internazionale-milano-football-team-logo-25x25.png.webp',
+        'name' => 'Inter',
+        'href' => 'https://soccerretros.com/europa-league.html/inter.html',
+        'total' => 0,
+        'image2x' => 'https://soccerretros.com/image/cache/catalog/logo/fc-internazionale-milano-football-team-logo-50x50.png.webp',
+      ),
+      14 => 
+      array (
+        'title' => 'Sportwear',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'limit' => '',
+        'index' => 14,
+        'id' => '1113-14',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-14',
+          2 => NULL,
+          3 => '',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/logo/juventus400-football-team-logo-25x25.png.webp',
+        'name' => 'Juventus',
+        'href' => 'https://soccerretros.com/europa-league.html/juventus.html',
+        'total' => 0,
+        'image2x' => 'https://soccerretros.com/image/cache/catalog/logo/juventus400-football-team-logo-50x50.png.webp',
+      ),
+      15 => 
+      array (
+        'title' => 'Sportwear',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'limit' => '',
+        'index' => 15,
+        'id' => '1113-15',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-15',
+          2 => NULL,
+          3 => '',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/logo/lazio-football-team-logo-25x25.png.webp',
+        'name' => 'Lazio',
+        'href' => 'https://soccerretros.com/europa-league.html/lazio.html',
+        'total' => 0,
+        'image2x' => 'https://soccerretros.com/image/cache/catalog/logo/lazio-football-team-logo-50x50.png.webp',
+      ),
+      16 => 
+      array (
+        'title' => 'Sportwear',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'limit' => '',
+        'index' => 16,
+        'id' => '1113-16',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-16',
+          2 => NULL,
+          3 => '',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/logo/milan-football-team-logo-25x25.png.webp',
+        'name' => 'Milan',
+        'href' => 'https://soccerretros.com/europa-league.html/milan.html',
+        'total' => 0,
+        'image2x' => 'https://soccerretros.com/image/cache/catalog/logo/milan-football-team-logo-50x50.png.webp',
+      ),
+      17 => 
+      array (
+        'title' => 'Sportwear',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'limit' => '',
+        'index' => 17,
+        'id' => '1113-17',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-17',
+          2 => NULL,
+          3 => '',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/logo/napoli-25x25.png.webp',
+        'name' => 'Napoli',
+        'href' => 'https://soccerretros.com/europa-league.html/napoli.html',
+        'total' => 0,
+        'image2x' => 'https://soccerretros.com/image/cache/catalog/logo/napoli-50x50.png.webp',
+      ),
+      18 => 
+      array (
+        'title' => 'Sportwear',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'limit' => '',
+        'index' => 18,
+        'id' => '1113-18',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-18',
+          2 => NULL,
+          3 => '',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/logo/palermo-football-team-logo-25x25w.png.webp',
+        'name' => 'Palermo FC',
+        'href' => 'https://soccerretros.com/europa-league.html/palermo-fc.html',
+        'total' => 0,
+        'image2x' => 'https://soccerretros.com/image/cache/catalog/logo/palermo-football-team-logo-50x50w.png.webp',
+      ),
+      19 => 
+      array (
+        'title' => 'Sportwear',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'limit' => '',
+        'index' => 19,
+        'id' => '1113-19',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-19',
+          2 => NULL,
+          3 => '',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/logo/ParmaCalcio1913-football-team-logo-25x25.png.webp',
+        'name' => 'Parma',
+        'href' => 'https://soccerretros.com/europa-league.html/parma.html',
+        'total' => 0,
+        'image2x' => 'https://soccerretros.com/image/cache/catalog/logo/ParmaCalcio1913-football-team-logo-50x50.png.webp',
+      ),
+      20 => 
+      array (
+        'title' => 'Sportwear',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'limit' => '',
+        'index' => 20,
+        'id' => '1113-20',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-20',
+          2 => NULL,
+          3 => '',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/logo/roma-400-football-team-logo-25x25.png.webp',
+        'name' => 'Roma',
+        'href' => 'https://soccerretros.com/europa-league.html/roma.html',
+        'total' => 0,
+        'image2x' => 'https://soccerretros.com/image/cache/catalog/logo/roma-400-football-team-logo-50x50.png.webp',
+      ),
+      21 => 
+      array (
+        'title' => 'Sportwear',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'limit' => '',
+        'index' => 21,
+        'id' => '1113-21',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-21',
+          2 => NULL,
+          3 => '',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/logo/US_Sassuolo_Calcio-football-team-logo-25x25h.png.webp',
+        'name' => 'Sassuolo',
+        'href' => 'https://soccerretros.com/europa-league.html/sassuolo.html',
+        'total' => 0,
+        'image2x' => 'https://soccerretros.com/image/cache/catalog/logo/US_Sassuolo_Calcio-football-team-logo-50x50h.png.webp',
+      ),
+      22 => 
+      array (
+        'title' => 'Sportwear',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'limit' => '',
+        'index' => 22,
+        'id' => '1113-22',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-22',
+          2 => NULL,
+          3 => '',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/logo/Superliga-football-team-logo-25x25w.png.webp',
+        'name' => 'Danish Superliga',
+        'href' => 'https://soccerretros.com/europa-league.html/danish-superliga.html',
+        'total' => 0,
+        'image2x' => 'https://soccerretros.com/image/cache/catalog/logo/Superliga-football-team-logo-50x50w.png.webp',
+      ),
+      23 => 
+      array (
+        'title' => 'Sportwear',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'limit' => '',
+        'index' => 23,
+        'id' => '1113-23',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-23',
+          2 => NULL,
+          3 => '',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/logo/Admiral-Bundesliga-football-team-logo-25x25h.png.webp',
+        'name' => 'Austrian Bundesliga',
+        'href' => 'https://soccerretros.com/europa-league.html/austrian-bundesliga.html',
+        'total' => 0,
+        'image2x' => 'https://soccerretros.com/image/cache/catalog/logo/Admiral-Bundesliga-football-team-logo-50x50h.png.webp',
+      ),
+      24 => 
+      array (
+        'title' => 'Sportwear',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'limit' => '',
+        'index' => 24,
+        'id' => '1113-24',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-24',
+          2 => NULL,
+          3 => '',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/logo/Eredivisie-football-team-logo-25x25.png.webp',
+        'name' => 'Eredivisie',
+        'href' => 'https://soccerretros.com/europa-league.html/eredivisie.html',
+        'total' => 0,
+        'image2x' => 'https://soccerretros.com/image/cache/catalog/logo/Eredivisie-football-team-logo-50x50.png.webp',
+      ),
+      25 => 
+      array (
+        'title' => 'Sportwear',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'limit' => '',
+        'index' => 25,
+        'id' => '1113-25',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-25',
+          2 => NULL,
+          3 => '',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/logo/La_Liga-football-team-logo-25x25w.png.webp',
+        'name' => 'Laliga',
+        'href' => 'https://soccerretros.com/europa-league.html/laliga.html',
+        'total' => 0,
+        'image2x' => 'https://soccerretros.com/image/cache/catalog/logo/La_Liga-football-team-logo-50x50w.png.webp',
+      ),
+      26 => 
+      array (
+        'title' => 'Sportwear',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'limit' => '',
+        'index' => 26,
+        'id' => '1113-26',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-26',
+          2 => NULL,
+          3 => '',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/logo/Liga_NOS-football-team-logo-25x25h.png.webp',
+        'name' => 'Primeira Liga',
+        'href' => 'https://soccerretros.com/europa-league.html/primeira-liga.html',
+        'total' => 0,
+        'image2x' => 'https://soccerretros.com/image/cache/catalog/logo/Liga_NOS-football-team-logo-50x50h.png.webp',
+      ),
+      27 => 
+      array (
+        'title' => 'Sportwear',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'limit' => '',
+        'index' => 27,
+        'id' => '1113-27',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-27',
+          2 => NULL,
+          3 => '',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/logo/Ligue_1-football-team-logo-25x25.png.webp',
+        'name' => 'Ligue 1',
+        'href' => 'https://soccerretros.com/europa-league.html/ligue-1.html',
+        'total' => 0,
+        'image2x' => 'https://soccerretros.com/image/cache/catalog/logo/Ligue_1-football-team-logo-50x50.png.webp',
+      ),
+      28 => 
+      array (
+        'title' => 'Sportwear',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'limit' => '',
+        'index' => 28,
+        'id' => '1113-28',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-28',
+          2 => NULL,
+          3 => '',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/logo/SPFL-Premiership-football-team-logo-25x25w.png.webp',
+        'name' => 'Scottish Premiership',
+        'href' => 'https://soccerretros.com/europa-league.html/scottish-premiership.html',
+        'total' => 0,
+        'image2x' => 'https://soccerretros.com/image/cache/catalog/logo/SPFL-Premiership-football-team-logo-50x50w.png.webp',
+      ),
+      29 => 
+      array (
+        'title' => 'Sportwear',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'limit' => '',
+        'index' => 29,
+        'id' => '1113-29',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-29',
+          2 => NULL,
+          3 => '',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/logo/Superliga-football-team-logo-25x25w.png.webp',
+        'name' => 'Süper Lig',
+        'href' => 'https://soccerretros.com/europa-league.html/sueper-lig.html',
+        'total' => 0,
+        'image2x' => 'https://soccerretros.com/image/cache/catalog/logo/Superliga-football-team-logo-50x50w.png.webp',
+      ),
+      30 => 
+      array (
+        'title' => 'Sportwear',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'limit' => '',
+        'index' => 30,
+        'id' => '1113-30',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-30',
+          2 => NULL,
+          3 => '',
+          'swiper-slide' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/logo/Premier-League-football-team-logo-25x25h.png.webp',
+        'name' => 'Premier League',
+        'href' => 'https://soccerretros.com/europa-league.html/premier-league.html',
+        'total' => 0,
+        'image2x' => 'https://soccerretros.com/image/cache/catalog/logo/Premier-League-football-team-logo-50x50h.png.webp',
+      ),
+    ),
+  ),
+);

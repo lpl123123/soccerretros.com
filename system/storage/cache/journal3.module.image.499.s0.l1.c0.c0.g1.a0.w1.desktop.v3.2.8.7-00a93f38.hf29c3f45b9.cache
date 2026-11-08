@@ -1,0 +1,55 @@
+<?php $val = array (
+  'css' => '.module-image-499>.module-body>a{width:auto;--scale-active:.98}.module-image-499>.module-body>a img{width:initial;height:initial;object-fit:contain;margin-inline-start:0;margin-inline-end:auto}.no-touchevents .module-image-499>.module-body>a .module-image-499>.module-body>a:hover{transform:scale(var(--scale-hover,1))}.module-image-499>.module-body>a .module-image-499>.module-body>a:active{transform:scale(var(--scale-active,1))}.module-image-499{text-align:start} ',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => '',
+    'type' => 'logo_alternate',
+    'image_logo' => 'default',
+    'caption' => '',
+    'alt' => 'soccerretros jersey logo',
+    'link' => 
+    array (
+      'type' => 'page',
+      'id' => '',
+      'href' => 'https://soccerretros.com/',
+      'name' => '',
+      'total' => NULL,
+      'attrs' => 
+      array (
+      ),
+      'classes' => 
+      array (
+      ),
+    ),
+    'lazyLoad' => false,
+    'status' => true,
+    'module_id' => 499,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-image',
+      2 => 'module-image-499',
+      3 => NULL,
+      4 => '',
+    ),
+    'edit' => 'module_layout/image/edit/499',
+    'name' => 'Image / Logo Default',
+    'image_width' => 175,
+    'image_height' => 50,
+    'image_resize' => 'fill',
+    'image' => 'https://soccerretros.com/image/cache/catalog/SoccerRetros-logo-3-175x50w.webp',
+    'image2x' => 'https://soccerretros.com/image/cache/catalog/SoccerRetros-logo-3-300x85w.webp',
+    'items' => 
+    array (
+    ),
+  ),
+);

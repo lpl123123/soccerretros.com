@@ -1,0 +1,93 @@
+<?php $val = array (
+  'css' => '.module-blog_tags-41 .tags{gap:var(--j-gap-spacing-gap-1);justify-content:flex-start;gap:var(--j-gap-spacing-gap-1)}.module-blog_tags-41 .tags b{display:none}.module-blog_tags-41 .tags a{background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));--background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));border-width:1px;border-style:solid;border-color:hsla(var(--j-color-scheme-background-border-h),var(--j-color-scheme-background-border-s),calc(var(--j-color-scheme-background-border-l) - 0%),calc(var(--j-color-scheme-background-border-a)*1));border-radius:4px;--element-border-radius:4px;padding:var(--j-gap-spacing---3);--element-padding:var(--j-gap-spacing---3);padding-right:var(--j-gap-spacing---4);--element-padding-right:var(--j-gap-spacing---4);padding-left:var(--j-gap-spacing---4);--element-padding-left:var(--j-gap-spacing---4);flex-grow:0;text-align:initial}.module-blog_tags-41 .tags a,.module-blog_tags-41 .tags a:visited{font-family:\'Inter\';font-weight:400;color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1));line-height:1.25} ',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Inter' => 
+      array (
+        400 => '400',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Filter by Tags',
+    'tagsStyle' => 'DEFAULT',
+    'status' => true,
+    'module_id' => 41,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-blog_tags',
+      2 => 'module-blog_tags-41',
+      3 => NULL,
+      4 => '',
+    ),
+    'edit' => 'module_layout/blog_tags/edit/41',
+    'name' => 'Blog Tags',
+    'items' => 
+    array (
+      0 => 
+      array (
+        'name' => 'retro soccer jersey',
+        'href' => 'https://soccerretros.com/blog?journal_blog_tag=retro%20soccer%20jersey',
+      ),
+      1 => 
+      array (
+        'name' => 'vintage football shirt',
+        'href' => 'https://soccerretros.com/blog?journal_blog_tag=vintage%20football%20shirt',
+      ),
+      2 => 
+      array (
+        'name' => 'soccer jersey guide',
+        'href' => 'https://soccerretros.com/blog?journal_blog_tag=soccer%20jersey%20guide',
+      ),
+      3 => 
+      array (
+        'name' => 'soccer jersey size guide',
+        'href' => 'https://soccerretros.com/blog?journal_blog_tag=soccer%20jersey%20size%20guide',
+      ),
+      4 => 
+      array (
+        'name' => 'football shirt sizing',
+        'href' => 'https://soccerretros.com/blog?journal_blog_tag=football%20shirt%20sizing',
+      ),
+      5 => 
+      array (
+        'name' => 'retro jersey fit',
+        'href' => 'https://soccerretros.com/blog?journal_blog_tag=retro%20jersey%20fit',
+      ),
+      6 => 
+      array (
+        'name' => 'buy retro football shirts',
+        'href' => 'https://soccerretros.com/blog?journal_blog_tag=buy%20retro%20football%20shirts',
+      ),
+      7 => 
+      array (
+        'name' => 'vintage football shirts for sale',
+        'href' => 'https://soccerretros.com/blog?journal_blog_tag=vintage%20football%20shirts%20for%20sale',
+      ),
+      8 => 
+      array (
+        'name' => 'authentic soccer jerseys',
+        'href' => 'https://soccerretros.com/blog?journal_blog_tag=authentic%20soccer%20jerseys',
+      ),
+      9 => 
+      array (
+        'name' => 'football shirt buying tips',
+        'href' => 'https://soccerretros.com/blog?journal_blog_tag=football%20shirt%20buying%20tips',
+      ),
+    ),
+  ),
+);

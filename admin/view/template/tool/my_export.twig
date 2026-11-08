@@ -1,0 +1,94 @@
+{{ header }}{{ column_left }}
+<div id="content">
+  <div class="page-header">
+    <div class="container-fluid">
+      <div class="pull-right">
+        <button type="submit" form="form-export" data-toggle="tooltip" title="导出" class="btn btn-primary" id="button-export-top"><i class="fa fa-download"></i></button>
+      </div>
+      <h1>产品导出 (CSV)</h1>
+      <ul class="breadcrumb">
+        {% for breadcrumb in breadcrumbs %}
+        <li><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title"><i class="fa fa-filter"></i> 导出设置</h3>
+      </div>
+      <div class="panel-body">
+        <div class="form-horizontal">
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="input-category">选择导出分类</label>
+            <div class="col-sm-10">
+              <div class="input-group">
+                <select name="category_id" id="input-category" class="form-control">
+                  <option value="0">--- 全部产品 ---</option>
+                  {% for category in categories %}
+                  <option value="{{ category.category_id }}">{{ category.name }}</option>
+                  {% endfor %}
+                </select>
+                <span class="input-group-btn">
+                  <button type="button" id="button-export" class="btn btn-primary">
+                    <i class="fa fa-download"></i> 开始导出产品
+                  </button>
+                </span>
+              </div>
+              <p class="help-block"><i class="fa fa-info-circle"></i> 系统将导出该分类下的所有产品，格式为 CSV。建议导出后使用 Excel 或 WPS 进行查看和编辑。</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="export-status" style="display:none; margin-top:20px;">
+           <div class="alert alert-info">
+             <i class="fa fa-spinner fa-spin"></i> 正在处理您的导出请求，请稍候... 文件下载将在处理完成后自动开始。
+           </div>
+        </div>
+
+      </div>
+    </div>
+    
+    <!-- 提示卡片 -->
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="alert alert-warning">
+                <i class="fa fa-exclamation-triangle"></i> <strong>提示：</strong> 如果您的产品数据量非常大（超过 5,000 条），请分分类多次导出，以避免服务器响应超时。
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript"><!--
+// 顶部按钮同步点击
+$('#button-export-top').on('click', function(e) {
+    e.preventDefault();
+    $('#button-export').trigger('click');
+});
+
+$('#button-export').on('click', function() {
+    var category_id = $('#input-category').val();
+    var url = 'index.php?route=tool/my_export/download&user_token={{ user_token }}';
+    
+    if (category_id > 0) {
+        url += '&category_id=' + category_id;
+    }
+
+    $('#export-status').fadeIn();
+    $('#button-export').addClass('disabled').prop('disabled', true);
+    $('#button-export-top').addClass('disabled').prop('disabled', true);
+    
+    // 触发下载
+    location.href = url;
+
+    // 延时恢复按钮状态
+    setTimeout(function() {
+        $('#export-status').fadeOut();
+        $('#button-export').removeClass('disabled').prop('disabled', false);
+        $('#button-export-top').removeClass('disabled').prop('disabled', false);
+    }, 5000);
+});
+//--></script>
+{{ footer }}

@@ -1,0 +1,75 @@
+<div class="sidebar-left">
+    <!--responsive view logo start-->
+    <div class="logo dark-logo-bg hidden-xs hidden-sm">
+            <a href="https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=7540&filter_search=seo+module+opencart" target="_blank" title="All in one seo features for opencart">
+                <img src="view/javascript/aios/img/logo-icon.png" alt="">
+                <!--<i class="fa fa-maxcdn"></i>-->
+                <span class="brand-name">{{ heading_title }}</span>
+            </a>
+        </div>
+    <!--responsive view logo end-->
+
+    <div class="sidebar-left-info">
+        <!-- visible small devices start-->
+        <div class=" search-field">  </div>
+        <!-- visible small devices end-->
+
+        <!--sidebar nav start-->
+        <ul class="nav nav-pills nav-stacked side-navigation">
+            <li>
+                <h3 class="navigation-title">{{ text_generators }}</h3>
+            </li>
+            <li class="menu-list">
+                <a><i class="fa fa-cogs"></i>  <span>{{ text_autogenerators }}</span></a>
+                <ul class="child-list">
+                    <li><a href="{{ autogenerate_product }}"> {{ text_product }}</a></li>
+                    <li><a href="{{ autogenerate_category }}"> {{ text_category }}</a></li>
+                    <li><a href="{{ autogenerate_manufacturer }}"> {{ text_manufacturer }}</a></li>
+                    <li><a href="{{ autogenerate_information }}"> {{ text_information }}</a></li>
+                    <li><a href="{{ autogenerate_general }}">{{ text_general }}</a></li>
+                </ul>
+            </li>
+            <li class="menu-list"><a href=""><i class="fa fa-book"></i> <span>{{ text_editor }}</span></a>
+                <ul class="child-list">
+                    <li><a href="{{ customize_product }}"> {{ text_product }}</a></li>
+                    <li><a href="{{ customize_category }}"> {{ text_category }}</a></li>
+                    <li><a href="{{ customize_manufacturer }}"> {{ text_manufacturer }}</a></li>
+                    <li><a href="{{ customize_information }}"> {{ text_information }}</a></li>
+                    <li><a href="{{ customize_general }}">{{ text_general }}</a></li>
+                </ul>
+            </li>
+            <li><a href="{{ report_completeseo }}"><i class="fa fa-file-text"></i> <span>{{ text_report }}</span></a></li>
+            <li><a href="{{ seo_settings }}"><i class="fa fa-gear"></i> <span>Settings</span></a></li>
+            <li><a href="{{ sitemap }}"><i class="fa fa-sitemap"></i> <span>{{ text_sitemap }}</span></a></li>
+            <li>
+                <h3 class="navigation-title">{{ text_richsnippets }}</h3>
+            </li>
+
+           <li><a href="{{ snippet_google }}"><i class="fa fa-google"></i> <span>{{ text_google }}</span></a></li>
+           <li><a href="{{ snippet_twitter }}"><i class="fa fa-twitter"></i> <span>{{ text_twitter }}</span></a></li>
+           <li><a href="{{ snippet_facebook }}"><i class="fa fa-facebook"></i> <span>{{ text_facebook }}</span></a></li>
+          <li><a href="{{ snippet_pinterest }}"><i class="fa fa-pinterest"></i> <span>{{ text_pinterest }}</span></a></li> 
+              
+            
+            <!--<li><a href="<?php $robots }}"><i class="fa fa-ban"></i> <span><?php $text_robots }}</span></a></li>-->
+
+            <li>
+                <h3 class="navigation-title">{{ text_seoredirectmanager }}</h3>
+            </li>
+            <li><a href="{{ redirectmanager }}"><i class="fa fa-random"></i> <span>{{ text_redirectmanager }}</span></a></li>
+
+             <li><a href="{{ failedlinks }}"><i class="fa fa-remove"></i> <span>{{ text_failedlinks }}</span></a>
+            </li>
+
+            <li>
+                <h3 class="navigation-title">{{ text_clearseotool }}</h3>
+            </li>
+
+            <li><a href="{{ clearseo }}"><i class="fa fa-bomb"></i> <span>{{ text_clearseo }}</span></a>
+            </li>
+
+        </ul>
+        <!--sidebar nav end-->
+    </div>
+</div>
+<!-- sidebar left end-->

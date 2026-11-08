@@ -1,0 +1,46 @@
+<?php $val = array (
+  'css' => '.module-button-263 .btn{transform-origin:center;width:auto;--focus-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1)) !important;border-width:1px;border-style:solid;border-color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1));margin-top:var(--j-gap-spacing-vertical-xl) !important;--element-margin-top:var(--j-gap-spacing-vertical-xl) !important;padding:1.2em !important;--element-padding:1.2em !important;padding-right:2.2em !important;--element-padding-right:2.2em !important;padding-left:2.2em !important;--element-padding-left:2.2em !important}.module-button-263{display:flex;justify-content:center}.module-button-263 .btn,.module-button-263 .btn:visited{color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1)) !important}.no-touchevents .module-button-263 .btn:hover{color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1)) !important;background-color:hsla(var(--j-color-scheme-background-secondary-h),var(--j-color-scheme-background-secondary-s),calc(var(--j-color-scheme-background-secondary-l) - -1%),calc(var(--j-color-scheme-background-secondary-a)*1));--background-color:hsla(var(--j-color-scheme-background-secondary-h),var(--j-color-scheme-background-secondary-s),calc(var(--j-color-scheme-background-secondary-l) - -1%),calc(var(--j-color-scheme-background-secondary-a)*1))}.module-button-263 .btn:active,.no-touchevents .module-button-263 .btn:hover:active{color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1)) !important}.module-button-263 .btn,.module-button-263 .tooltip{background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));--background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1))}.module-button-263 .btn:active,.no-touchevents .module-button-263 .btn:hover:active,.module-button-263 .btn:focus:active,.no-touchevents .module-button-263 .btn:focus:hover:active{background-color:hsla(var(--j-color-scheme-background-tertiary-h),var(--j-color-scheme-background-tertiary-s),calc(var(--j-color-scheme-background-tertiary-l) - 0%),calc(var(--j-color-scheme-background-tertiary-a)*1));--background-color:hsla(var(--j-color-scheme-background-tertiary-h),var(--j-color-scheme-background-tertiary-s),calc(var(--j-color-scheme-background-tertiary-l) - 0%),calc(var(--j-color-scheme-background-tertiary-a)*1))}.module-button-263 .btn:focus,.module-button-263 .btn[disabled]{background-color:hsla(var(--j-color-scheme-background-secondary-h),var(--j-color-scheme-background-secondary-s),calc(var(--j-color-scheme-background-secondary-l) - -1%),calc(var(--j-color-scheme-background-secondary-a)*1)) !important;--background-color:hsla(var(--j-color-scheme-background-secondary-h),var(--j-color-scheme-background-secondary-s),calc(var(--j-color-scheme-background-secondary-l) - -1%),calc(var(--j-color-scheme-background-secondary-a)*1)) !important}.no-touchevents .module-button-263 .btn:hover,.no-touchevents .module-button-263 .btn:active:hover{border-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-button-263 .btn:active,.no-touchevents .module-button-263 .btn:hover:active,.module-button-263 .btn:focus:active{border-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1)) !important}.module-button-263 .btn:focus{border-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-button-263 .btn.btn.disabled:after{font-size:1em}.module-button-263 .btn:after{content:\'\\e9b1\' !important;font-family:icomoon !important;margin-left:7px;--element-margin-left:7px}@media (max-width:500px){.module-button-263 .btn{width:100%}} ',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Retro Soccer Jerseys',
+    'link' => 
+    array (
+      'type' => 'category',
+      'id' => '229',
+      'href' => 'https://soccerretros.com/retro-soccer-jerseys.html',
+      'name' => 'Retro Soccer Jerseys',
+      'total' => NULL,
+      'attrs' => 
+      array (
+      ),
+      'classes' => 
+      array (
+      ),
+    ),
+    'style' => 'OUTLINE_FILL',
+    'status' => true,
+    'module_id' => 263,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-button',
+      2 => 'module-button-263',
+      3 => NULL,
+      4 => '',
+    ),
+    'edit' => 'module_layout/button/edit/263',
+    'name' => 'Button / CTA / Retro Soccer Jerseys',
+    'items' => 
+    array (
+    ),
+  ),
+);

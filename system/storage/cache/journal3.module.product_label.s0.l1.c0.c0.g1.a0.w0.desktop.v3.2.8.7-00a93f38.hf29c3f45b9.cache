@@ -1,0 +1,11329 @@
+<?php $val = array (
+  'data' => 
+  array (
+    397 => 
+    array (
+      'module_id' => 397,
+      'php' => 
+      array (
+        'type' => 'custom',
+        'label' => 'Sale',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'labelStyle' => 'TEXT',
+        'display' => 'default',
+        'positionDefault' => 'price',
+        'classes' => 
+        array (
+          0 => '',
+        ),
+      ),
+      'js' => 
+      array (
+      ),
+      'fonts' => 
+      array (
+        'fonts' => 
+        array (
+          'Inter' => 
+          array (
+            400 => '400',
+          ),
+        ),
+        'subsets' => 
+        array (
+          'latin-ext' => 'latin-ext',
+        ),
+      ),
+      'css' => '.has-special .product-label-default.product-label-397{display:flex}.product-label-default.product-label-397{display:flex}.product-label-diagonal.product-label-397{display:block}.product-label-diagonal.product-label-397 strong{transform:scale(calc(10/10))}.product-label.product-label-397 strong{font-family:\'Inter\';font-weight:400;font-size:var(--j-font_size-font-size-100);color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1));text-transform:none;line-height:1.1;background:0 0;-webkit-backdrop-filter:none;backdrop-filter:none;--background-color:transparent;border-style:none;border-radius:0;--element-border-radius:0px;box-shadow:none}.product-label.product-label-397 strong,.product-label.product-label-397 strong>a{padding:0;--element-padding:0px}.product-label.product-label-397.product-label{margin:0;--element-margin:0px}.product-label-397{order:3}span.product-label.product-label-397 strong{color:rgba(242,119,99,1) !important;background-size:contain !important}.product-info .product-label-397 strong{font-family:\'Inter\' !important;font-weight:400 !important;font-size:var(--j-font_size-font-size-300) !important;text-decoration:none !important;-webkit-text-decoration:none !important;line-height:1.3 !important}.product-info .product-image .product-label-diagonal.product-label-397 strong{transform:scale(calc(10/10))} ',
+    ),
+    270 => 
+    array (
+      'module_id' => 270,
+      'php' => 
+      array (
+        'type' => 'custom',
+        'label' => 'Online Only',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'labelStyle' => 'DEFAULT',
+        'display' => 'default',
+        'positionDefault' => 'group',
+        'classes' => 
+        array (
+          0 => '',
+        ),
+      ),
+      'js' => 
+      array (
+      ),
+      'fonts' => 
+      array (
+        'fonts' => 
+        array (
+          'Inter' => 
+          array (
+            400 => '400',
+          ),
+        ),
+        'subsets' => 
+        array (
+          'latin-ext' => 'latin-ext',
+        ),
+      ),
+      'css' => '.product-label-default.product-label-270{display:flex;position:relative;top:0;inset-inline-start:initial;inset-inline-end:0;bottom:initial;justify-content:flex-end}.product-label-diagonal.product-label-270{display:block;top:0;left:0;right:initial;bottom:initial;transform:translate3d(-50%,-50%,0) rotate(-45deg)}.product-label-diagonal.product-label-270 strong{transform:scale(calc(10/10))}.product-label.product-label-270 strong{font-family:\'Inter\';font-weight:400;font-size:var(--j-font_size-font-size-200);color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1));line-height:1.25;background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));--background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));background-repeat:no-repeat;background-size:contain;border-width:1px;border-style:solid;border-color:hsla(var(--j-color-scheme-background-border-h),var(--j-color-scheme-background-border-s),calc(var(--j-color-scheme-background-border-l) - 0%),calc(var(--j-color-scheme-background-border-a)*1));border-radius:3px;--element-border-radius:3px;--scale-active:.98}.product-label.product-label-270 strong,.product-label.product-label-270 strong>a{padding:var(--j-gap-spacing---2);--element-padding:var(--j-gap-spacing---2);padding-right:var(--j-gap-spacing---3);--element-padding-right:var(--j-gap-spacing---3);padding-left:var(--j-gap-spacing---3);--element-padding-left:var(--j-gap-spacing---3)}.product-label.product-label-270.product-label{margin:3px;--element-margin:3px}.product-label.product-label-270.product-label strong:before{margin-right:5px;--element-margin-right:5px}.product-labels .product-label-diagonal.product-label-270{--label-diagonal-offset:20px}.product-info .product-image .product-label-diagonal.product-label-270 strong{transform:scale(calc(10/10))} ',
+    ),
+    28 => 
+    array (
+      'module_id' => 28,
+      'php' => 
+      array (
+        'type' => 'custom',
+        'label' => 'SALE',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'labelStyle' => 'ICON_ONLY',
+        'display' => 'default',
+        'positionDefault' => 'tl',
+        'labelStyleP' => 'RED',
+        'classes' => 
+        array (
+          0 => '',
+        ),
+      ),
+      'js' => 
+      array (
+      ),
+      'fonts' => 
+      array (
+      ),
+      'css' => '.product-label-default.product-label-28{display:flex;margin-top:var(--j-gap-spacing---4) !important;--element-margin-top:var(--j-gap-spacing---4) !important;position:absolute;top:0;inset-inline-end:initial;bottom:initial;inset-inline-start:0}.product-label-diagonal.product-label-28{display:block}.product-label-diagonal.product-label-28 strong{transform:scale(calc(10/10))}.product-label.product-label-28 strong{background:0 0;-webkit-backdrop-filter:none;backdrop-filter:none;--background-color:transparent;border-style:none;border-radius:0;--element-border-radius:0px;box-shadow:none}.product-label.product-label-28 strong,.product-label.product-label-28 strong>a{padding:0;--element-padding:0px}.product-label.product-label-28.product-label{margin:var(--j-gap-spacing---4);--element-margin:var(--j-gap-spacing---4);margin-top:0;--element-margin-top:0px}.product-label.product-label-28.product-label strong:before{font-size:20px;margin-right:0;--element-margin-right:0px}.product-label-28{order:0}span.product-label.product-label-28 strong{color:rgba(247,247,247,1) !important;background-color:rgba(213,32,76,1) !important;--background-color:rgba(213,32,76,1) !important;border-style:none !important;border-radius:2px !important;--element-border-radius:2px !important;padding:4px !important;--element-padding:4px !important}.product-info .product-image .product-label-diagonal.product-label-28 strong{transform:scale(calc(10/10))}#content .product-info .product-label-28 strong{color:rgba(247,247,247,1);background-color:rgba(213,32,76,1);--background-color:rgba(213,32,76,1);background-repeat:no-repeat;background-size:contain} ',
+    ),
+    29 => 
+    array (
+      'module_id' => 29,
+      'php' => 
+      array (
+        'type' => 'custom',
+        'label' => 'New',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'labelStyle' => 'BLUE',
+        'display' => 'default',
+        'positionDefault' => 'group',
+        'classes' => 
+        array (
+          0 => '',
+        ),
+      ),
+      'js' => 
+      array (
+      ),
+      'fonts' => 
+      array (
+      ),
+      'css' => '.product-label-default.product-label-29{display:flex;position:relative;top:0;inset-inline-start:initial;inset-inline-end:0;bottom:initial;justify-content:flex-end}.product-label-diagonal.product-label-29{display:block}.product-label-diagonal.product-label-29 strong{transform:scale(calc(10/10))}.product-label.product-label-29 strong{color:rgba(13,82,214,1);background-color:rgba(215,228,254,1);--background-color:rgba(215,228,254,1);background-repeat:no-repeat;background-size:contain}.product-info .product-image .product-label-diagonal.product-label-29 strong{transform:scale(calc(10/10))} ',
+    ),
+    30 => 
+    array (
+      'module_id' => 30,
+      'php' => 
+      array (
+        'type' => 'outofstock',
+        'label' => 'New',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'labelStyle' => 'RED',
+        'display' => 'diagonal',
+        'positionDefault' => 'group',
+        'classes' => 
+        array (
+          0 => '',
+        ),
+      ),
+      'js' => 
+      array (
+      ),
+      'fonts' => 
+      array (
+      ),
+      'css' => '.product-label-default.product-label-30{display:flex;position:relative;top:0;inset-inline-start:initial;inset-inline-end:0;bottom:initial;justify-content:flex-end}.product-label-diagonal.product-label-30{display:block;top:0;left:0;right:initial;bottom:initial;transform:translate3d(-50%,-50%,0) rotate(-45deg)}.product-label-diagonal.product-label-30 strong{transform:scale(calc(10/10))}.product-label.product-label-30 strong{color:rgba(247,247,247,1);background-color:rgba(213,32,76,1);--background-color:rgba(213,32,76,1);background-repeat:no-repeat;background-size:contain}span.product-label.product-label-30 strong{background-size:contain !important;border-radius:0 !important;--element-border-radius:0px !important}.product-info .product-label-30 strong{font-size:14px !important}.product-labels .product-label-diagonal.product-label-30{--label-diagonal-offset:20px}.product-info .product-image .product-label-diagonal.product-label-30{--label-diagonal-offset:30px;display:block}.product-info .product-image .product-label-diagonal.product-label-30 strong{transform:scale(calc(10/10))}.product-info .product-details>.product-labels-outside .product-label-default.product-label-30{display:flex}.product-info .product-image .product-label-default.product-label-30{display:flex}@media (max-width:500px){.product-label-default.product-label-30{display:none}.product-label-diagonal.product-label-30{display:none}} ',
+    ),
+    31 => 
+    array (
+      'module_id' => 31,
+      'php' => 
+      array (
+        'type' => 'custom',
+        'label' => '🔥 Bestseller',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'labelStyle' => 'ORANGE',
+        'display' => 'default',
+        'positionDefault' => 'group',
+        'classes' => 
+        array (
+          0 => '',
+        ),
+      ),
+      'js' => 
+      array (
+      ),
+      'fonts' => 
+      array (
+      ),
+      'css' => '.product-label-default.product-label-31{display:flex;position:relative;top:0;inset-inline-start:initial;inset-inline-end:0;bottom:initial;justify-content:flex-end}.product-label-diagonal.product-label-31{display:block}.product-label-diagonal.product-label-31 strong{transform:scale(calc(10/10))}.product-label.product-label-31 strong{color:rgba(117,15,11,1);background-color:rgba(255,235,235,1);--background-color:rgba(255,235,235,1);background-repeat:no-repeat;background-size:contain;border-color:rgba(242,119,99,1)}.product-info .product-image .product-label-diagonal.product-label-31 strong{transform:scale(calc(10/10))} ',
+    ),
+    133 => 
+    array (
+      'module_id' => 133,
+      'php' => 
+      array (
+        'type' => 'custom',
+        'label' => 'Free Shipping',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'labelStyle' => 'GREEN',
+        'display' => 'default',
+        'positionDefault' => 'group',
+        'classes' => 
+        array (
+          0 => '',
+        ),
+      ),
+      'js' => 
+      array (
+      ),
+      'fonts' => 
+      array (
+      ),
+      'css' => '.product-label-default.product-label-133{display:flex;position:relative;top:0;inset-inline-start:initial;inset-inline-end:0;bottom:initial;justify-content:flex-end}.product-label-diagonal.product-label-133{display:block;top:0;left:0;right:initial;bottom:initial;transform:translate3d(-50%,-50%,0) rotate(-45deg)}.product-label-diagonal.product-label-133 strong{transform:scale(calc(10/10))}.product-label.product-label-133 strong{color:rgba(49,112,75,1);background-color:rgba(237,245,234,1);--background-color:rgba(237,245,234,1);background-repeat:no-repeat;background-size:contain;border-color:rgba(64,148,99,.2)}.product-labels .product-label-diagonal.product-label-133{--label-diagonal-offset:20px}.product-info .product-image .product-label-diagonal.product-label-133 strong{transform:scale(calc(10/10))} ',
+    ),
+    296 => 
+    array (
+      'module_id' => 296,
+      'php' => 
+      array (
+        'type' => 'custom',
+        'label' => 'from',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'labelStyle' => 'TEXT',
+        'display' => 'default',
+        'positionDefault' => 'price',
+        'classes' => 
+        array (
+          0 => '',
+        ),
+      ),
+      'js' => 
+      array (
+      ),
+      'fonts' => 
+      array (
+        'fonts' => 
+        array (
+          'Inter' => 
+          array (
+            400 => '400',
+          ),
+        ),
+        'subsets' => 
+        array (
+          'latin-ext' => 'latin-ext',
+        ),
+      ),
+      'css' => '.has-special .product-label-default.product-label-296{display:none}.product-label-default.product-label-296{display:flex}.product-label-diagonal.product-label-296{display:block;top:0;left:0;right:initial;bottom:initial;transform:translate3d(-50%,-50%,0) rotate(-45deg)}.product-label-diagonal.product-label-296 strong{transform:scale(calc(10/10))}.product-label.product-label-296 strong{font-family:\'Inter\';font-weight:400;font-size:var(--j-font_size-font-size-100);color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1));text-transform:none;line-height:1.1;background:0 0;-webkit-backdrop-filter:none;backdrop-filter:none;--background-color:transparent;border-style:none;border-radius:0;--element-border-radius:0px;box-shadow:none}.product-label.product-label-296 strong,.product-label.product-label-296 strong>a{padding:0;--element-padding:0px}.product-label.product-label-296.product-label{margin:0;--element-margin:0px}.product-label-296{order:1}.product-info .product-label-296 strong{font-family:\'Inter\' !important;font-weight:400 !important;font-size:var(--j-font_size-font-size-300) !important;text-decoration:none !important;-webkit-text-decoration:none !important;line-height:1.3 !important}.product-info .product-image .product-label-diagonal.product-label-296 strong{transform:scale(calc(10/10))} ',
+    ),
+    297 => 
+    array (
+      'module_id' => 297,
+      'php' => 
+      array (
+        'type' => 'custom',
+        'label' => 'Save',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'labelStyle' => 'TEXT',
+        'display' => 'default',
+        'positionDefault' => 'price',
+        'classes' => 
+        array (
+          0 => '',
+        ),
+      ),
+      'js' => 
+      array (
+      ),
+      'fonts' => 
+      array (
+        'fonts' => 
+        array (
+          'Inter' => 
+          array (
+            400 => '400',
+          ),
+        ),
+        'subsets' => 
+        array (
+          'latin-ext' => 'latin-ext',
+        ),
+      ),
+      'css' => '.product-label-default.product-label-297{display:flex}.product-label-diagonal.product-label-297{display:block;top:0;left:0;right:initial;bottom:initial;transform:translate3d(-50%,-50%,0) rotate(-45deg)}.product-label-diagonal.product-label-297 strong{transform:scale(calc(10/10))}.product-label.product-label-297 strong{font-family:\'Inter\';font-weight:400;font-size:var(--j-font_size-font-size-100);color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1));text-transform:none;line-height:1.1;background:0 0;-webkit-backdrop-filter:none;backdrop-filter:none;--background-color:transparent;border-style:none;border-radius:0;--element-border-radius:0px;box-shadow:none}.product-label.product-label-297 strong,.product-label.product-label-297 strong>a{padding:0;--element-padding:0px}.product-label.product-label-297.product-label{margin:0;--element-margin:0px}.product-label-297{order:2}.product-info .product-label-297 strong{font-family:\'Inter\' !important;font-weight:400 !important;font-size:var(--j-font_size-font-size-300) !important;text-decoration:none !important;-webkit-text-decoration:none !important;line-height:1.3 !important}.product-info .product-image .product-label-diagonal.product-label-297 strong{transform:scale(calc(10/10))} ',
+    ),
+    217 => 
+    array (
+      'module_id' => 217,
+      'php' => 
+      array (
+        'type' => 'custom',
+        'label' => '⭐️ Top Brand',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'labelStyle' => 'OUTLINE',
+        'display' => 'default',
+        'positionDefault' => 'group',
+        'classes' => 
+        array (
+          0 => '',
+        ),
+      ),
+      'js' => 
+      array (
+      ),
+      'fonts' => 
+      array (
+      ),
+      'css' => '.product-label-default.product-label-217{display:flex;position:relative;top:0;inset-inline-start:initial;inset-inline-end:0;bottom:initial;justify-content:flex-end}.product-label-diagonal.product-label-217{display:block}.product-label-diagonal.product-label-217 strong{transform:scale(calc(10/10))}.product-label.product-label-217 strong{color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1));background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));--background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));background-repeat:no-repeat;background-size:contain;border-width:1px;border-style:solid;border-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.product-label-217{order:1}.product-info .product-image .product-label-diagonal.product-label-217 strong{transform:scale(calc(10/10))} ',
+    ),
+  ),
+  'all' => 
+  array (
+  ),
+  'special' => 
+  array (
+  ),
+  'outofstock' => 
+  array (
+    30 => 30,
+  ),
+  'custom' => 
+  array (
+    1122 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1584 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1577 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    102 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    490 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    489 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    69 => 
+    array (
+      397 => 397,
+      28 => 28,
+      31 => 31,
+      296 => 296,
+      297 => 297,
+    ),
+    427 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1341 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    151 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    152 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    190 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    297 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    491 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    191 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    153 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    70 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    225 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1578 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    428 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    267 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    429 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    430 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    268 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    226 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    365 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    366 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    431 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    270 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    269 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    492 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    493 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    453 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    454 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    113 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    119 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    154 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    155 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    156 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    157 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    158 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    227 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    298 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1575 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    432 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    103 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    433 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    271 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    273 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    272 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    413 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    414 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    494 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    159 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    160 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    161 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    228 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    229 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    104 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    434 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    162 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    299 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    300 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    465 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    435 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    436 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    495 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    496 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    71 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    230 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    231 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    369 => 
+    array (
+      397 => 397,
+      28 => 28,
+      31 => 31,
+      296 => 296,
+      297 => 297,
+    ),
+    456 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1585 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1586 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    72 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    437 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    438 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    497 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    163 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    164 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    166 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    165 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    192 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    233 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    232 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    466 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    467 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    476 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    477 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    74 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    73 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    609 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    439 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    122 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    123 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    170 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    167 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    168 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    169 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    193 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    194 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    195 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    196 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    197 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    234 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    235 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    317 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    318 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    326 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    328 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    327 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    329 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    347 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    348 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    370 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    457 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    458 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    455 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    586 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    301 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    236 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1342 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    105 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    106 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    172 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    171 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    440 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    441 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    107 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    247 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    248 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    76 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    75 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    108 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    199 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    198 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    237 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    302 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    303 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    349 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    350 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    416 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    415 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    442 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    77 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    109 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    238 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    239 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    498 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    330 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1203 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    543 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    817 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    133 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    499 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1046 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1044 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    545 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    598 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    599 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    503 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    504 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    546 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    245 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    244 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    246 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1075 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1076 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    726 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    714 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1522 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1505 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1512 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1523 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1511 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1508 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1531 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1525 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1526 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    505 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    572 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    506 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1165 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1133 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1134 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    893 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    877 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    894 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    895 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    547 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    507 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    587 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    548 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    588 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    754 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1403 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1363 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    549 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    550 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    508 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    509 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    772 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    773 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1235 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1236 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1237 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1233 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    715 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    551 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    510 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    662 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    511 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    512 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1218 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    896 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    649 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    630 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    631 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    632 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    552 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    513 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1219 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    514 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1228 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1220 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    573 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    111 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    110 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    112 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    515 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1364 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1365 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1366 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    589 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    553 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1077 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    590 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1135 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1136 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1367 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1368 => 
+    array (
+      397 => 397,
+      28 => 28,
+      31 => 31,
+      296 => 296,
+      297 => 297,
+    ),
+    1404 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1405 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1406 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1430 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1369 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1370 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1444 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1407 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1371 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1227 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1221 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1229 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1222 => 
+    array (
+      397 => 397,
+      28 => 28,
+      31 => 31,
+      296 => 296,
+      297 => 297,
+    ),
+    1234 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1408 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1440 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1372 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1078 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1431 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    633 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    634 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    135 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    554 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    516 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    601 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    602 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    788 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    789 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    603 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    555 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    556 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    595 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    517 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    518 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    600 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    665 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    666 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    126 => 
+    array (
+      397 => 397,
+      270 => 270,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1033 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    519 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    557 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1536 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    480 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1051 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    520 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    500 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1107 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1079 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1137 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    790 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    521 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    635 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    252 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    250 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    650 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    636 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    558 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    522 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1108 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1080 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1109 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    331 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1223 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    559 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    523 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    524 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    699 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    694 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    702 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    384 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1373 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1374 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    950 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1110 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1111 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1081 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1138 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1139 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1140 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1141 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    333 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    332 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    592 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1112 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1142 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    574 => 
+    array (
+      397 => 397,
+      28 => 28,
+      31 => 31,
+      296 => 296,
+      297 => 297,
+    ),
+    575 => 
+    array (
+      397 => 397,
+      28 => 28,
+      31 => 31,
+      296 => 296,
+      297 => 297,
+    ),
+    525 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1143 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    591 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    594 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1113 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1114 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    526 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    527 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    593 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1144 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1145 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1146 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    340 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1224 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1436 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    353 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    352 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    576 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    577 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1082 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    528 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    529 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    970 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    604 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    605 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1409 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1375 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    882 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    963 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    982 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    530 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    984 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    985 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    983 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    972 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    973 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    560 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    531 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    578 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    392 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    393 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    400 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    401 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    402 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    396 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    388 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    389 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    403 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    404 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    405 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    695 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    606 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    716 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1410 => 
+    array (
+      397 => 397,
+      28 => 28,
+      31 => 31,
+      296 => 296,
+      297 => 297,
+    ),
+    1376 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1441 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1230 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1217 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    532 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    533 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    561 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    585 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    534 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    820 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    795 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    607 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    816 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    791 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    792 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    793 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    535 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    755 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1257 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    449 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1231 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1225 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1232 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1226 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1377 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1378 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    444 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    445 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    443 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    446 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    470 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    536 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    537 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    878 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    879 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    908 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    897 => 
+    array (
+      397 => 397,
+      28 => 28,
+      31 => 31,
+      296 => 296,
+      297 => 297,
+    ),
+    579 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    580 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    880 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    881 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    920 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    581 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    582 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    909 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    538 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    539 => 
+    array (
+      397 => 397,
+      28 => 28,
+      31 => 31,
+      296 => 296,
+      297 => 297,
+    ),
+    1379 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1448 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1380 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1447 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1411 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1381 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1382 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    562 => 
+    array (
+      397 => 397,
+      28 => 28,
+      31 => 31,
+      296 => 296,
+      297 => 297,
+    ),
+    540 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1540 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1535 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    563 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    564 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    608 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    651 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    663 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    541 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    542 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1115 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1083 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1116 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1084 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1383 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1384 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1573 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1574 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    264 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    266 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    262 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    263 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    265 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1489 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1466 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1347 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1348 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1432 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1433 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1435 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1434 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1490 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1467 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    23 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1491 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1465 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1492 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1468 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1469 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      31 => 31,
+      296 => 296,
+      297 => 297,
+    ),
+    1470 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    571 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1471 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    980 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    981 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1493 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1472 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1579 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    481 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    483 => 
+    array (
+      397 => 397,
+      28 => 28,
+      31 => 31,
+      296 => 296,
+      297 => 297,
+    ),
+    1481 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1473 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1494 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1474 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1497 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    19 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    18 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    876 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    25 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    26 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    20 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    21 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    30 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1580 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1587 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1576 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    27 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    22 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1583 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1582 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1581 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1588 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    28 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    282 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    211 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1085 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    818 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1449 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    274 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    275 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    501 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    989 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    544 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    859 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    933 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    934 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    911 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    912 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    913 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    914 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    717 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    709 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    721 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1521 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1520 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1529 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1530 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1516 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1527 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1524 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1528 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    56 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    52 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    57 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1148 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1166 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1167 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1206 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1204 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1117 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1086 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1207 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1053 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1205 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1153 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    380 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    883 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    863 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    915 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    898 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    988 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    696 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    691 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    700 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    801 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    756 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    796 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    730 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    774 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1385 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1412 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    757 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    731 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    637 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    610 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1027 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1022 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1334 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1327 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    611 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    669 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    678 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    612 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    670 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    686 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    705 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    706 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    703 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    707 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    704 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    732 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1048 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1042 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1049 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1386 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1349 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1413 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1443 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1387 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1437 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1350 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1315 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1258 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1239 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1272 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1351 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1445 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1240 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1054 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    638 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    613 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    134 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    132 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    137 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    136 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1208 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    821 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    758 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    851 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    852 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    733 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    802 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    803 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    804 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    853 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    854 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    614 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    671 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    687 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    690 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    615 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    652 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1028 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    860 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1305 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1241 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1260 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    910 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    222 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    242 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    819 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    759 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    734 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    775 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    735 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    736 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1259 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1274 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    256 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    254 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    258 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    935 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    884 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    921 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    861 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    864 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    922 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    899 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    923 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1242 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    276 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    294 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    308 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    313 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    310 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    900 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    697 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    692 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    708 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1020 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1149 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1087 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1169 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1055 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1168 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1118 => 
+    array (
+      397 => 397,
+      28 => 28,
+      31 => 31,
+      296 => 296,
+      297 => 297,
+    ),
+    1088 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1212 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1209 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1154 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1210 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1119 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1211 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    342 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    336 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1415 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    354 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    360 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    361 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1213 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1089 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1056 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    954 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    941 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    938 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    951 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1021 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    964 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    952 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    939 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    966 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1306 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    376 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    375 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    953 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    990 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    991 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    994 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    992 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    995 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    940 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    974 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    996 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    993 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    978 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    997 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    965 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    378 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    406 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    407 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    718 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    710 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    722 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1388 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1416 => 
+    array (
+      397 => 397,
+      28 => 28,
+      31 => 31,
+      296 => 296,
+      297 => 297,
+    ),
+    639 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    616 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    672 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    673 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    955 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    942 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    776 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    822 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    855 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    760 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    856 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    807 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    808 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    805 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    806 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    797 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    737 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    809 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    857 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    777 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    823 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1338 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    901 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1243 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    761 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    738 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1261 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1244 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1281 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1029 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1023 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1035 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    916 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    862 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1389 => 
+    array (
+      397 => 397,
+      28 => 28,
+      31 => 31,
+      296 => 296,
+      297 => 297,
+    ),
+    1352 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1450 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1090 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1057 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1120 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    739 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    858 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    674 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    640 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    617 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1091 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1058 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1150 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    251 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    249 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    253 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1045 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1043 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1047 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    885 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    924 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    865 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    866 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    936 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    925 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    917 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    918 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    902 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    727 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    728 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    729 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1059 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1121 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    719 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    711 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    723 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1513 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1506 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1503 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1509 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1507 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1517 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1518 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1504 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1514 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1519 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1510 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1515 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    46 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    47 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    50 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    53 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    49 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    59 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    60 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    61 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    62 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    58 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    63 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    64 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    51 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    65 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    54 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    48 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    67 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    68 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    55 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    66 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1092 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1093 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1170 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1171 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1155 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1060 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1172 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1173 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1123 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1124 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1174 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1156 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1214 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1157 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1158 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    956 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    957 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    887 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    886 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    867 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    903 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    868 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    762 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    778 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    740 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    798 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    799 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    779 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1390 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1353 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1417 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    824 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    825 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    763 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    742 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    741 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    781 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    780 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    826 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    827 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1285 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1286 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1245 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1313 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1308 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1328 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    80 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    78 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    565 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1329 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    641 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    618 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    653 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    86 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    84 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    87 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    82 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1330 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1030 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1024 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1034 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1335 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1331 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1339 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    261 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    888 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    869 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    642 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    676 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    619 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    688 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    689 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    684 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    654 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    643 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    620 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    655 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    656 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    90 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    89 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    91 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    88 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    100 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    101 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    92 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    93 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    95 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    94 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    96 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    97 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    98 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    99 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    683 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    685 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    583 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1041 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1343 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1391 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1392 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1354 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1393 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1094 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1095 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1175 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1179 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1061 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1062 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1176 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1177 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1178 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1125 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1126 => 
+    array (
+      397 => 397,
+      28 => 28,
+      31 => 31,
+      296 => 296,
+      297 => 297,
+    ),
+    1320 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1316 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1394 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1418 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1438 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1355 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1419 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1395 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1356 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1420 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1396 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1357 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1421 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1442 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1397 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1358 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1422 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1345 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1324 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1326 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1317 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1325 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1344 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1321 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    117 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    115 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    114 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    118 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1287 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1288 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1246 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1307 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1289 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1290 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1291 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1238 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1292 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1293 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    121 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    120 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1398 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1439 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1359 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1423 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1399 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1360 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1424 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1294 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1295 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1247 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1063 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    129 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    125 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    124 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    131 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1309 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    621 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    138 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    144 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    141 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    147 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    143 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    145 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    139 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    150 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    148 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    146 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    149 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    764 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    765 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    828 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    829 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    830 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    831 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    832 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    833 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    834 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    743 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    744 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    835 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    836 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    837 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    838 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    839 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    840 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    841 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    782 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    783 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    842 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    502 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    468 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    644 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    657 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    679 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    668 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    677 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    622 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    675 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    680 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    658 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    659 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    660 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    682 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    664 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    681 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    958 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    943 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    372 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    371 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    373 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    374 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1031 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1039 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1038 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1025 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1040 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1216 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1537 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1532 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    479 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    478 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1050 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    724 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    712 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1273 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1262 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1249 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1248 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1250 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1282 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1283 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1268 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1280 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1256 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1296 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    566 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    567 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    177 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    175 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    181 => 
+    array (
+      397 => 397,
+      270 => 270,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    182 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    178 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    173 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    183 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    180 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    189 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    184 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    185 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    179 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    186 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    187 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    188 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    584 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    201 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    200 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    202 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    205 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    208 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    206 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    217 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    212 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    213 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    221 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    214 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    209 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    203 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    223 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    224 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    210 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    215 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    216 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    218 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    219 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    220 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    766 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    745 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    784 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    746 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1269 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1284 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    623 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1263 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1275 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1276 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1251 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    645 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    624 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    597 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    568 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    625 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    257 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    255 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    259 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    260 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1310 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    890 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    889 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    926 => 
+    array (
+      397 => 397,
+      28 => 28,
+      31 => 31,
+      296 => 296,
+      297 => 297,
+    ),
+    928 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    927 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    929 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    930 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    871 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    870 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    937 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    905 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    904 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1297 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1298 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1299 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1096 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1064 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    283 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    279 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    286 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    295 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    287 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    284 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    277 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    288 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    289 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    290 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    285 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    291 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    296 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    280 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    292 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    293 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    306 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    304 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    307 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    305 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    309 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    312 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    314 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    311 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    315 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    316 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    321 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    319 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    320 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    322 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    323 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    325 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    324 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1311 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    931 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    698 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    693 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    701 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    386 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    385 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1065 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    944 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    975 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1097 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1098 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1151 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1180 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1181 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1182 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1183 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1184 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1159 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1185 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1127 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1128 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1186 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1187 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1066 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    747 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1188 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1189 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1190 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1191 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1099 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1129 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1215 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1147 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1160 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1067 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1130 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1192 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1194 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1195 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1196 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1193 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1100 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1101 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1162 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1068 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1164 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1163 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1197 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1161 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1131 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1132 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    343 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    338 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    337 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    341 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    346 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    344 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    334 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    345 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    339 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    335 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1314 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1312 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    351 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    357 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    362 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    363 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    364 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    359 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    355 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1069 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    368 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    367 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1102 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1070 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1318 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    243 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    959 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    998 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    999 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    945 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    946 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    976 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    977 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1000 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    960 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    947 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    986 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    967 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1001 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1425 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1277 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1266 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1300 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1302 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1301 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1278 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1254 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1279 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    569 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1002 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1003 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1004 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1009 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1005 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1011 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1010 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1012 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1013 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1006 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1014 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1007 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1008 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1015 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1017 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1016 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1018 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1019 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    961 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    962 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    979 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    948 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    987 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    968 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    969 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    872 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1265 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1253 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    379 => 
+    array (
+      397 => 397,
+      270 => 270,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    377 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    381 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    382 => 
+    array (
+      397 => 397,
+      28 => 28,
+      31 => 31,
+      296 => 296,
+      297 => 297,
+    ),
+    383 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    397 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    391 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    408 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    398 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    387 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    412 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    409 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    399 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    411 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    410 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    720 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    713 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    725 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1400 => 
+    array (
+      397 => 397,
+      28 => 28,
+      31 => 31,
+      296 => 296,
+      297 => 297,
+    ),
+    1346 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1426 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1427 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    748 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    626 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    949 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    749 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    810 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    767 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    768 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    843 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    844 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    811 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    800 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    845 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    812 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    750 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    846 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    813 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    814 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    847 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    785 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    794 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    786 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    815 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    850 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    849 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    848 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    769 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    751 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    447 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1332 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1336 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1340 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    419 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    417 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    421 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1333 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1337 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1271 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1270 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1267 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1303 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1255 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1304 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    873 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    646 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    627 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    425 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    423 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    426 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    451 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    448 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    770 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    752 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    787 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    460 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    462 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    459 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    461 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    463 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    464 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1032 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1026 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1037 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1036 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    891 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    874 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    906 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    892 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    875 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    570 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    919 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    932 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    907 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    628 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1071 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1538 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1533 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1539 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1534 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    472 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    469 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1401 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1361 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1428 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1446 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1402 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1362 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1429 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1103 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1104 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1198 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1152 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1199 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1200 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1201 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1202 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1052 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1072 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    629 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1322 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1319 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1323 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    485 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    484 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    486 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    482 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    771 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    753 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1264 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1252 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    488 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    487 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    647 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    648 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    661 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1105 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1073 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1106 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1074 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    33 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    37 => 
+    array (
+      397 => 397,
+      28 => 28,
+      31 => 31,
+      296 => 296,
+      297 => 297,
+    ),
+    1475 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1451 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1476 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1482 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1452 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    116 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1453 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1477 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1454 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    240 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    241 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1499 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1498 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1455 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1483 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1456 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    1484 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1457 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1478 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1458 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1485 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1459 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1486 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1460 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1479 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1495 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1461 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1487 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1462 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1501 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1500 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1502 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1480 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1463 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1488 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1464 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    1496 => 
+    array (
+      397 => 397,
+      28 => 28,
+      29 => 29,
+      296 => 296,
+      297 => 297,
+    ),
+    667 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    971 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    395 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    17 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    35 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    34 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    38 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    41 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    42 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    43 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    39 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    40 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    44 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    45 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    29 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    24 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    31 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    32 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    36 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    81 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    79 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    85 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    83 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    130 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    128 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    127 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    142 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    140 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    176 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    174 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    207 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    204 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    281 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    278 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    358 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    356 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    394 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    390 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    420 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    418 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    422 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    424 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    452 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    450 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    473 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    471 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    475 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    474 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+    596 => 
+    array (
+      397 => 397,
+      28 => 28,
+      296 => 296,
+      297 => 297,
+    ),
+  ),
+);

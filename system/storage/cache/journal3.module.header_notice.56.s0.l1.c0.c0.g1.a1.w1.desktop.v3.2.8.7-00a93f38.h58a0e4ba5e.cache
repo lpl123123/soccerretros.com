@@ -1,0 +1,77 @@
+<?php $val = array (
+  'css' => '.module-header_notice-56 .btn.hn-close:before{content:\'\\e9c7\' !important;font-family:icomoon !important;font-size:16px;transform:translate3d(0px,-1px,0)}.module-header_notice-56 .hn-close.btn,.module-header_notice-56 .hn-close.btn:visited{font-size:var(--j-font_size-font-size-200) !important;color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*0.8)) !important}.no-touchevents .module-header_notice-56 .hn-close.btn:hover{color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1)) !important;background:0 0;-webkit-backdrop-filter:none;backdrop-filter:none;--background-color:transparent;box-shadow:none}.module-header_notice-56 .hn-close.btn,.module-header_notice-56 .hn-close.tooltip{background:0 0;-webkit-backdrop-filter:none;backdrop-filter:none;--background-color:transparent}.module-header_notice-56 .hn-close.btn:active,.no-touchevents .module-header_notice-56 .hn-close.btn:hover:active,.module-header_notice-56 .hn-close.btn:focus:active,.no-touchevents .module-header_notice-56 .hn-close.btn:focus:hover:active{background:0 0;-webkit-backdrop-filter:none;backdrop-filter:none;--background-color:transparent}.module-header_notice-56 .hn-close.btn:focus,.module-header_notice-56 .hn-close.btn[disabled]{background:0 0 !important;-webkit-backdrop-filter:none !important;backdrop-filter:none !important;--background-color:transparent !important}.module-header_notice-56 .hn-close.btn{border-style:none;padding:.2em;--element-padding:.2em;box-shadow:none}.module-header_notice-56 .hn-close.btn:active,.no-touchevents .module-header_notice-56 .hn-close.btn:hover:active,.module-header_notice-56 .hn-close.btn:focus:active{box-shadow:none}.module-header_notice-56 .hn-close.btn:focus{box-shadow:none}.module-header_notice-56 .hn-close.btn.btn.disabled:after{font-size:1em}.module-header_notice-56 .header-notice-close-button .hn-close{margin:var(--j-gap-spacing---4);--element-margin:var(--j-gap-spacing---4);margin-top:var(--j-gap-spacing---5);--element-margin-top:var(--j-gap-spacing---5)}.module-header_notice-56{--button-width:20px;--button-height:20px;height:auto;--notice-bottom-spacing:50px}.module-header_notice-56 .header-notice-cta:after{content:\'\\e9b1\' !important;font-family:icomoon !important;margin-left:var(--j-gap-spacing---3);--element-margin-left:var(--j-gap-spacing---3)}.module-header_notice-56 .header-notice-cta.btn,.module-header_notice-56 .header-notice-cta.btn:visited{font-size:var(--j-font_size-font-size-400) !important;color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1)) !important;text-decoration-style:dotted !important;-webkit-text-decoration-style:dotted !important;text-decoration-line:underline !important;-webkit-text-decoration-line:underline !important;text-decoration-thickness:1px !important;-webkit-text-decoration-thickness:1px !important;text-underline-offset:3px !important}.no-touchevents .module-header_notice-56 .header-notice-cta.btn:hover{color:hsla(var(--j-color-scheme-text-link-hover-h),var(--j-color-scheme-text-link-hover-s),calc(var(--j-color-scheme-text-link-hover-l) - 0%),calc(var(--j-color-scheme-text-link-hover-a)*1)) !important;background:0 0;-webkit-backdrop-filter:none;backdrop-filter:none;--background-color:transparent;box-shadow:none}.module-header_notice-56 .header-notice-cta.btn{justify-content:flex-start;border-style:none;padding:0;--element-padding:0px;padding-bottom:2px;--element-padding-bottom:2px;box-shadow:none;border-radius:0 !important;--element-border-radius:0px !important}.module-header_notice-56 .header-notice-cta.btn,.module-header_notice-56 .header-notice-cta.tooltip{background:0 0;-webkit-backdrop-filter:none;backdrop-filter:none;--background-color:transparent}.module-header_notice-56 .header-notice-cta.btn:active,.no-touchevents .module-header_notice-56 .header-notice-cta.btn:hover:active,.module-header_notice-56 .header-notice-cta.btn:focus:active,.no-touchevents .module-header_notice-56 .header-notice-cta.btn:focus:hover:active{background:0 0;-webkit-backdrop-filter:none;backdrop-filter:none;--background-color:transparent}.module-header_notice-56 .header-notice-cta.btn:focus,.module-header_notice-56 .header-notice-cta.btn[disabled]{background:0 0 !important;-webkit-backdrop-filter:none !important;backdrop-filter:none !important;--background-color:transparent !important}.module-header_notice-56 .header-notice-cta.btn:active,.no-touchevents .module-header_notice-56 .header-notice-cta.btn:hover:active,.module-header_notice-56 .header-notice-cta.btn:focus:active{box-shadow:none}.module-header_notice-56 .header-notice-cta.btn:focus{box-shadow:none}.module-header_notice-56 .header-notice-cta.btn.btn.disabled:after{font-size:1em}.module-header_notice-56 .btn.header-notice-cta{font-size:var(--j-font_size-font-size-300) !important;color:hsla(var(--j-color-scheme-text-link-h),var(--j-color-scheme-text-link-s),calc(var(--j-color-scheme-text-link-l) - 0%),calc(var(--j-color-scheme-text-link-a)*1)) !important}html{--header-notice-height:45px}.module-header_notice-56>.module-body{min-height:45px;flex-direction:row;max-width:var(--content-max-width,100%);padding-inline-start:var(--content-gutter,0px);padding-inline-end:var(--content-gutter-right,var(--content-gutter,0px))}.module-header_notice-56>.module-body .header-notice-close-button{position:absolute;left:50%;margin-inline-start:-50vw;justify-content:end;display:flex;top:0;transform:none;width:calc(100vw - 8px);align-self:center}.module-header_notice-56.notice-builder .hn-body{width:100%}.module-header_notice.module-header_notice-56{background-color:rgba(0,0,0,.88);--background-color:rgba(0,0,0,.88);color:rgba(255,255,255,1)}.module-header_notice-56 .hn-body{padding-top:10px;--element-padding-top:10px;padding-bottom:var(--j-gap-spacing---5);--element-padding-bottom:var(--j-gap-spacing---5);display:flex;justify-content:center;padding-right:var(--j-gap-spacing---6);--element-padding-right:var(--j-gap-spacing---6)}.module-header_notice-56>div.module-body{padding-inline-start:var(--content-gutter,0px);padding-inline-end:var(--content-gutter-right,var(--content-gutter,0px))}.module-header_notice-56 .hn-content{font-family:\'Inter\';font-weight:400;font-size:var(--j-font_size-font-size-400);line-height:1.4}.module-header_notice-56 .hn-body:before{content:\'\\e964\' !important;font-family:icomoon !important;font-size:18px;margin-right:10px;--element-margin-right:10px;float:none;align-self:center}@media (max-width:500px){.module-header_notice-56 .hn-body:before{align-self:flex-start}} ',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'color_scheme' => '',
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'cookie' => 'b068642d',
+    'closeButton' => false,
+    'closeLink' => 
+    array (
+      'type' => '',
+      'id' => '',
+      'href' => '',
+      'name' => '',
+      'total' => NULL,
+      'attrs' => 
+      array (
+      ),
+      'classes' => 
+      array (
+      ),
+    ),
+    'closeText' => '',
+    'closeStyle' => 'ICON',
+    'ctaButton' => false,
+    'ctaButtonText' => 'Shop now',
+    'ctaButtonLink' => 
+    array (
+      'type' => 'page',
+      'id' => '16',
+      'href' => 'https://soccerretros.com/index.php?route=product/catalog&amp;sort=p.date_added&amp;order=DESC',
+      'name' => '',
+      'total' => NULL,
+      'attrs' => 
+      array (
+      ),
+      'classes' => 
+      array (
+      ),
+    ),
+    'ctaButtonStyle' => 'LINK_UNDERLINE',
+    'contentType' => 'text',
+    'content' => '<p>Save $5 with code: SRETROS26 + FREE Worldwide Shipping on orders over $79.9!</p>',
+    'status' => true,
+    'id' => 'header_notice-6aee8346eea54',
+    'module_id' => 56,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-header_notice',
+      2 => 'module-header_notice-56',
+      3 => '',
+      4 => '',
+      'notice-builder' => false,
+    ),
+    'grid_classes' => 
+    array (
+      0 => 'grid-rows',
+    ),
+    'edit' => 'module_layout/header_notice/edit/56',
+    'name' => 'Header Notice / Simple Text',
+    'options' => 
+    array (
+      'cookie' => 'b068642d',
+      'ease' => 'ease-out',
+      'duration' => 700,
+    ),
+  ),
+);

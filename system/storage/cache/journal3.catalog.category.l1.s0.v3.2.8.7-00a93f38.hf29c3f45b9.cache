@@ -1,0 +1,1690 @@
+<?php $val = array (
+  0 => 
+  array (
+    'category_id' => '230',
+    'title' => '2025/2026 NEW KITS',
+    'items' => 
+    array (
+    ),
+  ),
+  1 => 
+  array (
+    'category_id' => '149',
+    'title' => 'Aberdeen FC',
+    'items' => 
+    array (
+    ),
+  ),
+  2 => 
+  array (
+    'category_id' => '124',
+    'title' => 'AFC Ajax',
+    'items' => 
+    array (
+    ),
+  ),
+  3 => 
+  array (
+    'category_id' => '157',
+    'title' => 'AFC Bournemouth',
+    'items' => 
+    array (
+    ),
+  ),
+  4 => 
+  array (
+    'category_id' => '225',
+    'title' => 'Al Hilal',
+    'items' => 
+    array (
+    ),
+  ),
+  5 => 
+  array (
+    'category_id' => '34',
+    'title' => 'Albania',
+    'items' => 
+    array (
+    ),
+  ),
+  6 => 
+  array (
+    'category_id' => '35',
+    'title' => 'Algeria',
+    'items' => 
+    array (
+    ),
+  ),
+  7 => 
+  array (
+    'category_id' => '36',
+    'title' => 'Argentina',
+    'items' => 
+    array (
+    ),
+  ),
+  8 => 
+  array (
+    'category_id' => '234',
+    'title' => 'Argentine Primera Division',
+    'items' => 
+    array (
+    ),
+  ),
+  9 => 
+  array (
+    'category_id' => '153',
+    'title' => 'Arsenal',
+    'items' => 
+    array (
+    ),
+  ),
+  10 => 
+  array (
+    'category_id' => '147',
+    'title' => 'AS Monaco',
+    'items' => 
+    array (
+    ),
+  ),
+  11 => 
+  array (
+    'category_id' => '100',
+    'title' => 'Aston Villa',
+    'items' => 
+    array (
+    ),
+  ),
+  12 => 
+  array (
+    'category_id' => '77',
+    'title' => 'Atalanta',
+    'items' => 
+    array (
+    ),
+  ),
+  13 => 
+  array (
+    'category_id' => '101',
+    'title' => 'Athletic Club',
+    'items' => 
+    array (
+    ),
+  ),
+  14 => 
+  array (
+    'category_id' => '209',
+    'title' => 'Atlas',
+    'items' => 
+    array (
+    ),
+  ),
+  15 => 
+  array (
+    'category_id' => '200',
+    'title' => 'Atlético Belgrano',
+    'items' => 
+    array (
+    ),
+  ),
+  16 => 
+  array (
+    'category_id' => '181',
+    'title' => 'Atletico Mineiro',
+    'items' => 
+    array (
+    ),
+  ),
+  17 => 
+  array (
+    'category_id' => '179',
+    'title' => 'Atlético Nacional',
+    'items' => 
+    array (
+    ),
+  ),
+  18 => 
+  array (
+    'category_id' => '37',
+    'title' => 'Austria',
+    'items' => 
+    array (
+    ),
+  ),
+  19 => 
+  array (
+    'category_id' => '102',
+    'title' => 'Austrian Bundesliga',
+    'items' => 
+    array (
+    ),
+  ),
+  20 => 
+  array (
+    'category_id' => '216',
+    'title' => 'Avispa Fukuoka',
+    'items' => 
+    array (
+    ),
+  ),
+  21 => 
+  array (
+    'category_id' => '103',
+    'title' => 'AZ Alkmaar',
+    'items' => 
+    array (
+    ),
+  ),
+  22 => 
+  array (
+    'category_id' => '199',
+    'title' => 'Barracas Central',
+    'items' => 
+    array (
+    ),
+  ),
+  23 => 
+  array (
+    'category_id' => '38',
+    'title' => 'Belgium',
+    'items' => 
+    array (
+    ),
+  ),
+  24 => 
+  array (
+    'category_id' => '169',
+    'title' => 'Boca Juniors',
+    'items' => 
+    array (
+    ),
+  ),
+  25 => 
+  array (
+    'category_id' => '138',
+    'title' => 'Bologna FC',
+    'items' => 
+    array (
+    ),
+  ),
+  26 => 
+  array (
+    'category_id' => '114',
+    'title' => 'Borussia Dortmund',
+    'items' => 
+    array (
+    ),
+  ),
+  27 => 
+  array (
+    'category_id' => '80',
+    'title' => 'Borussia Mönchengladbach',
+    'items' => 
+    array (
+    ),
+  ),
+  28 => 
+  array (
+    'category_id' => '26',
+    'title' => 'Brazil',
+    'items' => 
+    array (
+    ),
+  ),
+  29 => 
+  array (
+    'category_id' => '74',
+    'title' => 'Bundesliga',
+    'items' => 
+    array (
+    ),
+  ),
+  30 => 
+  array (
+    'category_id' => '123',
+    'title' => 'Burnley FC',
+    'items' => 
+    array (
+    ),
+  ),
+  31 => 
+  array (
+    'category_id' => '170',
+    'title' => 'CA Independiente',
+    'items' => 
+    array (
+    ),
+  ),
+  32 => 
+  array (
+    'category_id' => '82',
+    'title' => 'CA Osasuna',
+    'items' => 
+    array (
+    ),
+  ),
+  33 => 
+  array (
+    'category_id' => '171',
+    'title' => 'CA Tigre',
+    'items' => 
+    array (
+    ),
+  ),
+  34 => 
+  array (
+    'category_id' => '126',
+    'title' => 'Cádiz CF',
+    'items' => 
+    array (
+    ),
+  ),
+  35 => 
+  array (
+    'category_id' => '108',
+    'title' => 'Cagliari Calcio',
+    'items' => 
+    array (
+    ),
+  ),
+  36 => 
+  array (
+    'category_id' => '39',
+    'title' => 'Cameroon',
+    'items' => 
+    array (
+    ),
+  ),
+  37 => 
+  array (
+    'category_id' => '180',
+    'title' => 'Campeonato Brasileiro',
+    'items' => 
+    array (
+    ),
+  ),
+  38 => 
+  array (
+    'category_id' => '198',
+    'title' => 'CD O\'Higgins',
+    'items' => 
+    array (
+    ),
+  ),
+  39 => 
+  array (
+    'category_id' => '84',
+    'title' => 'Celtic',
+    'items' => 
+    array (
+    ),
+  ),
+  40 => 
+  array (
+    'category_id' => '217',
+    'title' => 'Cerezo Osaka',
+    'items' => 
+    array (
+    ),
+  ),
+  41 => 
+  array (
+    'category_id' => '201',
+    'title' => 'Cerro Porteno',
+    'items' => 
+    array (
+    ),
+  ),
+  42 => 
+  array (
+    'category_id' => '158',
+    'title' => 'Chelsea',
+    'items' => 
+    array (
+    ),
+  ),
+  43 => 
+  array (
+    'category_id' => '205',
+    'title' => 'Chivas',
+    'items' => 
+    array (
+    ),
+  ),
+  44 => 
+  array (
+    'category_id' => '206',
+    'title' => 'Club América',
+    'items' => 
+    array (
+    ),
+  ),
+  45 => 
+  array (
+    'category_id' => '172',
+    'title' => 'Club Olimpia',
+    'items' => 
+    array (
+    ),
+  ),
+  46 => 
+  array (
+    'category_id' => '214',
+    'title' => 'Club Tijuana',
+    'items' => 
+    array (
+    ),
+  ),
+  47 => 
+  array (
+    'category_id' => '173',
+    'title' => 'Colo-Colo',
+    'items' => 
+    array (
+    ),
+  ),
+  48 => 
+  array (
+    'category_id' => '40',
+    'title' => 'Colombia',
+    'items' => 
+    array (
+    ),
+  ),
+  49 => 
+  array (
+    'category_id' => '174',
+    'title' => 'Conmebol League',
+    'items' => 
+    array (
+    ),
+  ),
+  50 => 
+  array (
+    'category_id' => '182',
+    'title' => 'Corinthians',
+    'items' => 
+    array (
+    ),
+  ),
+  51 => 
+  array (
+    'category_id' => '41',
+    'title' => 'Croatia',
+    'items' => 
+    array (
+    ),
+  ),
+  52 => 
+  array (
+    'category_id' => '207',
+    'title' => 'Cruz Azul',
+    'items' => 
+    array (
+    ),
+  ),
+  53 => 
+  array (
+    'category_id' => '183',
+    'title' => 'Cruzeiro',
+    'items' => 
+    array (
+    ),
+  ),
+  54 => 
+  array (
+    'category_id' => '154',
+    'title' => 'Crystal Palace',
+    'items' => 
+    array (
+    ),
+  ),
+  55 => 
+  array (
+    'category_id' => '119',
+    'title' => 'Danish Superliga',
+    'items' => 
+    array (
+    ),
+  ),
+  56 => 
+  array (
+    'category_id' => '42',
+    'title' => 'Denmark',
+    'items' => 
+    array (
+    ),
+  ),
+  57 => 
+  array (
+    'category_id' => '197',
+    'title' => 'Deportivo Palestino',
+    'items' => 
+    array (
+    ),
+  ),
+  58 => 
+  array (
+    'category_id' => '196',
+    'title' => 'Deportivo Pereira',
+    'items' => 
+    array (
+    ),
+  ),
+  59 => 
+  array (
+    'category_id' => '99',
+    'title' => 'EFL Championship',
+    'items' => 
+    array (
+    ),
+  ),
+  60 => 
+  array (
+    'category_id' => '25',
+    'title' => 'Egypt',
+    'items' => 
+    array (
+    ),
+  ),
+  61 => 
+  array (
+    'category_id' => '115',
+    'title' => 'Eintracht Frankfurt',
+    'items' => 
+    array (
+    ),
+  ),
+  62 => 
+  array (
+    'category_id' => '33',
+    'title' => 'El Salvador',
+    'items' => 
+    array (
+    ),
+  ),
+  63 => 
+  array (
+    'category_id' => '27',
+    'title' => 'England',
+    'items' => 
+    array (
+    ),
+  ),
+  64 => 
+  array (
+    'category_id' => '86',
+    'title' => 'Eredivisie',
+    'items' => 
+    array (
+    ),
+  ),
+  65 => 
+  array (
+    'category_id' => '73',
+    'title' => 'Europa League',
+    'items' => 
+    array (
+    ),
+  ),
+  66 => 
+  array (
+    'category_id' => '167',
+    'title' => 'Everton',
+    'items' => 
+    array (
+    ),
+  ),
+  67 => 
+  array (
+    'category_id' => '120',
+    'title' => 'F.C. Copenhagen',
+    'items' => 
+    array (
+    ),
+  ),
+  68 => 
+  array (
+    'category_id' => '127',
+    'title' => 'FC Barcelona',
+    'items' => 
+    array (
+    ),
+  ),
+  69 => 
+  array (
+    'category_id' => '107',
+    'title' => 'FC Cincinnati',
+    'items' => 
+    array (
+    ),
+  ),
+  70 => 
+  array (
+    'category_id' => '145',
+    'title' => 'FC Nantes',
+    'items' => 
+    array (
+    ),
+  ),
+  71 => 
+  array (
+    'category_id' => '85',
+    'title' => 'FC Porto',
+    'items' => 
+    array (
+    ),
+  ),
+  72 => 
+  array (
+    'category_id' => '227',
+    'title' => 'FC Seoul',
+    'items' => 
+    array (
+    ),
+  ),
+  73 => 
+  array (
+    'category_id' => '151',
+    'title' => 'Fenerbahçe SK',
+    'items' => 
+    array (
+    ),
+  ),
+  74 => 
+  array (
+    'category_id' => '87',
+    'title' => 'Feyenoord',
+    'items' => 
+    array (
+    ),
+  ),
+  75 => 
+  array (
+    'category_id' => '195',
+    'title' => 'Figueirense FC',
+    'items' => 
+    array (
+    ),
+  ),
+  76 => 
+  array (
+    'category_id' => '75',
+    'title' => 'Fiorentina',
+    'items' => 
+    array (
+    ),
+  ),
+  77 => 
+  array (
+    'category_id' => '184',
+    'title' => 'Flamengo',
+    'items' => 
+    array (
+    ),
+  ),
+  78 => 
+  array (
+    'category_id' => '191',
+    'title' => 'Fluminense FC',
+    'items' => 
+    array (
+    ),
+  ),
+  79 => 
+  array (
+    'category_id' => '104',
+    'title' => 'Fortuna Düsseldorf',
+    'items' => 
+    array (
+    ),
+  ),
+  80 => 
+  array (
+    'category_id' => '43',
+    'title' => 'France',
+    'items' => 
+    array (
+    ),
+  ),
+  81 => 
+  array (
+    'category_id' => '141',
+    'title' => 'Frosinone Calcio',
+    'items' => 
+    array (
+    ),
+  ),
+  82 => 
+  array (
+    'category_id' => '166',
+    'title' => 'Fulham FC',
+    'items' => 
+    array (
+    ),
+  ),
+  83 => 
+  array (
+    'category_id' => '218',
+    'title' => 'Gamba Osaka',
+    'items' => 
+    array (
+    ),
+  ),
+  84 => 
+  array (
+    'category_id' => '110',
+    'title' => 'Genoa CFC',
+    'items' => 
+    array (
+    ),
+  ),
+  85 => 
+  array (
+    'category_id' => '44',
+    'title' => 'Georgia',
+    'items' => 
+    array (
+    ),
+  ),
+  86 => 
+  array (
+    'category_id' => '45',
+    'title' => 'Germany',
+    'items' => 
+    array (
+    ),
+  ),
+  87 => 
+  array (
+    'category_id' => '132',
+    'title' => 'Getafe CF',
+    'items' => 
+    array (
+    ),
+  ),
+  88 => 
+  array (
+    'category_id' => '30',
+    'title' => 'Ghana',
+    'items' => 
+    array (
+    ),
+  ),
+  89 => 
+  array (
+    'category_id' => '88',
+    'title' => 'Girona FC',
+    'items' => 
+    array (
+    ),
+  ),
+  90 => 
+  array (
+    'category_id' => '128',
+    'title' => 'Granada CF',
+    'items' => 
+    array (
+    ),
+  ),
+  91 => 
+  array (
+    'category_id' => '46',
+    'title' => 'Greece',
+    'items' => 
+    array (
+    ),
+  ),
+  92 => 
+  array (
+    'category_id' => '192',
+    'title' => 'Gremio',
+    'items' => 
+    array (
+    ),
+  ),
+  93 => 
+  array (
+    'category_id' => '188',
+    'title' => 'Guarani',
+    'items' => 
+    array (
+    ),
+  ),
+  94 => 
+  array (
+    'category_id' => '32',
+    'title' => 'Guatemala',
+    'items' => 
+    array (
+    ),
+  ),
+  95 => 
+  array (
+    'category_id' => '111',
+    'title' => 'Hamburger SV',
+    'items' => 
+    array (
+    ),
+  ),
+  96 => 
+  array (
+    'category_id' => '105',
+    'title' => 'Hellas Verona',
+    'items' => 
+    array (
+    ),
+  ),
+  97 => 
+  array (
+    'category_id' => '117',
+    'title' => 'Hertha BSC',
+    'items' => 
+    array (
+    ),
+  ),
+  98 => 
+  array (
+    'category_id' => '47',
+    'title' => 'Honduras',
+    'items' => 
+    array (
+    ),
+  ),
+  99 => 
+  array (
+    'category_id' => '89',
+    'title' => 'Inter',
+    'items' => 
+    array (
+    ),
+  ),
+  100 => 
+  array (
+    'category_id' => '185',
+    'title' => 'Internacional',
+    'items' => 
+    array (
+    ),
+  ),
+  101 => 
+  array (
+    'category_id' => '159',
+    'title' => 'Ipswich Town',
+    'items' => 
+    array (
+    ),
+  ),
+  102 => 
+  array (
+    'category_id' => '48',
+    'title' => 'Ireland',
+    'items' => 
+    array (
+    ),
+  ),
+  103 => 
+  array (
+    'category_id' => '49',
+    'title' => 'Italy',
+    'items' => 
+    array (
+    ),
+  ),
+  104 => 
+  array (
+    'category_id' => '50',
+    'title' => 'Ivory Coast',
+    'items' => 
+    array (
+    ),
+  ),
+  105 => 
+  array (
+    'category_id' => '215',
+    'title' => 'J1 League',
+    'items' => 
+    array (
+    ),
+  ),
+  106 => 
+  array (
+    'category_id' => '51',
+    'title' => 'Jamaica',
+    'items' => 
+    array (
+    ),
+  ),
+  107 => 
+  array (
+    'category_id' => '52',
+    'title' => 'Japan',
+    'items' => 
+    array (
+    ),
+  ),
+  108 => 
+  array (
+    'category_id' => '219',
+    'title' => 'Júbilo Iwata',
+    'items' => 
+    array (
+    ),
+  ),
+  109 => 
+  array (
+    'category_id' => '176',
+    'title' => 'Junior FC',
+    'items' => 
+    array (
+    ),
+  ),
+  110 => 
+  array (
+    'category_id' => '90',
+    'title' => 'Juventus',
+    'items' => 
+    array (
+    ),
+  ),
+  111 => 
+  array (
+    'category_id' => '226',
+    'title' => 'K League',
+    'items' => 
+    array (
+    ),
+  ),
+  112 => 
+  array (
+    'category_id' => '224',
+    'title' => 'Kashiwa Reysol',
+    'items' => 
+    array (
+    ),
+  ),
+  113 => 
+  array (
+    'category_id' => '81',
+    'title' => 'Laliga',
+    'items' => 
+    array (
+    ),
+  ),
+  114 => 
+  array (
+    'category_id' => '113',
+    'title' => 'Lazio',
+    'items' => 
+    array (
+    ),
+  ),
+  115 => 
+  array (
+    'category_id' => '121',
+    'title' => 'Leeds United',
+    'items' => 
+    array (
+    ),
+  ),
+  116 => 
+  array (
+    'category_id' => '232',
+    'title' => 'Lega Serie A',
+    'items' => 
+    array (
+    ),
+  ),
+  117 => 
+  array (
+    'category_id' => '160',
+    'title' => 'Leicester City',
+    'items' => 
+    array (
+    ),
+  ),
+  118 => 
+  array (
+    'category_id' => '211',
+    'title' => 'Leon',
+    'items' => 
+    array (
+    ),
+  ),
+  119 => 
+  array (
+    'category_id' => '175',
+    'title' => 'Liga Águila',
+    'items' => 
+    array (
+    ),
+  ),
+  120 => 
+  array (
+    'category_id' => '202',
+    'title' => 'Liga MX',
+    'items' => 
+    array (
+    ),
+  ),
+  121 => 
+  array (
+    'category_id' => '95',
+    'title' => 'Ligue 1',
+    'items' => 
+    array (
+    ),
+  ),
+  122 => 
+  array (
+    'category_id' => '146',
+    'title' => 'Lille OSC',
+    'items' => 
+    array (
+    ),
+  ),
+  123 => 
+  array (
+    'category_id' => '161',
+    'title' => 'Liverpool',
+    'items' => 
+    array (
+    ),
+  ),
+  124 => 
+  array (
+    'category_id' => '133',
+    'title' => 'Málaga CF',
+    'items' => 
+    array (
+    ),
+  ),
+  125 => 
+  array (
+    'category_id' => '53',
+    'title' => 'Malaysia',
+    'items' => 
+    array (
+    ),
+  ),
+  126 => 
+  array (
+    'category_id' => '155',
+    'title' => 'Manchester City',
+    'items' => 
+    array (
+    ),
+  ),
+  127 => 
+  array (
+    'category_id' => '162',
+    'title' => 'Manchester United',
+    'items' => 
+    array (
+    ),
+  ),
+  128 => 
+  array (
+    'category_id' => '54',
+    'title' => 'Mexico',
+    'items' => 
+    array (
+    ),
+  ),
+  129 => 
+  array (
+    'category_id' => '76',
+    'title' => 'Milan',
+    'items' => 
+    array (
+    ),
+  ),
+  130 => 
+  array (
+    'category_id' => '177',
+    'title' => 'Millonarios FC',
+    'items' => 
+    array (
+    ),
+  ),
+  131 => 
+  array (
+    'category_id' => '106',
+    'title' => 'MLS',
+    'items' => 
+    array (
+    ),
+  ),
+  132 => 
+  array (
+    'category_id' => '204',
+    'title' => 'Monterrey',
+    'items' => 
+    array (
+    ),
+  ),
+  133 => 
+  array (
+    'category_id' => '55',
+    'title' => 'Morocco',
+    'items' => 
+    array (
+    ),
+  ),
+  134 => 
+  array (
+    'category_id' => '109',
+    'title' => 'Napoli',
+    'items' => 
+    array (
+    ),
+  ),
+  135 => 
+  array (
+    'category_id' => '24',
+    'title' => 'National Teams',
+    'items' => 
+    array (
+    ),
+  ),
+  136 => 
+  array (
+    'category_id' => '56',
+    'title' => 'Netherlands',
+    'items' => 
+    array (
+    ),
+  ),
+  137 => 
+  array (
+    'category_id' => '156',
+    'title' => 'Newcastle United',
+    'items' => 
+    array (
+    ),
+  ),
+  138 => 
+  array (
+    'category_id' => '29',
+    'title' => 'Nigeria',
+    'items' => 
+    array (
+    ),
+  ),
+  139 => 
+  array (
+    'category_id' => '163',
+    'title' => 'Nottingham Forest',
+    'items' => 
+    array (
+    ),
+  ),
+  140 => 
+  array (
+    'category_id' => '143',
+    'title' => 'OGC Nice',
+    'items' => 
+    array (
+    ),
+  ),
+  141 => 
+  array (
+    'category_id' => '142',
+    'title' => 'Olympique Lyonnais',
+    'items' => 
+    array (
+    ),
+  ),
+  142 => 
+  array (
+    'category_id' => '212',
+    'title' => 'Pachuca',
+    'items' => 
+    array (
+    ),
+  ),
+  143 => 
+  array (
+    'category_id' => '140',
+    'title' => 'Palermo FC',
+    'items' => 
+    array (
+    ),
+  ),
+  144 => 
+  array (
+    'category_id' => '57',
+    'title' => 'Palestine',
+    'items' => 
+    array (
+    ),
+  ),
+  145 => 
+  array (
+    'category_id' => '190',
+    'title' => 'Palmeiras',
+    'items' => 
+    array (
+    ),
+  ),
+  146 => 
+  array (
+    'category_id' => '58',
+    'title' => 'Panama',
+    'items' => 
+    array (
+    ),
+  ),
+  147 => 
+  array (
+    'category_id' => '148',
+    'title' => 'Paris FC',
+    'items' => 
+    array (
+    ),
+  ),
+  148 => 
+  array (
+    'category_id' => '233',
+    'title' => 'Paris Saint-Germain',
+    'items' => 
+    array (
+    ),
+  ),
+  149 => 
+  array (
+    'category_id' => '91',
+    'title' => 'Parma',
+    'items' => 
+    array (
+    ),
+  ),
+  150 => 
+  array (
+    'category_id' => '189',
+    'title' => 'Paysandu',
+    'items' => 
+    array (
+    ),
+  ),
+  151 => 
+  array (
+    'category_id' => '59',
+    'title' => 'Peru',
+    'items' => 
+    array (
+    ),
+  ),
+  152 => 
+  array (
+    'category_id' => '60',
+    'title' => 'Philippines',
+    'items' => 
+    array (
+    ),
+  ),
+  153 => 
+  array (
+    'category_id' => '61',
+    'title' => 'Poland',
+    'items' => 
+    array (
+    ),
+  ),
+  154 => 
+  array (
+    'category_id' => '62',
+    'title' => 'Portugal',
+    'items' => 
+    array (
+    ),
+  ),
+  155 => 
+  array (
+    'category_id' => '122',
+    'title' => 'Premier League',
+    'items' => 
+    array (
+    ),
+  ),
+  156 => 
+  array (
+    'category_id' => '78',
+    'title' => 'Primeira Liga',
+    'items' => 
+    array (
+    ),
+  ),
+  157 => 
+  array (
+    'category_id' => '112',
+    'title' => 'PSG Jordan',
+    'items' => 
+    array (
+    ),
+  ),
+  158 => 
+  array (
+    'category_id' => '125',
+    'title' => 'PSV Eindhoven',
+    'items' => 
+    array (
+    ),
+  ),
+  159 => 
+  array (
+    'category_id' => '203',
+    'title' => 'Pumas UNAM',
+    'items' => 
+    array (
+    ),
+  ),
+  160 => 
+  array (
+    'category_id' => '168',
+    'title' => 'Racing Club',
+    'items' => 
+    array (
+    ),
+  ),
+  161 => 
+  array (
+    'category_id' => '134',
+    'title' => 'Rayo Vallecano',
+    'items' => 
+    array (
+    ),
+  ),
+  162 => 
+  array (
+    'category_id' => '92',
+    'title' => 'RB Leipzig',
+    'items' => 
+    array (
+    ),
+  ),
+  163 => 
+  array (
+    'category_id' => '144',
+    'title' => 'RC Lens',
+    'items' => 
+    array (
+    ),
+  ),
+  164 => 
+  array (
+    'category_id' => '135',
+    'title' => 'Real Betis',
+    'items' => 
+    array (
+    ),
+  ),
+  165 => 
+  array (
+    'category_id' => '129',
+    'title' => 'Real Madrid',
+    'items' => 
+    array (
+    ),
+  ),
+  166 => 
+  array (
+    'category_id' => '93',
+    'title' => 'Real Oviedo',
+    'items' => 
+    array (
+    ),
+  ),
+  167 => 
+  array (
+    'category_id' => '136',
+    'title' => 'Real Sociedad',
+    'items' => 
+    array (
+    ),
+  ),
+  168 => 
+  array (
+    'category_id' => '229',
+    'title' => 'Retro Soccer Jerseys',
+    'items' => 
+    array (
+    ),
+  ),
+  169 => 
+  array (
+    'category_id' => '178',
+    'title' => 'River Plate',
+    'items' => 
+    array (
+    ),
+  ),
+  170 => 
+  array (
+    'category_id' => '137',
+    'title' => 'Roma',
+    'items' => 
+    array (
+    ),
+  ),
+  171 => 
+  array (
+    'category_id' => '63',
+    'title' => 'Romania',
+    'items' => 
+    array (
+    ),
+  ),
+  172 => 
+  array (
+    'category_id' => '231',
+    'title' => 'S|M|L|XL|2XL|3XL|4XL',
+    'items' => 
+    array (
+    ),
+  ),
+  173 => 
+  array (
+    'category_id' => '220',
+    'title' => 'Sagan Tosu',
+    'items' => 
+    array (
+    ),
+  ),
+  174 => 
+  array (
+    'category_id' => '221',
+    'title' => 'Sanfrecce Hiroshima',
+    'items' => 
+    array (
+    ),
+  ),
+  175 => 
+  array (
+    'category_id' => '194',
+    'title' => 'Santa Cruz',
+    'items' => 
+    array (
+    ),
+  ),
+  176 => 
+  array (
+    'category_id' => '193',
+    'title' => 'Santos',
+    'items' => 
+    array (
+    ),
+  ),
+  177 => 
+  array (
+    'category_id' => '213',
+    'title' => 'Santos Laguna',
+    'items' => 
+    array (
+    ),
+  ),
+  178 => 
+  array (
+    'category_id' => '186',
+    'title' => 'Sao Paulo',
+    'items' => 
+    array (
+    ),
+  ),
+  179 => 
+  array (
+    'category_id' => '139',
+    'title' => 'Sassuolo',
+    'items' => 
+    array (
+    ),
+  ),
+  180 => 
+  array (
+    'category_id' => '116',
+    'title' => 'SC Freiburg',
+    'items' => 
+    array (
+    ),
+  ),
+  181 => 
+  array (
+    'category_id' => '31',
+    'title' => 'Scotland',
+    'items' => 
+    array (
+    ),
+  ),
+  182 => 
+  array (
+    'category_id' => '83',
+    'title' => 'Scottish Premiership',
+    'items' => 
+    array (
+    ),
+  ),
+  183 => 
+  array (
+    'category_id' => '64',
+    'title' => 'Senegal',
+    'items' => 
+    array (
+    ),
+  ),
+  184 => 
+  array (
+    'category_id' => '65',
+    'title' => 'Serbia',
+    'items' => 
+    array (
+    ),
+  ),
+  185 => 
+  array (
+    'category_id' => '130',
+    'title' => 'Sevilla',
+    'items' => 
+    array (
+    ),
+  ),
+  186 => 
+  array (
+    'category_id' => '79',
+    'title' => 'SL Benfica',
+    'items' => 
+    array (
+    ),
+  ),
+  187 => 
+  array (
+    'category_id' => '66',
+    'title' => 'South Africa',
+    'items' => 
+    array (
+    ),
+  ),
+  188 => 
+  array (
+    'category_id' => '67',
+    'title' => 'Spain',
+    'items' => 
+    array (
+    ),
+  ),
+  189 => 
+  array (
+    'category_id' => '187',
+    'title' => 'Sport Recife',
+    'items' => 
+    array (
+    ),
+  ),
+  190 => 
+  array (
+    'category_id' => '94',
+    'title' => 'Sporting CP',
+    'items' => 
+    array (
+    ),
+  ),
+  191 => 
+  array (
+    'category_id' => '96',
+    'title' => 'Stade Rennais',
+    'items' => 
+    array (
+    ),
+  ),
+  192 => 
+  array (
+    'category_id' => '164',
+    'title' => 'Stoke City',
+    'items' => 
+    array (
+    ),
+  ),
+  193 => 
+  array (
+    'category_id' => '150',
+    'title' => 'Süper Lig',
+    'items' => 
+    array (
+    ),
+  ),
+  194 => 
+  array (
+    'category_id' => '228',
+    'title' => 'Suwon FC',
+    'items' => 
+    array (
+    ),
+  ),
+  195 => 
+  array (
+    'category_id' => '68',
+    'title' => 'Switzerland',
+    'items' => 
+    array (
+    ),
+  ),
+  196 => 
+  array (
+    'category_id' => '208',
+    'title' => 'Tigres UANL',
+    'items' => 
+    array (
+    ),
+  ),
+  197 => 
+  array (
+    'category_id' => '222',
+    'title' => 'Tokyo Verdy',
+    'items' => 
+    array (
+    ),
+  ),
+  198 => 
+  array (
+    'category_id' => '210',
+    'title' => 'Toluca',
+    'items' => 
+    array (
+    ),
+  ),
+  199 => 
+  array (
+    'category_id' => '152',
+    'title' => 'Tottenham Hotspur',
+    'items' => 
+    array (
+    ),
+  ),
+  200 => 
+  array (
+    'category_id' => '69',
+    'title' => 'Turkey',
+    'items' => 
+    array (
+    ),
+  ),
+  201 => 
+  array (
+    'category_id' => '28',
+    'title' => 'Ukraine',
+    'items' => 
+    array (
+    ),
+  ),
+  202 => 
+  array (
+    'category_id' => '70',
+    'title' => 'United States',
+    'items' => 
+    array (
+    ),
+  ),
+  203 => 
+  array (
+    'category_id' => '131',
+    'title' => 'Valencia CF',
+    'items' => 
+    array (
+    ),
+  ),
+  204 => 
+  array (
+    'category_id' => '71',
+    'title' => 'Venezuela',
+    'items' => 
+    array (
+    ),
+  ),
+  205 => 
+  array (
+    'category_id' => '118',
+    'title' => 'VfB Stuttgart',
+    'items' => 
+    array (
+    ),
+  ),
+  206 => 
+  array (
+    'category_id' => '97',
+    'title' => 'VfL Wolfsburg',
+    'items' => 
+    array (
+    ),
+  ),
+  207 => 
+  array (
+    'category_id' => '98',
+    'title' => 'Villarreal CF',
+    'items' => 
+    array (
+    ),
+  ),
+  208 => 
+  array (
+    'category_id' => '223',
+    'title' => 'Vissel Kobe',
+    'items' => 
+    array (
+    ),
+  ),
+  209 => 
+  array (
+    'category_id' => '72',
+    'title' => 'Wales',
+    'items' => 
+    array (
+    ),
+  ),
+  210 => 
+  array (
+    'category_id' => '165',
+    'title' => 'Wolverhampton Wanderers',
+    'items' => 
+    array (
+    ),
+  ),
+);

@@ -1,0 +1,36 @@
+<?php $val = array (
+  'css' => ':root{--bottom-menu-height:68px}.bottom-menu-266{transform:translate3d(-50%,100%,0);will-change:transform;box-shadow:0px -10px 20px -7px rgb(0 0 0/10%);background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*0.9));--background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*0.9));-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}.has-bottom-menu{--bottom-menu-display:0px;--bottom-menu-margin-display:0px}html[data-scroll=down].has-bottom-menu{--bottom-menu-display:var(--bottom-menu-height,55px);--bottom-menu-margin-display:var(--bottom-menu-margin,0px)}html[data-scroll=down] .bottom-menu-266{transform:translate3d(-50%,calc(0px - var(--bottom-menu-margin-display,0px)),0)}html[data-scroll=down].has-bottom-menu .mobile-filter-trigger{margin-bottom:calc(var(--bottom-menu-height,55px) + var(--bottom-menu-margin-display,0px))}.bottom-menu-266>ul>li>a{min-width:60px;font-family:\'Inter\';font-weight:400;font-size:var(--j-font_size-font-size-100);color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*0.7));line-height:1.1}.bottom-menu-266>ul>li>a{flex-direction:column}.bottom-menu-266>ul>li .links-text{top:-2px;margin:0}.bottom-menu-266>ul>li>a:before{width:100%}.bottom-menu-266 li>a:before{font-size:20px}div.bottom-menu-266>ul>li>a:before{margin-bottom:var(--j-gap-spacing---3);--element-margin-bottom:var(--j-gap-spacing---3)}.bottom-menu-266>ul>li .links-text{display:block}.bottom-menu-266>ul>li>a:before{color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.no-touchevents .bottom-menu-266>ul>li>a:hover:before{color:hsla(var(--j-color-scheme-text-link-h),var(--j-color-scheme-text-link-s),calc(var(--j-color-scheme-text-link-l) - 0%),calc(var(--j-color-scheme-text-link-a)*1))}.bottom-menu-266>ul>li>a:active:before{color:hsla(var(--j-color-scheme-text-link-h),var(--j-color-scheme-text-link-s),calc(var(--j-color-scheme-text-link-l) - 0%),calc(var(--j-color-scheme-text-link-a)*1))}.bottom-menu-266 ul li .count-badge{font-size:var(--j-font_size-font-size-100);color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1));background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));--background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));border-width:1px;border-style:solid;border-color:hsla(var(--j-color-scheme-foreground-tertiary-h),var(--j-color-scheme-foreground-tertiary-s),calc(var(--j-color-scheme-foreground-tertiary-l) - 0%),calc(var(--j-color-scheme-foreground-tertiary-a)*0.6));border-radius:99px;--element-border-radius:99px;min-width:min(20px,100%);min-height:min(20px,100%)}.bottom-menu-266>ul>li>a .count-badge{margin-top:-5px;display:inline-flex}@media (max-width:360px){:root{--bottom-menu-height:55px}} ',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Inter' => 
+      array (
+        400 => '400',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'color_scheme' => 'color-scheme-scheme-3',
+    'countBadge' => 'DEFAULT',
+    'status' => false,
+    'module_id' => 266,
+    'classes' => 
+    array (
+      0 => 'bottom-menu',
+      1 => 'bottom-menu-266',
+      2 => '',
+      3 => 'color-scheme-scheme-3',
+    ),
+    'image_width' => NULL,
+    'image_height' => NULL,
+    'image_resize' => NULL,
+    'edit' => 'module_layout/bottom_menu/edit/266',
+    'name' => 'Bottom Menu / Default',
+  ),
+);

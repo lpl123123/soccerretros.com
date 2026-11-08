@@ -1,0 +1,75 @@
+<?php $val = array (
+  'css' => ' .module-grid-640>.grid-row-1>.grid-cols-wrapper>.grid-cols{border-radius:4px;--element-border-radius:4px}.module-grid-640>.grid-row-1>.grid-cols-wrapper{overflow:hidden}.module-grid-640>.grid-row-1>.grid-cols-wrapper>.grid-cols>.grid-col{flex-basis:calc((900px + 1px - (100*var(--unit,1%)))*9999);--unit:1%}.module-grid-640>.grid-row-1:before{display:block;left:0;width:100vw}.module-grid-640>.grid-row-1>.video-row{display:block}.module-grid-640>.grid-row-1>.wave-top{display:block;transform:translate3d(0,-63%,0) scale(1)}.module-grid-640>.grid-row-1>.wave-bottom{transform:translate3d(0,63%,0) scale(-1);display:block} .module-grid-640>.grid-row-1>.grid-cols-wrapper>.grid-cols>.grid-col-1{min-width:100%;display:block}.module-grid-640>.grid-row-1>.grid-cols-wrapper>.grid-cols>.grid-col-1>.grid-items{background-color:hsla(var(--j-color-scheme-background-tertiary-h),var(--j-color-scheme-background-tertiary-s),calc(var(--j-color-scheme-background-tertiary-l) - 0%),calc(var(--j-color-scheme-background-tertiary-a)*1));--background-color:hsla(var(--j-color-scheme-background-tertiary-h),var(--j-color-scheme-background-tertiary-s),calc(var(--j-color-scheme-background-tertiary-l) - 0%),calc(var(--j-color-scheme-background-tertiary-a)*1));padding:var(--j-gap-spacing-padding-l);--element-padding:var(--j-gap-spacing-padding-l)}.module-grid-640>.grid-row-1>.grid-cols-wrapper>.grid-cols>.grid-col-1>.grid-items>.grid-item:not(:empty){height:auto}.module-grid-640>.grid-row-1>.grid-cols-wrapper>.grid-cols>.grid-col-1>.grid-items:before{display:none} .grid-items>.grid-item.grid-module-grid-640-1-1-1{display:flex} ',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'grid_classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-grid',
+      2 => 'module-grid-640',
+      3 => 'grid-rows',
+      4 => '',
+    ),
+    'rows' => 
+    array (
+      1 => 
+      array (
+        'color_scheme' => 'color-scheme-scheme-1',
+        'videoBgStatus' => false,
+        'videoBg' => '',
+        'videoInline' => false,
+        'waveStatus' => false,
+        'waveDirection' => '5',
+        'wave2Status' => false,
+        'wave2Direction' => '5',
+        'classes' => 
+        array (
+          0 => 'grid-row',
+          1 => 'grid-row-1',
+          2 => '',
+          3 => 'color-scheme-scheme-1',
+        ),
+        'columns' => 
+        array (
+          1 => 
+          array (
+            'color_scheme' => '',
+            'name' => 'New Column',
+            'videoColStatus' => false,
+            'videoCol' => '',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-1',
+              2 => '',
+              3 => '',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-module-grid-640-1-1-1',
+                  2 => '',
+                ),
+                'item' => 
+                array (
+                  'id' => '641',
+                  'name' => 'Products - New Arrivals / Bestsellers / Specials TABS Copy',
+                  'type' => 'products',
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+    'edit' => 'module_layout/grid/edit/640',
+    'name' => '2025/2026 NEW KITS',
+  ),
+);

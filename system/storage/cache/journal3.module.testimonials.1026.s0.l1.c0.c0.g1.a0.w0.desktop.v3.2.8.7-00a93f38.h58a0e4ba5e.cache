@@ -1,0 +1,654 @@
+<?php $val = array (
+  'css' => '.module-testimonials-1026 .swiper-slide{--inactive-opacity:.1;--inactive-scale:.8}html:not(.mobile) .module-testimonials-1026 .swiper-container{overflow:visible !important}.module-testimonials-1026 .swiper-buttons.auto-carousel-buttons span:before,.module-testimonials-1026 .swiper-buttons.swiper-buttons>div:before,.module-testimonials-1026 .swiper-buttons.scroll-top em:before,.module-testimonials-1026 .swiper-buttons.lg-content .lg-icon:before{content:\'\\e93f\' !important;font-family:icomoon !important;color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1))}.no-touchevents .module-testimonials-1026 .swiper-buttons.auto-carousel-buttons span:hover:before,.no-touchevents .module-testimonials-1026 .swiper-buttons.swiper-buttons>div:hover:before,.no-touchevents .module-testimonials-1026 .swiper-buttons.scroll-top em:hover:before,.no-touchevents .module-testimonials-1026 .swiper-buttons.lg-content .lg-icon:hover:before{color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-testimonials-1026 .swiper-buttons.auto-carousel-buttons span:active:before,.module-testimonials-1026 .swiper-buttons.swiper-buttons>div:active:before,.module-testimonials-1026 .swiper-buttons.scroll-top em:active:before,.module-testimonials-1026 .swiper-buttons.lg-content .lg-icon:active:before{color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-testimonials-1026 .swiper-buttons.auto-carousel-buttons span,.module-testimonials-1026 .swiper-buttons.swiper-buttons>div,.module-testimonials-1026 .swiper-buttons.scroll-top em,.module-testimonials-1026 .swiper-buttons.lg-content .lg-icon{background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));--background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));border-width:1px;border-style:solid;border-color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1));border-radius:99px;--element-border-radius:99px}.no-touchevents .module-testimonials-1026 .swiper-buttons.auto-carousel-buttons span:hover,.no-touchevents .module-testimonials-1026 .swiper-buttons.swiper-buttons>div:hover,.no-touchevents .module-testimonials-1026 .swiper-buttons.scroll-top em:hover,.no-touchevents .module-testimonials-1026 .swiper-buttons.lg-content .lg-icon:hover{background-color:hsla(var(--j-color-scheme-background-tertiary-h),var(--j-color-scheme-background-tertiary-s),calc(var(--j-color-scheme-background-tertiary-l) - 0%),calc(var(--j-color-scheme-background-tertiary-a)*1));--background-color:hsla(var(--j-color-scheme-background-tertiary-h),var(--j-color-scheme-background-tertiary-s),calc(var(--j-color-scheme-background-tertiary-l) - 0%),calc(var(--j-color-scheme-background-tertiary-a)*1));border-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-testimonials-1026 .swiper-buttons.auto-carousel-buttons span:active,.module-testimonials-1026 .swiper-buttons.swiper-buttons>div:active,.module-testimonials-1026 .swiper-buttons.scroll-top em:active,.module-testimonials-1026 .swiper-buttons.lg-content .lg-icon:active{background-color:hsla(var(--j-color-scheme-background-secondary-h),var(--j-color-scheme-background-secondary-s),calc(var(--j-color-scheme-background-secondary-l) - 0%),calc(var(--j-color-scheme-background-secondary-a)*1));--background-color:hsla(var(--j-color-scheme-background-secondary-h),var(--j-color-scheme-background-secondary-s),calc(var(--j-color-scheme-background-secondary-l) - 0%),calc(var(--j-color-scheme-background-secondary-a)*1));border-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-testimonials-1026 .swiper-button-prev:before{transform:scaleX(-1)}.module-testimonials-1026 .swiper-buttons:not(.slider-navigation){display:flex;top:50%;width:calc(100% - (-48px*2))}.module-testimonials-1026 .swiper-button-prev{left:0;right:auto;transform:translate(0,-50%) scale(var(--disabled-scale,1))}.module-testimonials-1026 .swiper-button-next{left:auto;right:0;transform:translate(0,-50%) scale(var(--disabled-scale,1))}.module-testimonials-1026 .swiper-buttons:not(.slider-navigation) div{--width:35px;--height:35px}.module-testimonials-1026 .swiper-buttons:not(.slider-navigation)>.swiper-button-disabled{--disabled-scale:0}.module-testimonials-1026 .swiper-container:not(.swiper-container-initialized)+.swiper-buttons:not(.slider-navigation) .swiper-button-prev{--disabled-scale:0}.module-testimonials-1026 .swiper-buttons:not(.slider-navigation) div:before{font-size:16px}.module-testimonials-1026 .swiper-buttons:not(.slider-navigation) .swiper-button-next:before{font-size:16px}.no-touchevents .module-testimonials-1026 .swiper-buttons:not(.slider-navigation) div:not(.swiper-button-disabled):hover{box-shadow:0 1.3px 1.4px rgba(0,0,0,.006),0 3.1px 3.5px rgba(0,0,0,.008),0 5.8px 6.5px rgba(0,0,0,.01),0 10.3px 11.6px rgba(0,0,0,.012),0 19.2px 21.7px rgba(0,0,0,.014),0 46px 52px rgba(0,0,0,.02)}.module-testimonials-1026 .swiper-pagination{display:inline-flex;align-items:center;flex-wrap:wrap;position:absolute;bottom:-16px}.module-testimonials-1026 .swiper-wrapper{cursor:grab}.module-testimonials-1026 .swiper-wrapper:active{cursor:grabbing}.module-testimonials-1026 .swiper{padding-bottom:40px}.module-testimonials-1026 .swiper-pagination-bullet{width:6px;height:6px;background-color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*0.5))}.module-testimonials-1026 .swiper-pagination>span+span{margin-inline-start:10px}.no-touchevents .module-testimonials-1026 .swiper-pagination-bullet:hover{background-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-testimonials-1026 .swiper-pagination-bullet.swiper-pagination-bullet-active{background-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-testimonials-1026 .swiper-pagination>span{border-radius:999px;--element-border-radius:999px}.module-testimonials-1026.blocks-grid .ipr-grid .module-item.swiper-slide{margin-right:0;width:calc((100% - 7*0px)/8 - .01px)}.module-testimonials-1026.blocks-grid .ipr-grid .module-item:not(.swiper-slide){padding:0;width:calc(100%/8 - .01px)}.one-column #content .module-testimonials-1026.blocks-grid .ipr-grid .module-item.swiper-slide{margin-right:20px;width:calc((100% - 0*20px)/1 - .01px)}.one-column #content .module-testimonials-1026.blocks-grid .ipr-grid .module-item:not(.swiper-slide){padding:10px;width:calc(100%/1 - .01px)}.two-column #content .module-testimonials-1026.blocks-grid .ipr-grid .module-item.swiper-slide{margin-right:20px;width:calc((100% - 0*20px)/1 - .01px)}.two-column #content .module-testimonials-1026.blocks-grid .ipr-grid .module-item:not(.swiper-slide){padding:10px;width:calc(100%/1 - .01px)}.side-column .module-testimonials-1026.blocks-grid .ipr-grid .module-item.swiper-slide{margin-right:20px;width:calc((100% - 0*20px)/1 - .01px)}.side-column .module-testimonials-1026.blocks-grid .ipr-grid .module-item:not(.swiper-slide){padding:10px;width:calc(100%/1 - .01px)}.module-testimonials-1026 .module-title{font-family:\'Inter Tight\';font-weight:600;font-size:var(--j-font_size-font-size--title-module);color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1));text-transform:none;text-decoration:none;-webkit-text-decoration:none;line-height:1.4;margin-bottom:1.25em !important;white-space:normal;overflow:initial;text-overflow:initial;-webkit-line-clamp:initial;-webkit-line-clamp:2}.module-testimonials-1026 .module-title:after{display:none;margin-top:.7em}.module-testimonials-1026 .module-title .page-title-text:after{display:none;margin-top:.7em}.module-testimonials-1026 .module-title .filter-title-text:after{display:none;margin-top:.7em}.module-testimonials-1026 .module-title:after,.module-testimonials-1026 .module-title .page-title-text:after,.module-testimonials-1026 .module-title .filter-title-text:after{width:50px;height:2px;background-color:hsla(var(--j-color-scheme-brand-primary-h),var(--j-color-scheme-brand-primary-s),calc(var(--j-color-scheme-brand-primary-l) - 0%),calc(var(--j-color-scheme-brand-primary-a)*1));--background-color:hsla(var(--j-color-scheme-brand-primary-h),var(--j-color-scheme-brand-primary-s),calc(var(--j-color-scheme-brand-primary-l) - 0%),calc(var(--j-color-scheme-brand-primary-a)*1))}.module-testimonials-1026 .block-body,.module-testimonials-1026 .block-content{height:auto}.module-testimonials-1026 .module-item{text-align:center;background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));--background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));padding:var(--j-gap-spacing-padding-l);--element-padding:var(--j-gap-spacing-padding-l);border-width:1px;border-style:solid;border-color:hsla(var(--j-color-scheme-background-border-h),var(--j-color-scheme-background-border-s),calc(var(--j-color-scheme-background-border-l) - 0%),calc(var(--j-color-scheme-background-border-a)*1));border-radius:4px;--element-border-radius:4px}.no-touchevents .module-testimonials-1026 .module-item:hover{border-color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1))}.module-testimonials-1026 .block-content{margin-bottom:var(--j-gap-spacing-vertical-l);--element-margin-bottom:var(--j-gap-spacing-vertical-l)}.module-testimonials-1026 .block-header{float:none;text-align:start}.module-testimonials-1026 .block-body{--display:flex;flex-direction:column;align-items:flex-start;text-align:start;font-family:\'Inter\';font-weight:400;font-size:var(--j-font_size-font-size-500);color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1));line-height:1.7}.module-testimonials-1026 div.block-header{text-align:left}.module-testimonials-1026 div.block-body{align-items:flex-start}.module-testimonials-1026 .block-footer{text-align:start;font-family:\'Inter Tight\';font-weight:600;color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1));margin-top:auto;--element-margin-top:auto}.module-testimonials-1026 .block-header em:before{content:\'\\eb3a\' !important;font-family:icomoon !important;font-size:60px;color:hsla(var(--j-color-scheme-brand-primary-h),var(--j-color-scheme-brand-primary-s),calc(var(--j-color-scheme-brand-primary-l) - 0%),calc(var(--j-color-scheme-brand-primary-a)*1))}.module-testimonials-1026 .module-item:first-child{border-top-left-radius:4px;--element-border-top-left-radius:4px;border-bottom-left-radius:4px;--element-border-bottom-left-radius:4px}.module-testimonials-1026 .module-item:last-child{border-top-right-radius:4px;--element-border-top-right-radius:4px;border-bottom-right-radius:4px;--element-border-bottom-right-radius:4px}.module-testimonials-1026 div.block-footer{text-align:start}.module-testimonials-1026 .flex-grid>*{flex-grow:0}div.module-testimonials-1026 .auto-grid{--grid-min-width:400px;--grid-min-col:1.1;--scroll-padding:var(--scroll-padding-custom,var(--content-gutter,0px))}.module-testimonials-1026{--center-insufficient:var(--center-insufficient-carousel,initial);--inline-margin:auto;--center-insufficient-carousel:max-content;--align-to-content-title:max(0px,calc(50% - var(--content-max-width)/2 + var(--content-gutter)));--align-to-content:max(var(--content-gutter),calc((100vw - var(--scrollW,0px) - var(--content-max-width))/2) + var(--content-gutter,0px));--align-to-content-cancel:calc(var(--align-to-content)*-1 + var(--content-gutter,0px))}.module-testimonials-1026 .auto-grid{margin-inline-start:calc(0px - var(--scroll-padding,0px));margin-inline-end:calc(0px - var(--scroll-padding,0px));--fr:var(--item-width);--auto-carousel-button-width:35px;--auto-carousel-button-height:35px}.module-testimonials-1026 .auto-grid .auto-grid-items{cursor:var(--cursor);grid-auto-flow:column;overflow-x:auto;overflow-y:hidden;padding-inline-start:var(--scroll-padding,0px);padding-inline-end:var(--scroll-padding,0px);padding-top:var(--top-padding,0px);padding-bottom:var(--bottom-padding,0px)}.module-testimonials-1026 .auto-grid .auto-carousel-controls{display:flex}.module-testimonials-1026 .auto-grid .auto-carousel-items:after{display:block}.module-testimonials-1026 .auto-grid .auto-grid-items.is-gliding a{pointer-events:none}.module-testimonials-1026 .auto-grid>.auto-grid-items:before{--fader-status:1;display:block}.module-testimonials-1026 .auto-grid>.auto-grid-items:after{--fader-status:1;display:block}.module-testimonials-1026 .auto-carousel-buttons.auto-carousel-buttons span:before,.module-testimonials-1026 .auto-carousel-buttons.swiper-buttons>div:before,.module-testimonials-1026 .auto-carousel-buttons.scroll-top em:before,.module-testimonials-1026 .auto-carousel-buttons.lg-content .lg-icon:before{content:\'\\e93f\' !important;font-family:icomoon !important;color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1))}.no-touchevents .module-testimonials-1026 .auto-carousel-buttons.auto-carousel-buttons span:hover:before,.no-touchevents .module-testimonials-1026 .auto-carousel-buttons.swiper-buttons>div:hover:before,.no-touchevents .module-testimonials-1026 .auto-carousel-buttons.scroll-top em:hover:before,.no-touchevents .module-testimonials-1026 .auto-carousel-buttons.lg-content .lg-icon:hover:before{color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-testimonials-1026 .auto-carousel-buttons.auto-carousel-buttons span:active:before,.module-testimonials-1026 .auto-carousel-buttons.swiper-buttons>div:active:before,.module-testimonials-1026 .auto-carousel-buttons.scroll-top em:active:before,.module-testimonials-1026 .auto-carousel-buttons.lg-content .lg-icon:active:before{color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-testimonials-1026 .auto-carousel-buttons.auto-carousel-buttons span,.module-testimonials-1026 .auto-carousel-buttons.swiper-buttons>div,.module-testimonials-1026 .auto-carousel-buttons.scroll-top em,.module-testimonials-1026 .auto-carousel-buttons.lg-content .lg-icon{background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));--background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));border-width:1px;border-style:solid;border-color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1));border-radius:99px;--element-border-radius:99px}.no-touchevents .module-testimonials-1026 .auto-carousel-buttons.auto-carousel-buttons span:hover,.no-touchevents .module-testimonials-1026 .auto-carousel-buttons.swiper-buttons>div:hover,.no-touchevents .module-testimonials-1026 .auto-carousel-buttons.scroll-top em:hover,.no-touchevents .module-testimonials-1026 .auto-carousel-buttons.lg-content .lg-icon:hover{background-color:hsla(var(--j-color-scheme-background-tertiary-h),var(--j-color-scheme-background-tertiary-s),calc(var(--j-color-scheme-background-tertiary-l) - 0%),calc(var(--j-color-scheme-background-tertiary-a)*1));--background-color:hsla(var(--j-color-scheme-background-tertiary-h),var(--j-color-scheme-background-tertiary-s),calc(var(--j-color-scheme-background-tertiary-l) - 0%),calc(var(--j-color-scheme-background-tertiary-a)*1));border-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-testimonials-1026 .auto-carousel-buttons.auto-carousel-buttons span:active,.module-testimonials-1026 .auto-carousel-buttons.swiper-buttons>div:active,.module-testimonials-1026 .auto-carousel-buttons.scroll-top em:active,.module-testimonials-1026 .auto-carousel-buttons.lg-content .lg-icon:active{background-color:hsla(var(--j-color-scheme-background-secondary-h),var(--j-color-scheme-background-secondary-s),calc(var(--j-color-scheme-background-secondary-l) - 0%),calc(var(--j-color-scheme-background-secondary-a)*1));--background-color:hsla(var(--j-color-scheme-background-secondary-h),var(--j-color-scheme-background-secondary-s),calc(var(--j-color-scheme-background-secondary-l) - 0%),calc(var(--j-color-scheme-background-secondary-a)*1));border-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-testimonials-1026 .auto-carousel-prev span:before{transform:scaleX(-1);font-size:18px}.module-testimonials-1026 .auto-grid-items:before,.module-testimonials-1026 .auto-grid-items:after{--fader-width-right:200px}.module-testimonials-1026 .auto-carousel-buttons{align-items:center;justify-content:space-between;flex-direction:row;position:absolute;top:50%;height:auto;transform:translate3d(0,-50%,0);margin-top:var(--buttons-offset,0px)}.module-testimonials-1026 .auto-carousel-buttons .auto-carousel-prev{order:0;transform:translate3d(var(--auto-carousel-button-x,0px),var(--auto-carousel-button-y,0px),0) scale(var(--scale,1))}.module-testimonials-1026 .auto-carousel-buttons .auto-carousel-next{order:2;transform:translate3d(calc(var(--auto-carousel-button-x,0px)*-1),var(--auto-carousel-button-y,0px),0) scale(var(--scale,1))}.module-testimonials-1026 .auto-carousel-next span:before{font-size:18px}.no-touchevents .module-testimonials-1026 .auto-carousel-buttons>div:hover>span{box-shadow:0 1.3px 1.4px rgba(0,0,0,.006),0 3.1px 3.5px rgba(0,0,0,.008),0 5.8px 6.5px rgba(0,0,0,.01),0 10.3px 11.6px rgba(0,0,0,.012),0 19.2px 21.7px rgba(0,0,0,.014),0 46px 52px rgba(0,0,0,.02)}.touchevents div.module-testimonials-1026 .auto-grid-items:not(.is-dragging)>*{scroll-snap-align:start}div.module-testimonials-1026 .auto-grid .auto-grid-items{--scroll-by:3}div.module-testimonials-1026{--auto-carousel-controls-max-width:min(min(var(--content-max-width,100%) - var(--scroll-padding,0px)*2,var(--content-max-width,100%) - var(--content-gutter,0)*2),100% - var(--scroll-padding,0px)*2)}@media (max-width:900px){.module-testimonials-1026 .swiper-buttons:not(.slider-navigation){display:none;width:calc(100% - (0px*2))}} .module-testimonials-1026 .module-item-1 .block-content{max-height:100% !important;overflow:visible !important;max-height:75px;overflow:hidden}.module-testimonials-1026 .module-item-1 .block-expand:after{content:\'Show More\'}.module-testimonials-1026 .module-item-1 .block-expanded+.block-expand-overlay .block-expand:after{content:\'Show Less\'}.module-testimonials-1026 .module-item-1 .block-expand:before{content:\'\\f078\' !important;font-family:icomoon !important}.module-testimonials-1026 .module-item-1 .block-expanded+.block-expand-overlay .block-expand:before{content:\'\\f077\' !important;font-family:icomoon !important}.module-testimonials-1026 .module-item-1 .block-footer .btn{width:auto} .module-testimonials-1026 .module-item-2 .block-content{max-height:100% !important;overflow:visible !important;max-height:75px;overflow:hidden}.module-testimonials-1026 .module-item-2 .block-expand:after{content:\'Show More\'}.module-testimonials-1026 .module-item-2 .block-expanded+.block-expand-overlay .block-expand:after{content:\'Show Less\'}.module-testimonials-1026 .module-item-2 .block-expand:before{content:\'\\f078\' !important;font-family:icomoon !important}.module-testimonials-1026 .module-item-2 .block-expanded+.block-expand-overlay .block-expand:before{content:\'\\f077\' !important;font-family:icomoon !important}.module-testimonials-1026 .module-item-2 .block-footer .btn{width:auto} .module-testimonials-1026 .module-item-3 .block-content{max-height:100% !important;overflow:visible !important;max-height:75px;overflow:hidden}.module-testimonials-1026 .module-item-3 .block-expand:after{content:\'Show More\'}.module-testimonials-1026 .module-item-3 .block-expanded+.block-expand-overlay .block-expand:after{content:\'Show Less\'}.module-testimonials-1026 .module-item-3 .block-expand:before{content:\'\\f078\' !important;font-family:icomoon !important}.module-testimonials-1026 .module-item-3 .block-expanded+.block-expand-overlay .block-expand:before{content:\'\\f077\' !important;font-family:icomoon !important}.module-testimonials-1026 .module-item-3 .block-footer .btn{width:auto} .module-testimonials-1026 .module-item-4 .block-content{max-height:100% !important;overflow:visible !important;max-height:75px;overflow:hidden}.module-testimonials-1026 .module-item-4 .block-expand:after{content:\'Show More\'}.module-testimonials-1026 .module-item-4 .block-expanded+.block-expand-overlay .block-expand:after{content:\'Show Less\'}.module-testimonials-1026 .module-item-4 .block-expand:before{content:\'\\f078\' !important;font-family:icomoon !important}.module-testimonials-1026 .module-item-4 .block-expanded+.block-expand-overlay .block-expand:before{content:\'\\f077\' !important;font-family:icomoon !important}.module-testimonials-1026 .module-item-4 .block-footer .btn{width:auto} .module-testimonials-1026 .module-item-5 .block-content{max-height:100% !important;overflow:visible !important;max-height:75px;overflow:hidden}.module-testimonials-1026 .module-item-5 .block-expand:after{content:\'Show More\'}.module-testimonials-1026 .module-item-5 .block-expanded+.block-expand-overlay .block-expand:after{content:\'Show Less\'}.module-testimonials-1026 .module-item-5 .block-expand:before{content:\'\\f078\' !important;font-family:icomoon !important}.module-testimonials-1026 .module-item-5 .block-expanded+.block-expand-overlay .block-expand:before{content:\'\\f077\' !important;font-family:icomoon !important}.module-testimonials-1026 .module-item-5 .block-footer .btn{width:auto} .module-testimonials-1026 .module-item-6 .block-content{max-height:100% !important;overflow:visible !important;max-height:75px;overflow:hidden}.module-testimonials-1026 .module-item-6 .block-expand:after{content:\'Show More\'}.module-testimonials-1026 .module-item-6 .block-expanded+.block-expand-overlay .block-expand:after{content:\'Show Less\'}.module-testimonials-1026 .module-item-6 .block-expand:before{content:\'\\f078\' !important;font-family:icomoon !important}.module-testimonials-1026 .module-item-6 .block-expanded+.block-expand-overlay .block-expand:before{content:\'\\f077\' !important;font-family:icomoon !important}.module-testimonials-1026 .module-item-6 .block-footer .btn{width:auto} .module-testimonials-1026 .module-item-7 .block-content{max-height:100% !important;overflow:visible !important;max-height:75px;overflow:hidden}.module-testimonials-1026 .module-item-7 .block-expand:after{content:\'Show More\'}.module-testimonials-1026 .module-item-7 .block-expanded+.block-expand-overlay .block-expand:after{content:\'Show Less\'}.module-testimonials-1026 .module-item-7 .block-expand:before{content:\'\\f078\' !important;font-family:icomoon !important}.module-testimonials-1026 .module-item-7 .block-expanded+.block-expand-overlay .block-expand:before{content:\'\\f077\' !important;font-family:icomoon !important}.module-testimonials-1026 .module-item-7 .block-footer .btn{width:auto} .module-testimonials-1026 .module-item-8 .block-content{max-height:100% !important;overflow:visible !important;max-height:75px;overflow:hidden}.module-testimonials-1026 .module-item-8 .block-expand:after{content:\'Show More\'}.module-testimonials-1026 .module-item-8 .block-expanded+.block-expand-overlay .block-expand:after{content:\'Show Less\'}.module-testimonials-1026 .module-item-8 .block-expand:before{content:\'\\f078\' !important;font-family:icomoon !important}.module-testimonials-1026 .module-item-8 .block-expanded+.block-expand-overlay .block-expand:before{content:\'\\f077\' !important;font-family:icomoon !important}.module-testimonials-1026 .module-item-8 .block-footer .btn{width:auto} .module-testimonials-1026 .module-item-9 .block-content{max-height:100% !important;overflow:visible !important;max-height:75px;overflow:hidden}.module-testimonials-1026 .module-item-9 .block-expand:after{content:\'Show More\'}.module-testimonials-1026 .module-item-9 .block-expanded+.block-expand-overlay .block-expand:after{content:\'Show Less\'}.module-testimonials-1026 .module-item-9 .block-expand:before{content:\'\\f078\' !important;font-family:icomoon !important}.module-testimonials-1026 .module-item-9 .block-expanded+.block-expand-overlay .block-expand:before{content:\'\\f077\' !important;font-family:icomoon !important}.module-testimonials-1026 .module-item-9 .block-footer .btn{width:auto} .module-testimonials-1026 .module-item-10 .block-content{max-height:100% !important;overflow:visible !important;max-height:75px;overflow:hidden}.module-testimonials-1026 .module-item-10 .block-expand:after{content:\'Show More\'}.module-testimonials-1026 .module-item-10 .block-expanded+.block-expand-overlay .block-expand:after{content:\'Show Less\'}.module-testimonials-1026 .module-item-10 .block-expand:before{content:\'\\f078\' !important;font-family:icomoon !important}.module-testimonials-1026 .module-item-10 .block-expanded+.block-expand-overlay .block-expand:before{content:\'\\f077\' !important;font-family:icomoon !important}.module-testimonials-1026 .module-item-10 .block-footer .btn{width:auto} ',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Inter Tight' => 
+      array (
+        600 => '600',
+      ),
+      'Inter' => 
+      array (
+        400 => '400',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'color_scheme_module' => '',
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'display' => 'grid',
+    'displayTablet' => '',
+    'displayPhone' => '',
+    'carousel' => true,
+    'carouselStyle' => 'SLIDER',
+    'carouselStyleIconButtonsStyle' => 'DEFAULT',
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 8,
+          'spacing' => 0,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 20,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 20,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 20,
+        ),
+      ),
+    ),
+    'default' => '',
+    'title' => '',
+    'moduleTitle' => 'DEFAULT',
+    'imageDimensions' => 
+    array (
+      'width' => NULL,
+      'height' => NULL,
+      'resize' => 'fill',
+    ),
+    'gridType' => 'auto',
+    'autoCarouselStyle' => 'LARGE',
+    'autoCarouselStyleAutoCarouselIconButtonsStyle' => 'DEFAULT',
+    'status' => true,
+    'module_id' => 1026,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-testimonials',
+      2 => 'module-testimonials-1026',
+      3 => NULL,
+      4 => '',
+      5 => 'blocks-grid',
+      'carousel-mode' => false,
+      'align-to-content' => true,
+    ),
+    'edit' => 'module_layout/testimonials/edit/1026',
+    'name' => 'Testimonials / Border',
+    'swiper_carousel' => false,
+    'carouselOptions' => 
+    array (
+      'speed' => 500,
+      'autoplay' => 
+      array (
+        'delay' => 3000,
+      ),
+      'pauseOnHover' => true,
+      'loop' => false,
+    ),
+    'default_index' => 0,
+    'items' => 
+    array (
+      1 => 
+      array (
+        'header' => 'icon',
+        'contentType' => 'text',
+        'expandButton' => false,
+        'footer' => 'text',
+        'footerText' => 'Liam S.',
+        'footerButton' => '',
+        'footerButtonLink' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'index' => 1,
+        'id' => '1026-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          2 => NULL,
+          3 => '',
+          'tab-pane' => false,
+          'active' => false,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'tab_classes' => 
+        array (
+          0 => 'tab-1',
+          'active' => false,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/journal3/placeholder-1000x1000.png',
+        'title' => NULL,
+        'content' => 'I\'ve been looking for a high-quality 1986 Argentina jersey for years, and SoccerRetros nailed it. The fabric feels authentic, and the stitching on the crest is perfect. It’s hard to find retro soccer jerseys with this much attention to detail. Fast shipping to Melbourne too!',
+        'items' => 
+        array (
+        ),
+      ),
+      2 => 
+      array (
+        'header' => 'icon',
+        'contentType' => 'text',
+        'expandButton' => false,
+        'footer' => 'text',
+        'footerText' => 'David W.',
+        'footerButton' => '',
+        'footerButtonLink' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'index' => 2,
+        'id' => '1026-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          2 => NULL,
+          3 => '',
+          'tab-pane' => false,
+          'active' => false,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'tab_classes' => 
+        array (
+          0 => 'tab-2',
+          'active' => false,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/journal3/placeholder-1000x1000.png',
+        'title' => NULL,
+        'content' => '"Bought a vintage Brazil 2002 kit as a birthday gift for my brother. I was worried about the international delivery, but it arrived in the UK within 10 days! The quality of these vintage football shirts is incredible for the price. Will definitely be ordering the 1994 away version soon."',
+        'items' => 
+        array (
+        ),
+      ),
+      3 => 
+      array (
+        'header' => 'icon',
+        'contentType' => 'text',
+        'expandButton' => false,
+        'footer' => 'text',
+        'footerText' => 'Sarah J.',
+        'footerButton' => '',
+        'footerButtonLink' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'index' => 3,
+        'id' => '1026-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          2 => NULL,
+          3 => '',
+          'tab-pane' => false,
+          'active' => false,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'tab_classes' => 
+        array (
+          0 => 'tab-3',
+          'active' => false,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/journal3/placeholder-1000x1000.png',
+        'title' => NULL,
+        'content' => 'Just received the new 2025/2026 Club America Home Jersey. The high-performance breathable fabric is amazing—I wear it for my weekly training sessions. It’s great that SoccerRetros stocks both the legends and the latest soccer kits. Highly recommend!',
+        'items' => 
+        array (
+        ),
+      ),
+      4 => 
+      array (
+        'header' => 'icon',
+        'contentType' => 'text',
+        'expandButton' => false,
+        'footer' => 'text',
+        'footerText' => 'Hiroshi M.',
+        'footerButton' => '',
+        'footerButtonLink' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'index' => 4,
+        'id' => '1026-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+          2 => NULL,
+          3 => '',
+          'tab-pane' => false,
+          'active' => false,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'tab_classes' => 
+        array (
+          0 => 'tab-4',
+          'active' => false,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/journal3/placeholder-1000x1000.png',
+        'title' => NULL,
+        'content' => 'As a fan of the J-League, I was impressed by the selection. My Cerezo Osaka anniversary jersey is stunning. It’s my third classic soccer kit from this store, and every time the quality is consistent. The best site for any serious kit enthusiast.',
+        'items' => 
+        array (
+        ),
+      ),
+      5 => 
+      array (
+        'header' => 'icon',
+        'contentType' => 'text',
+        'expandButton' => false,
+        'footer' => 'text',
+        'footerText' => 'Marcus T.',
+        'footerButton' => '',
+        'footerButtonLink' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'index' => 5,
+        'id' => '1026-5',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-5',
+          2 => NULL,
+          3 => '',
+          'tab-pane' => false,
+          'active' => false,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'tab_classes' => 
+        array (
+          0 => 'tab-5',
+          'active' => false,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/journal3/placeholder-1000x1000.png',
+        'title' => NULL,
+        'content' => 'I was looking for the official Al Nassr home jersey and stumbled upon SoccerRetros. The quality of the fabric is top-notch—lightweight and perfect for the heat. It’s definitely one of the best places to find Saudi Pro League kits with professional finishing. My Ronaldo #7 looks amazing!',
+        'items' => 
+        array (
+        ),
+      ),
+      6 => 
+      array (
+        'header' => 'icon',
+        'contentType' => 'text',
+        'expandButton' => false,
+        'footer' => 'text',
+        'footerText' => 'Chloe B.',
+        'footerButton' => '',
+        'footerButtonLink' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'index' => 6,
+        'id' => '1026-6',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-6',
+          2 => NULL,
+          3 => '',
+          'tab-pane' => false,
+          'active' => false,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'tab_classes' => 
+        array (
+          0 => 'tab-6',
+          'active' => false,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/journal3/placeholder-1000x1000.png',
+        'title' => NULL,
+        'content' => 'As a local fan, it\'s often hard to find unique kits without paying insane shipping fees. I ordered two retro soccer jerseys and they arrived in Sydney in just a few days! SoccerRetros is now my go-to shop for soccer jerseys in Australia. Great service and even better quality.',
+        'items' => 
+        array (
+        ),
+      ),
+      7 => 
+      array (
+        'header' => 'icon',
+        'contentType' => 'text',
+        'expandButton' => false,
+        'footer' => 'text',
+        'footerText' => 'Ricardo G.',
+        'footerButton' => '',
+        'footerButtonLink' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'index' => 7,
+        'id' => '1026-7',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-7',
+          2 => NULL,
+          3 => '',
+          'tab-pane' => false,
+          'active' => false,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'tab_classes' => 
+        array (
+          0 => 'tab-7',
+          'active' => false,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/journal3/placeholder-1000x1000.png',
+        'title' => NULL,
+        'content' => 'The 1981 Boca Juniors kit I ordered is a masterpiece. The colors are spot on, and the \'Swedish\' design looks even better in person. For any fan of South American football, these vintage soccer kits are a must-have. The level of detail on the crest is impressive.',
+        'items' => 
+        array (
+        ),
+      ),
+      8 => 
+      array (
+        'header' => 'icon',
+        'contentType' => 'text',
+        'expandButton' => false,
+        'footer' => 'text',
+        'footerText' => 'James L.',
+        'footerButton' => '',
+        'footerButtonLink' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'index' => 8,
+        'id' => '1026-8',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-8',
+          2 => NULL,
+          3 => '',
+          'tab-pane' => false,
+          'active' => false,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'tab_classes' => 
+        array (
+          0 => 'tab-8',
+          'active' => false,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/journal3/placeholder-1000x1000.png',
+        'title' => NULL,
+        'content' => 'It is surprisingly difficult to find high-performance soccer goalie jerseys online, but the selection here is fantastic. I bought the Argentina GK jersey, and the stretchy material provides excellent range of motion for my matches. Highly recommended for keepers!',
+        'items' => 
+        array (
+        ),
+      ),
+      9 => 
+      array (
+        'header' => 'icon',
+        'contentType' => 'text',
+        'expandButton' => false,
+        'footer' => 'text',
+        'footerText' => 'Ethan P.',
+        'footerButton' => '',
+        'footerButtonLink' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'index' => 9,
+        'id' => '1026-9',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-9',
+          2 => NULL,
+          3 => '',
+          'tab-pane' => false,
+          'active' => false,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'tab_classes' => 
+        array (
+          0 => 'tab-9',
+          'active' => false,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/journal3/placeholder-1000x1000.png',
+        'title' => NULL,
+        'content' => 'I used to buy from big retail chains, but the prices became ridiculous. SoccerRetros offers affordable soccer jerseys that feel just as professional as the ones the pros wear. I’ve already bought three classic soccer shirts from them and the quality never slips.',
+        'items' => 
+        array (
+        ),
+      ),
+      10 => 
+      array (
+        'header' => 'icon',
+        'contentType' => 'text',
+        'expandButton' => false,
+        'footer' => 'text',
+        'footerText' => 'Sophie K.',
+        'footerButton' => '',
+        'footerButtonLink' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'index' => 10,
+        'id' => '1026-10',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-10',
+          2 => NULL,
+          3 => '',
+          'tab-pane' => false,
+          'active' => false,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'tab_classes' => 
+        array (
+          0 => 'tab-10',
+          'active' => false,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'image' => 'https://soccerretros.com/image/cache/catalog/journal3/placeholder-1000x1000.png',
+        'title' => NULL,
+        'content' => 'I just got the 2025/2026 Club America jersey with the eagle feather design. The graphic quality is insane! It’s great to see a site that stays updated with the latest soccer jerseys as soon as they drop. The moisture-wicking fabric is perfect for my weekly training.',
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);

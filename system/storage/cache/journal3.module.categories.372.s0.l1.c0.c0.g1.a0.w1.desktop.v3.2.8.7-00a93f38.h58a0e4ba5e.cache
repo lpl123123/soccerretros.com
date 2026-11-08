@@ -1,0 +1,473 @@
+<?php $val = array (
+  'css' => '.module-categories-372{--unit:1%;--align-tabs:var(--tabs-align,flex-start);--tabs-align:center;--center-insufficient:var(--center-insufficient-carousel,initial);--inline-margin:auto;--center-insufficient-carousel:max-content;--align-to-content-title:max(0px,calc(50% - var(--content-max-width)/2 + var(--content-gutter)));--align-to-content:max(var(--content-gutter),calc((100vw - var(--scrollW,0px) - var(--content-max-width))/2) + var(--content-gutter,0px));--align-to-content-cancel:calc(var(--align-to-content)*-1 + var(--content-gutter,0px))}.module-categories-372 .module-body>.module-item{margin-bottom:8px}.module-categories-372 .category-thumb{background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));--background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));border-width:1px;border-style:solid;border-color:hsla(var(--j-color-scheme-background-border-h),var(--j-color-scheme-background-border-s),calc(var(--j-color-scheme-background-border-l) - 0%),calc(var(--j-color-scheme-background-border-a)*1));border-radius:4px;--element-border-radius:4px;padding:var(--j-gap-spacing---4);--element-padding:var(--j-gap-spacing---4);padding-bottom:var(--j-gap-spacing---5);--element-padding-bottom:var(--j-gap-spacing---5);--category-count-offset:5px;--count-size:18px}.no-touchevents .module-categories-372 .category-thumb:hover{border-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 5%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-categories-372 .category-thumb .image{display:block;order:-1}.module-categories-372 .category-thumb .image a img{background-color:hsla(var(--j-color-scheme-image-background-h),var(--j-color-scheme-image-background-s),calc(var(--j-color-scheme-image-background-l) - 0%),calc(var(--j-color-scheme-image-background-a)*1));--background-color:hsla(var(--j-color-scheme-image-background-h),var(--j-color-scheme-image-background-s),calc(var(--j-color-scheme-image-background-l) - 0%),calc(var(--j-color-scheme-image-background-a)*1))}.module-categories-372 .category-thumb .image a{overflow:hidden}.no-touchevents .module-categories-372 .category-thumb:hover .image img{transform:scale(1.1)}.module-categories-372 .category-thumb .name{display:flex;min-width:fit-content;margin-top:var(--j-gap-spacing---5);--element-margin-top:var(--j-gap-spacing---5);width:auto;justify-content:center;margin-inline:auto;inset-inline:50% auto;transform:translate(-50%,var(--name-pos,0));text-align:center}.module-categories-372 .category-thumb .name a{white-space:normal;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;padding-bottom:1px;-webkit-line-clamp:2;font-family:\'Inter\';font-weight:400;font-size:var(--j-font_size-font-size--title-menu);color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1));text-transform:none;line-height:1.3}.no-touchevents .module-categories-372 .category-thumb:hover .name a{color:hsla(var(--j-color-scheme-text-link-h),var(--j-color-scheme-text-link-s),calc(var(--j-color-scheme-text-link-l) - 0%),calc(var(--j-color-scheme-text-link-a)*1));text-decoration-style:dotted;-webkit-text-decoration-style:dotted;text-decoration-line:underline;-webkit-text-decoration-line:underline;text-decoration-thickness:1px;-webkit-text-decoration-thickness:1px;text-underline-offset:3px}.module-categories-372 .category-thumb .product-count{align-self:center;display:none;font-family:\'Inter\';font-weight:400;font-size:var(--j-font_size-font-size-300);color:hsla(var(--j-color-scheme-foreground-tertiary-h),var(--j-color-scheme-foreground-tertiary-s),calc(var(--j-color-scheme-foreground-tertiary-l) - 0%),calc(var(--j-color-scheme-foreground-tertiary-a)*1));text-decoration:none;-webkit-text-decoration:none;line-height:1.3}.module-categories-372 .category-thumb .product-count-below{justify-content:center}.module-categories-372 .category-thumb .caption{text-align:center}.module-categories-372 .category-thumb .button-group{justify-content:center;display:flex;margin-top:var(--j-gap-spacing---4);--element-margin-top:var(--j-gap-spacing---4)}.module-categories-372 .category-thumb .caption .name{position:static;--name-pos:0;transform:none}.module-categories-372 .category-thumb .description{display:none;font-family:\'Inter\';font-weight:400;font-size:var(--j-font_size-font-size-300);color:hsla(var(--j-color-scheme-foreground-tertiary-h),var(--j-color-scheme-foreground-tertiary-s),calc(var(--j-color-scheme-foreground-tertiary-l) - 0%),calc(var(--j-color-scheme-foreground-tertiary-a)*1));line-height:1.4;margin-top:var(--j-gap-spacing---3);--element-margin-top:var(--j-gap-spacing---3)}.module-categories-372 .category-thumb .btn-view-more:before{display:inline-flex}.module-categories-372 .category-thumb .btn-view-more:after{display:inline-flex;content:\'\\f105\' !important;font-family:icomoon !important}.module-categories-372 .category-thumb .btn-view-more .btn-text{display:inline-block}.module-categories-372 .category-thumb .btn-view-more{width:auto}.module-categories-372 .category-thumb .btn-view-more.btn,.module-categories-372 .category-thumb .btn-view-more.btn:visited{font-size:var(--j-font_size-font-size-400) !important;color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1)) !important;text-decoration-style:dotted !important;-webkit-text-decoration-style:dotted !important;text-decoration-line:underline !important;-webkit-text-decoration-line:underline !important;text-decoration-thickness:1px !important;-webkit-text-decoration-thickness:1px !important;text-underline-offset:3px !important}.no-touchevents .module-categories-372 .category-thumb .btn-view-more.btn:hover{color:hsla(var(--j-color-scheme-text-link-hover-h),var(--j-color-scheme-text-link-hover-s),calc(var(--j-color-scheme-text-link-hover-l) - 0%),calc(var(--j-color-scheme-text-link-hover-a)*1)) !important;background:0 0;-webkit-backdrop-filter:none;backdrop-filter:none;--background-color:transparent;box-shadow:none}.module-categories-372 .category-thumb .btn-view-more.btn{justify-content:flex-start;border-style:none;padding:0;--element-padding:0px;padding-bottom:2px;--element-padding-bottom:2px;box-shadow:none;border-radius:0 !important;--element-border-radius:0px !important}.module-categories-372 .category-thumb .btn-view-more.btn,.module-categories-372 .category-thumb .btn-view-more.tooltip{background:0 0;-webkit-backdrop-filter:none;backdrop-filter:none;--background-color:transparent}.module-categories-372 .category-thumb .btn-view-more.btn:active,.no-touchevents .module-categories-372 .category-thumb .btn-view-more.btn:hover:active,.module-categories-372 .category-thumb .btn-view-more.btn:focus:active,.no-touchevents .module-categories-372 .category-thumb .btn-view-more.btn:focus:hover:active{background:0 0;-webkit-backdrop-filter:none;backdrop-filter:none;--background-color:transparent}.module-categories-372 .category-thumb .btn-view-more.btn:focus,.module-categories-372 .category-thumb .btn-view-more.btn[disabled]{background:0 0 !important;-webkit-backdrop-filter:none !important;backdrop-filter:none !important;--background-color:transparent !important}.module-categories-372 .category-thumb .btn-view-more.btn:active,.no-touchevents .module-categories-372 .category-thumb .btn-view-more.btn:hover:active,.module-categories-372 .category-thumb .btn-view-more.btn:focus:active{box-shadow:none}.module-categories-372 .category-thumb .btn-view-more.btn:focus{box-shadow:none}.module-categories-372 .category-thumb .btn-view-more.btn.btn.disabled:after{font-size:1em}.module-categories-372 .category-thumb .button-group .btn-view-more{font-size:var(--j-font_size-font-size-300) !important}.module-categories-372 div.category-thumb .name a{max-width:100%}html:not(.mobile) .module-categories-372 .swiper-container{overflow:hidden !important}.module-categories-372 .swiper-buttons.auto-carousel-buttons span:before,.module-categories-372 .swiper-buttons.swiper-buttons>div:before,.module-categories-372 .swiper-buttons.scroll-top em:before,.module-categories-372 .swiper-buttons.lg-content .lg-icon:before{content:\'\\e93f\' !important;font-family:icomoon !important;color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1))}.no-touchevents .module-categories-372 .swiper-buttons.auto-carousel-buttons span:hover:before,.no-touchevents .module-categories-372 .swiper-buttons.swiper-buttons>div:hover:before,.no-touchevents .module-categories-372 .swiper-buttons.scroll-top em:hover:before,.no-touchevents .module-categories-372 .swiper-buttons.lg-content .lg-icon:hover:before{color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-categories-372 .swiper-buttons.auto-carousel-buttons span:active:before,.module-categories-372 .swiper-buttons.swiper-buttons>div:active:before,.module-categories-372 .swiper-buttons.scroll-top em:active:before,.module-categories-372 .swiper-buttons.lg-content .lg-icon:active:before{color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-categories-372 .swiper-buttons.auto-carousel-buttons span,.module-categories-372 .swiper-buttons.swiper-buttons>div,.module-categories-372 .swiper-buttons.scroll-top em,.module-categories-372 .swiper-buttons.lg-content .lg-icon{background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));--background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));border-width:1px;border-style:solid;border-color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1));border-radius:99px;--element-border-radius:99px}.no-touchevents .module-categories-372 .swiper-buttons.auto-carousel-buttons span:hover,.no-touchevents .module-categories-372 .swiper-buttons.swiper-buttons>div:hover,.no-touchevents .module-categories-372 .swiper-buttons.scroll-top em:hover,.no-touchevents .module-categories-372 .swiper-buttons.lg-content .lg-icon:hover{background-color:hsla(var(--j-color-scheme-background-tertiary-h),var(--j-color-scheme-background-tertiary-s),calc(var(--j-color-scheme-background-tertiary-l) - 0%),calc(var(--j-color-scheme-background-tertiary-a)*1));--background-color:hsla(var(--j-color-scheme-background-tertiary-h),var(--j-color-scheme-background-tertiary-s),calc(var(--j-color-scheme-background-tertiary-l) - 0%),calc(var(--j-color-scheme-background-tertiary-a)*1));border-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-categories-372 .swiper-buttons.auto-carousel-buttons span:active,.module-categories-372 .swiper-buttons.swiper-buttons>div:active,.module-categories-372 .swiper-buttons.scroll-top em:active,.module-categories-372 .swiper-buttons.lg-content .lg-icon:active{background-color:hsla(var(--j-color-scheme-background-secondary-h),var(--j-color-scheme-background-secondary-s),calc(var(--j-color-scheme-background-secondary-l) - 0%),calc(var(--j-color-scheme-background-secondary-a)*1));--background-color:hsla(var(--j-color-scheme-background-secondary-h),var(--j-color-scheme-background-secondary-s),calc(var(--j-color-scheme-background-secondary-l) - 0%),calc(var(--j-color-scheme-background-secondary-a)*1));border-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-categories-372 .swiper-button-prev:before{transform:scaleX(-1)}.module-categories-372 .swiper-buttons:not(.slider-navigation){display:flex;top:50%;width:calc(100% - (10px*2))}.touchevents .module-categories-372 .swiper-buttons:not(.slider-navigation){display:none}.module-categories-372 .swiper-button-prev{left:0;right:auto;transform:translate(0,-50%) scale(var(--disabled-scale,1))}.module-categories-372 .swiper-button-next{left:auto;right:0;transform:translate(0,-50%) scale(var(--disabled-scale,1))}.module-categories-372 .swiper-buttons:not(.slider-navigation) div{--width:28px;--height:28px}.module-categories-372 .swiper-button-disabled{opacity:0}.module-categories-372 .swiper-container:not(.swiper-container-initialized)+.swiper-buttons:not(.slider-navigation) .swiper-button-prev{opacity:0;--disabled-scale:0}.module-categories-372 .swiper-buttons:not(.slider-navigation)>.swiper-button-disabled{--disabled-scale:0}.module-categories-372 .swiper-pagination{display:inline-flex;align-items:center;flex-wrap:wrap;position:absolute;bottom:15px;left:50%;transform:translate3d(-50%,0,0)}.module-categories-372 .swiper-wrapper{cursor:auto}.module-categories-372 .swiper{padding-bottom:15px}.module-categories-372 .swiper-pagination-bullet{width:6px;height:6px;background-color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*0.5))}.module-categories-372 .swiper-pagination>span+span{margin-inline-start:8px}.no-touchevents .module-categories-372 .swiper-pagination-bullet:hover{background-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-categories-372 .swiper-pagination-bullet.swiper-pagination-bullet-active{background-color:hsla(var(--j-color-scheme-foreground-primary-h),var(--j-color-scheme-foreground-primary-s),calc(var(--j-color-scheme-foreground-primary-l) - 0%),calc(var(--j-color-scheme-foreground-primary-a)*1))}.module-categories-372 .swiper-pagination>span{border-radius:999px;--element-border-radius:999px}.module-categories-372 .nav-tabs>li>a:not(.item-all-link),.module-categories-372 .nav-tabs>li.active>a:not(.item-all-link),.no-touchevents .module-categories-372 .nav-tabs>li.active>a:not(.item-all-link):hover,.module-categories-372 .nav-tabs>li.active>a:not(.item-all-link):focus{font-family:\'Inter Tight\';font-weight:500;font-size:var(--j-font_size-font-size--title-item-list);color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1));text-transform:none;line-height:1.3}.no-touchevents .module-categories-372 .nav-tabs>li:hover>a:not(.item-all-link),.module-categories-372 .nav-tabs>li.active>a:not(.item-all-link){color:hsla(var(--j-color-scheme-foreground-secondary-h),var(--j-color-scheme-foreground-secondary-s),calc(var(--j-color-scheme-foreground-secondary-l) - 0%),calc(var(--j-color-scheme-foreground-secondary-a)*1))}.module-categories-372 .nav-tabs>li.active>a:not(.item-all-link),.no-touchevents .module-categories-372 .nav-tabs>li.active>a:not(.item-all-link):hover,.module-categories-372 .nav-tabs>li.active>a:not(.item-all-link):focus{color:hsla(var(--j-color-scheme-button-foreground-h),var(--j-color-scheme-button-foreground-s),calc(var(--j-color-scheme-button-foreground-l) - 0%),calc(var(--j-color-scheme-button-foreground-a)*1))}.no-touchevents .module-categories-372 .nav-tabs>li:hover{background-color:hsla(var(--j-color-scheme-background-tertiary-h),var(--j-color-scheme-background-tertiary-s),calc(var(--j-color-scheme-background-tertiary-l) - 0%),calc(var(--j-color-scheme-background-tertiary-a)*1)) !important;--background-color:hsla(var(--j-color-scheme-background-tertiary-h),var(--j-color-scheme-background-tertiary-s),calc(var(--j-color-scheme-background-tertiary-l) - 0%),calc(var(--j-color-scheme-background-tertiary-a)*1)) !important}.module-categories-372 ul.nav-tabs>li.active,.no-touchevents .module-categories-372 ul.nav-tabs>li.active:hover,.module-categories-372 ul.nav-tabs>li.active:focus{background-color:hsla(var(--j-color-scheme-button-background-h),var(--j-color-scheme-button-background-s),calc(var(--j-color-scheme-button-background-l) - 0%),calc(var(--j-color-scheme-button-background-a)*1)) !important;--background-color:hsla(var(--j-color-scheme-button-background-h),var(--j-color-scheme-button-background-s),calc(var(--j-color-scheme-button-background-l) - 0%),calc(var(--j-color-scheme-button-background-a)*1)) !important}.module-categories-372 .nav-tabs{border-width:1px;border-style:solid;border-color:hsla(var(--j-color-scheme-background-border-h),var(--j-color-scheme-background-border-s),calc(var(--j-color-scheme-background-border-l) - 0%),calc(var(--j-color-scheme-background-border-a)*1));background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));--background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));border-radius:4px;--element-border-radius:4px;padding:6px !important;--element-padding:6px !important;--page-tabs-scroll-padding:0px;min-width:initial;max-width:var(--max-width-display,100vw);max-height:none;--page-tabs-scroll-direction:var(--page-tabs-scroll,0px);--tab-align:auto;flex-direction:row;align-items:center;padding-bottom:var(--pb);overflow-x:var(--overflow-x-scroll);overflow-y:var(--overflow-y-scroll)}.module-categories-372 .nav-tabs>li{border-width:0;border-style:none}.module-categories-372 ul.nav-tabs>li{border-radius:4px;--element-border-radius:4px;flex-grow:0}.module-categories-372 .nav-tabs>li.active:after{display:none;border-top-color:hsla(var(--j-color-scheme-button-background-h),var(--j-color-scheme-button-background-s),calc(var(--j-color-scheme-button-background-l) - 0%),calc(var(--j-color-scheme-button-background-a)*1));border-top-width:8px}.module-categories-372 .nav-tabs>li>a:not(.item-all-link){justify-content:center;white-space:nowrap;padding:var(--j-gap-spacing---5);--element-padding:var(--j-gap-spacing---5);padding-right:var(--j-gap-spacing---6);--element-padding-right:var(--j-gap-spacing---6);padding-left:var(--j-gap-spacing---6);--element-padding-left:var(--j-gap-spacing---6)}.module-categories-372 .nav-tabs+.tab-content{--spacing:var(--j-gap-spacing-vertical-xl);margin-block-start:var(--spacing,0px);margin-inline-start:0}.module-categories-372 ul.nav-tabs{--tabs-gap:var(--j-gap-spacing-gap-1);--page-tabs-scroll:var(--content-gutter,0px);flex-wrap:nowrap;--pb:1px;--overflow-x-scroll:auto;--overflow-y-scroll:hidden;--max-width-display:var(--max-width,100vw);--max-width:max-content}.module-categories-372 .full-tabs-bg{--full-bg-display:block}.module-categories-372 .tab-content:before{--full-content-bg-display:block}.module-categories-372 .tab-content{flex-basis:100%;max-height:none;overflow-y:initial;overflow-x:initial}.module-categories-372 ul.nav-tabs>li:first-child{margin-inline-start:var(--tab-align)}.module-categories-372 ul.nav-tabs>li:last-child{margin-inline-end:var(--tab-align)}.module-categories-372 .ipr-grid .category-layout.swiper-slide{margin-right:20px;width:calc((100% - 3*20px)/4 - .01px)}.module-categories-372 .ipr-grid .category-layout:not(.swiper-slide){padding:10px;width:calc(100%/4 - .01px)}.one-column #content .module-categories-372 .ipr-grid .category-layout.swiper-slide{margin-right:20px;width:calc((100% - 2*20px)/3 - .01px)}.one-column #content .module-categories-372 .ipr-grid .category-layout:not(.swiper-slide){padding:10px;width:calc(100%/3 - .01px)}.two-column #content .module-categories-372 .ipr-grid .category-layout.swiper-slide{margin-right:20px;width:calc((100% - 1*20px)/2 - .01px)}.two-column #content .module-categories-372 .ipr-grid .category-layout:not(.swiper-slide){padding:10px;width:calc(100%/2 - .01px)}.side-column .module-categories-372 .ipr-grid .category-layout.swiper-slide{margin-right:20px;width:calc((100% - 0*20px)/1 - .01px)}.side-column .module-categories-372 .ipr-grid .category-layout:not(.swiper-slide){padding:10px;width:calc(100%/1 - .01px)}.module-categories-372 .flex-grid>*{flex-grow:0}.module-categories-372 .auto-grid{--grid-min-width:150px;--grid-min-col:2.3;--grid-gap:var(--j-gap-spacing---5);--auto-grow-type:auto-fill;--item-width:var(--item-fill);margin-inline-start:calc(0px - var(--scroll-padding,0px));margin-inline-end:calc(0px - var(--scroll-padding,0px));--fr:var(--item-width)}div.module-categories-372 .auto-grid{--auto-grow-type:auto-fit;--item-width:var(--item-fit);--scroll-padding:var(--scroll-padding-custom,var(--content-gutter,0px))}.module-categories-372 .auto-grid .auto-grid-items{cursor:var(--cursor);grid-auto-flow:column;overflow-x:auto;overflow-y:hidden;padding-inline-start:var(--scroll-padding,0px);padding-inline-end:var(--scroll-padding,0px);padding-top:var(--top-padding,0px);padding-bottom:var(--bottom-padding,0px)}.module-categories-372 .auto-grid .auto-carousel-controls{display:flex}.module-categories-372 .auto-grid .auto-carousel-items:after{display:block}.module-categories-372 .auto-grid .auto-grid-items.is-gliding a{pointer-events:none}.module-categories-372 .auto-grid>.auto-grid-items:before{--fader-status:1;display:block}.module-categories-372 .auto-grid>.auto-grid-items:after{--fader-status:1;display:block}div.module-categories-372 .auto-grid .auto-grid-items{--scroll-by:3}div.module-categories-372{--auto-carousel-controls-max-width:min(min(var(--content-max-width,100%) - var(--scroll-padding,0px)*2,var(--content-max-width,100%) - var(--content-gutter,0)*2),100% - var(--scroll-padding,0px)*2)}@media (max-width:1200px){.module-categories-372 .ipr-grid .category-layout.swiper-slide{margin-right:20px;width:calc((100% - 2*20px)/3 - .01px)}.module-categories-372 .ipr-grid .category-layout:not(.swiper-slide){padding:10px;width:calc(100%/3 - .01px)}}@media (max-width:900px){.module-categories-372{--tabs-align:flex-start}.module-categories-372 ul.nav-tabs{--max-width-display:var(--max-width,100vw)}.module-categories-372 ul.nav-tabs>li{flex-grow:0}.module-categories-372 ul.nav-tabs>li:first-child{margin-inline-start:0}.module-categories-372 ul.nav-tabs>li:last-child{margin-inline-end:0}.module-categories-372 .ipr-grid .category-layout.swiper-slide{margin-right:20px;width:calc((100% - 1*20px)/2 - .01px)}.module-categories-372 .ipr-grid .category-layout:not(.swiper-slide){padding:10px;width:calc(100%/2 - .01px)}.one-column #content .module-categories-372 .ipr-grid .category-layout.swiper-slide{margin-right:20px;width:calc((100% - 1*20px)/2 - .01px)}.one-column #content .module-categories-372 .ipr-grid .category-layout:not(.swiper-slide){padding:10px;width:calc(100%/2 - .01px)}}@media (max-width:500px){.module-categories-372 .ipr-grid .category-layout.swiper-slide{margin-right:20px;width:calc((100% - 0*20px)/1 - .01px)}.module-categories-372 .ipr-grid .category-layout:not(.swiper-slide){padding:10px;width:calc(100%/1 - .01px)}.one-column #content .module-categories-372 .ipr-grid .category-layout.swiper-slide{margin-right:20px;width:calc((100% - 0*20px)/1 - .01px)}.one-column #content .module-categories-372 .ipr-grid .category-layout:not(.swiper-slide){padding:10px;width:calc(100%/1 - .01px)}.two-column #content .module-categories-372 .ipr-grid .category-layout.swiper-slide{margin-right:20px;width:calc((100% - 0*20px)/1 - .01px)}.two-column #content .module-categories-372 .ipr-grid .category-layout:not(.swiper-slide){padding:10px;width:calc(100%/1 - .01px)}}   ',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Inter' => 
+      array (
+        400 => '400',
+      ),
+      'Inter Tight' => 
+      array (
+        500 => '500',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'color_scheme_content' => '',
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => '',
+    'viewMoreText' => '',
+    'descLimit' => '40',
+    'sectionsDisplay' => 'blocks',
+    'sectionsDisplayTablet' => '',
+    'sectionsDisplayPhone' => '',
+    'moduleCategory' => 'DEFAULT_FILL',
+    'moduleCategoryButtonDisplay' => 'both',
+    'moduleCategoryButtonButton' => 'LINK_UNDERLINE',
+    'moduleCategoryButtonTooltipStatus' => true,
+    'moduleCategoryButtonTooltipPosition' => 'top',
+    'productsCount' => false,
+    'productsCountText' => '',
+    'productsCountTextPosition' => 'image',
+    'carousel' => true,
+    'carouselStyle' => 'DEFAULT',
+    'carouselStyleIconButtonsStyle' => 'DEFAULT',
+    'tabsStyle' => 'TAB_BUTTON_FILLED',
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 4,
+          'spacing' => 20,
+        ),
+        1200 => 
+        array (
+          'spacing' => 20,
+          'items' => 3,
+        ),
+        900 => 
+        array (
+          'spacing' => 20,
+          'items' => 2,
+        ),
+        500 => 
+        array (
+          'items' => 1,
+          'spacing' => 20,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 3,
+          'spacing' => 20,
+        ),
+        900 => 
+        array (
+          'spacing' => 20,
+          'items' => 2,
+        ),
+        500 => 
+        array (
+          'items' => 1,
+          'spacing' => 20,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 2,
+          'spacing' => 20,
+        ),
+        500 => 
+        array (
+          'items' => 1,
+          'spacing' => 20,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 20,
+        ),
+      ),
+    ),
+    'default' => 'bf86fe46-7990-4602-9be7-19d23f8a0ce9',
+    'images' => true,
+    'imageDimensions' => 
+    array (
+      'width' => 160,
+      'height' => 160,
+      'resize' => 'fill',
+    ),
+    'gridType' => 'auto',
+    'autoGridStyle' => 'SMALL',
+    'status' => true,
+    'module_id' => 372,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-categories',
+      2 => 'module-categories-372',
+      3 => NULL,
+      4 => '',
+      5 => 'module-categories-',
+      'carousel-mode' => false,
+      'align-to-content' => true,
+    ),
+    'edit' => 'module_layout/categories/edit/372',
+    'name' => 'Hot Teams Selection',
+    'swiper_carousel' => false,
+    'image_width' => 160,
+    'image_height' => 160,
+    'image_resize' => 'fill',
+    'carouselOptions' => 
+    array (
+      'speed' => 500,
+      'autoplay' => false,
+      'pauseOnHover' => true,
+      'loop' => false,
+    ),
+    'dummy_image' => 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAACgAQMAAACxAfVuAAAABlBMVEUAAAAEAgSXNbeIAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABlJREFUSMftwQENAAAAwqD3T+3sARQAAAA3DSAAAVxEEY8AAAAASUVORK5CYII=',
+    'default_index' => 1,
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => '',
+        'tabType' => 'content',
+        'type' => 'custom',
+        'limit' => '',
+        'index' => 1,
+        'id' => '372-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          2 => NULL,
+          3 => '',
+          'tab-pane' => false,
+          'active' => false,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'active' => true,
+        'tab_classes' => 
+        array (
+          0 => 'tab-1',
+          'active' => false,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'categories' => 
+        array (
+          36 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+            ),
+            'category_id' => '36',
+            'thumb' => 'https://soccerretros.com/image/cache/catalog/logo/argentina_logo_jerseys-160x160w.webp',
+            'thumb2x' => 'https://soccerretros.com/image/cache/catalog/logo/argentina_logo_jerseys-170x170w.webp',
+            'name' => 'Argentina',
+            'total' => 0,
+            'total_text' => NULL,
+            'description' => 'Relive the magic of 1986 and beyond with..',
+            'href' => 'https://soccerretros.com/argentina.html',
+          ),
+          26 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+            ),
+            'category_id' => '26',
+            'thumb' => 'https://soccerretros.com/image/cache/catalog/logo/Brazil-150x150.webp',
+            'thumb2x' => 'https://soccerretros.com/image/cache/catalog/logo/Brazil-150x150.webp',
+            'name' => 'Brazil',
+            'total' => 0,
+            'total_text' => NULL,
+            'description' => 'Celebrate the artistry of the "Seleção" ..',
+            'href' => 'https://soccerretros.com/brazil.html',
+          ),
+          45 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+            ),
+            'category_id' => '45',
+            'thumb' => 'https://soccerretros.com/image/cache/catalog/logo/germany-football-team-logo-128x128w.webp',
+            'thumb2x' => 'https://soccerretros.com/image/cache/catalog/logo/germany-football-team-logo-128x128w.webp',
+            'name' => 'Germany',
+            'total' => 0,
+            'total_text' => NULL,
+            'description' => 'Embrace the precision and power of Germa..',
+            'href' => 'https://soccerretros.com/germany.html',
+          ),
+          49 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+            ),
+            'category_id' => '49',
+            'thumb' => 'https://soccerretros.com/image/cache/catalog/logo/italy-football-team-logo-90x90w.webp',
+            'thumb2x' => 'https://soccerretros.com/image/cache/catalog/logo/italy-football-team-logo-90x90w.webp',
+            'name' => 'Italy',
+            'total' => 0,
+            'total_text' => NULL,
+            'description' => 'Experience the timeless elegance of "Gli..',
+            'href' => 'https://soccerretros.com/italy.html',
+          ),
+          27 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+            ),
+            'category_id' => '27',
+            'thumb' => 'https://soccerretros.com/image/cache/catalog/logo/England-jersey-126x126w.webp',
+            'thumb2x' => 'https://soccerretros.com/image/cache/catalog/logo/England-jersey-126x126w.webp',
+            'name' => 'England',
+            'total' => 0,
+            'total_text' => NULL,
+            'description' => 'Bring football home with our extensive c..',
+            'href' => 'https://soccerretros.com/england.html',
+          ),
+          56 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+            ),
+            'category_id' => '56',
+            'thumb' => 'https://soccerretros.com/image/cache/catalog/logo/Netherlands-football-team-logo-150x150.webp',
+            'thumb2x' => 'https://soccerretros.com/image/cache/catalog/logo/Netherlands-football-team-logo-150x150.webp',
+            'name' => 'Netherlands',
+            'total' => 0,
+            'total_text' => NULL,
+            'description' => 'Experience the "Total Football" era with..',
+            'href' => 'https://soccerretros.com/netherlands.html',
+          ),
+          43 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+            ),
+            'category_id' => '43',
+            'thumb' => 'https://soccerretros.com/image/cache/catalog/logo/France-rugby-team-logo-150x150.webp',
+            'thumb2x' => 'https://soccerretros.com/image/cache/catalog/logo/France-rugby-team-logo-150x150.webp',
+            'name' => 'France',
+            'total' => 0,
+            'total_text' => NULL,
+            'description' => 'Celebrate the glory of "Les Bleus" with ..',
+            'href' => 'https://soccerretros.com/france.html',
+          ),
+          62 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+            ),
+            'category_id' => '62',
+            'thumb' => 'https://soccerretros.com/image/cache/catalog/logo/portugal-football-team-logo-112x112w.webp',
+            'thumb2x' => 'https://soccerretros.com/image/cache/catalog/logo/portugal-football-team-logo-112x112w.webp',
+            'name' => 'Portugal',
+            'total' => 0,
+            'total_text' => NULL,
+            'description' => 'Relive the rise of Portuguese football w..',
+            'href' => 'https://soccerretros.com/portugal.html',
+          ),
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+      2 => 
+      array (
+        'title' => '',
+        'tabType' => 'content',
+        'type' => 'custom',
+        'limit' => '',
+        'index' => 2,
+        'id' => '372-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          2 => NULL,
+          3 => '',
+          'tab-pane' => false,
+          'active' => false,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'active' => true,
+        'tab_classes' => 
+        array (
+          0 => 'tab-2',
+          'active' => false,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'categories' => 
+        array (
+          169 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+            ),
+            'category_id' => '169',
+            'thumb' => 'https://soccerretros.com/image/cache/catalog/logo/Boca-Juniors-football-team-logo-129x129w.webp',
+            'thumb2x' => 'https://soccerretros.com/image/cache/catalog/logo/Boca-Juniors-football-team-logo-129x129w.webp',
+            'name' => 'Boca Juniors',
+            'total' => 0,
+            'total_text' => NULL,
+            'description' => 'Experience the passion of "La Bombonera"..',
+            'href' => 'https://soccerretros.com/boca-juniors.html',
+          ),
+          178 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+            ),
+            'category_id' => '178',
+            'thumb' => 'https://soccerretros.com/image/cache/catalog/logo/River_Plate-football-team-logo-127x127w.webp',
+            'thumb2x' => 'https://soccerretros.com/image/cache/catalog/logo/River_Plate-football-team-logo-127x127w.webp',
+            'name' => 'River Plate',
+            'total' => 0,
+            'total_text' => NULL,
+            'description' => 'Celebrate the "Millionarios" with our le..',
+            'href' => 'https://soccerretros.com/river-plate.html',
+          ),
+          162 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+            ),
+            'category_id' => '162',
+            'thumb' => 'https://soccerretros.com/image/cache/catalog/logo/Manchester-United-football-team-logo-148x148w.webp',
+            'thumb2x' => 'https://soccerretros.com/image/cache/catalog/logo/Manchester-United-football-team-logo-148x148w.webp',
+            'name' => 'Manchester United',
+            'total' => 0,
+            'total_text' => NULL,
+            'description' => 'Embrace the history of "The Red Devils" ..',
+            'href' => 'https://soccerretros.com/manchester-united.html',
+          ),
+          153 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+            ),
+            'category_id' => '153',
+            'thumb' => 'https://soccerretros.com/image/cache/catalog/logo/Arsenal-football-team-logo-160x160w.webp',
+            'thumb2x' => 'https://soccerretros.com/image/cache/catalog/logo/Arsenal-football-team-logo-243x243w.webp',
+            'name' => 'Arsenal',
+            'total' => 0,
+            'total_text' => NULL,
+            'description' => 'Relive the magic of "The Gunners" with o..',
+            'href' => 'https://soccerretros.com/arsenal.html',
+          ),
+          129 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+            ),
+            'category_id' => '129',
+            'thumb' => 'https://soccerretros.com/image/cache/catalog/logo/Real-Madrid-football-team-logo-112x112w.webp',
+            'thumb2x' => 'https://soccerretros.com/image/cache/catalog/logo/Real-Madrid-football-team-logo-112x112w.webp',
+            'name' => 'Real Madrid',
+            'total' => 0,
+            'total_text' => NULL,
+            'description' => 'Experience the elegance of the "Galáctic..',
+            'href' => 'https://soccerretros.com/real-madrid.html',
+          ),
+          127 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+            ),
+            'category_id' => '127',
+            'thumb' => 'https://soccerretros.com/image/cache/catalog/logo/Barcelona-football-team-logo-160x160w.webp',
+            'thumb2x' => 'https://soccerretros.com/image/cache/catalog/logo/Barcelona-football-team-logo-243x243w.webp',
+            'name' => 'FC Barcelona',
+            'total' => 0,
+            'total_text' => NULL,
+            'description' => 'Relive the magic of the "Blaugrana" with..',
+            'href' => 'https://soccerretros.com/fc-barcelona.html',
+          ),
+          76 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+            ),
+            'category_id' => '76',
+            'thumb' => 'https://soccerretros.com/image/cache/catalog/logo/milan-football-team-logo-160x160.png.webp',
+            'thumb2x' => 'https://soccerretros.com/image/cache/catalog/logo/milan-football-team-logo-320x320.png.webp',
+            'name' => 'Milan',
+            'total' => 0,
+            'total_text' => NULL,
+            'description' => 'Relive the glory of the "Rossoneri" with..',
+            'href' => 'https://soccerretros.com/milan.html',
+          ),
+          52 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+            ),
+            'category_id' => '52',
+            'thumb' => 'https://soccerretros.com/image/cache/catalog/logo/japan-football-team-logo-112x112w.webp',
+            'thumb2x' => 'https://soccerretros.com/image/cache/catalog/logo/japan-football-team-logo-112x112w.webp',
+            'name' => 'Japan',
+            'total' => 0,
+            'total_text' => NULL,
+            'description' => 'Explore the unique aesthetics of the "Sa..',
+            'href' => 'https://soccerretros.com/japan.html',
+          ),
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);

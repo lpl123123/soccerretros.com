@@ -1,0 +1,603 @@
+<?php $val = array (
+  'settings' => 
+  array (
+    'column_left' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'column_right' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'content_top' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'content_bottom' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'top' => 
+    array (
+      'rows' => 
+      array (
+        1 => 
+        array (
+          'color_scheme' => '',
+          'contentAlign' => false,
+          'background' => 
+          array (
+            'background-color' => 'hsla(var(--j-color-scheme-background-secondary-h), var(--j-color-scheme-background-secondary-s), calc(var(--j-color-scheme-background-secondary-l) - 0%), calc(var(--j-color-scheme-background-secondary-a) * 1))',
+            '--background-color' => 'hsla(var(--j-color-scheme-background-secondary-h), var(--j-color-scheme-background-secondary-s), calc(var(--j-color-scheme-background-secondary-l) - 0%), calc(var(--j-color-scheme-background-secondary-a) * 1))',
+            'background-position' => '',
+            'background-attachment' => '',
+            'background-repeat' => '',
+            'background-origin' => '',
+            'background-clip' => '',
+            'background-blend-mode' => '',
+          ),
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => true,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-top-1',
+            'align-content-row' => false,
+            'fullwidth-row' => false,
+            2 => '',
+            3 => '',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'color_scheme' => '',
+              'videoColStatus' => false,
+              'videoCol' => '',
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-1-1',
+                2 => '',
+                3 => '',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-module-top-1-1-1',
+                    2 => '',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '590',
+                    'name' => 'Slider / Home / Main Slider 1',
+                    'type' => 'slider',
+                  ),
+                ),
+              ),
+            ),
+            2 => 
+            array (
+              'color_scheme' => '',
+              'videoColStatus' => false,
+              'videoCol' => '',
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-1-2',
+                2 => '',
+                3 => '',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-module-top-1-2-1',
+                    2 => '',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '982',
+                    'name' => 'Banner / Home / Promo Banners / Demo 12 Copy',
+                    'type' => 'banners_grid',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        2 => 
+        array (
+          'color_scheme' => 'color-scheme-scheme-3',
+          'contentAlign' => false,
+          'background' => 
+          array (
+            'background-color' => 'hsla(var(--j-color-scheme-background-primary-h), var(--j-color-scheme-background-primary-s), calc(var(--j-color-scheme-background-primary-l) - 0%), calc(var(--j-color-scheme-background-primary-a) * 1))',
+            '--background-color' => 'hsla(var(--j-color-scheme-background-primary-h), var(--j-color-scheme-background-primary-s), calc(var(--j-color-scheme-background-primary-l) - 0%), calc(var(--j-color-scheme-background-primary-a) * 1))',
+            'background-position' => '',
+            'background-attachment' => '',
+            'background-repeat' => '',
+            'background-origin' => '',
+            'background-clip' => '',
+            'background-blend-mode' => '',
+          ),
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-top-2',
+            'align-content-row' => false,
+            'fullwidth-row' => false,
+            2 => '',
+            3 => 'color-scheme-scheme-3',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'color_scheme' => '',
+              'videoColStatus' => false,
+              'videoCol' => '',
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-2-1',
+                2 => '',
+                3 => '',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-module-top-2-1-1',
+                    2 => '',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '781',
+                    'name' => 'Info Blocks / Site Features',
+                    'type' => 'info_blocks',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        3 => 
+        array (
+          'color_scheme' => '',
+          'contentAlign' => false,
+          'background' => 
+          array (
+            'background-color' => 'hsla(var(--j-color-scheme-background-secondary-h), var(--j-color-scheme-background-secondary-s), calc(var(--j-color-scheme-background-secondary-l) - 0%), calc(var(--j-color-scheme-background-secondary-a) * 1))',
+            '--background-color' => 'hsla(var(--j-color-scheme-background-secondary-h), var(--j-color-scheme-background-secondary-s), calc(var(--j-color-scheme-background-secondary-l) - 0%), calc(var(--j-color-scheme-background-secondary-a) * 1))',
+            'background-position' => '',
+            'background-attachment' => '',
+            'background-repeat' => '',
+            'background-origin' => '',
+            'background-clip' => '',
+            'background-blend-mode' => '',
+          ),
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-top-3',
+            'align-content-row' => false,
+            'fullwidth-row' => false,
+            2 => '',
+            3 => '',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'color_scheme' => '',
+              'videoColStatus' => false,
+              'videoCol' => '',
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-3-1',
+                2 => '',
+                3 => '',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-module-top-3-1-1',
+                    2 => '',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '1048',
+                    'name' => 'Title / Home / Shop by Category',
+                    'type' => 'title',
+                  ),
+                ),
+                2 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-module-top-3-1-2',
+                    2 => '',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '372',
+                    'name' => 'Categories / Tabs',
+                    'type' => 'categories',
+                  ),
+                ),
+              ),
+            ),
+            2 => 
+            array (
+              'color_scheme' => '',
+              'videoColStatus' => false,
+              'videoCol' => '',
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-3-2',
+                2 => '',
+                3 => '',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-module-top-3-2-1',
+                    2 => '',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '591',
+                    'name' => 'Title Module / Home Page - Featured Products',
+                    'type' => 'title',
+                  ),
+                ),
+                2 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-module-top-3-2-2',
+                    2 => '',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '448',
+                    'name' => 'Products / Home / Tabs / Featured - Latest - SALE',
+                    'type' => 'products',
+                  ),
+                ),
+                3 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-module-top-3-2-3',
+                    2 => '',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '263',
+                    'name' => 'CTA Button - See all products',
+                    'type' => 'button',
+                  ),
+                ),
+              ),
+            ),
+            3 => 
+            array (
+              'color_scheme' => '',
+              'videoColStatus' => false,
+              'videoCol' => '',
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-top-3-3',
+                2 => '',
+                3 => '',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-module-top-3-3-1',
+                    2 => '',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '983',
+                    'name' => 'Title Module / Home / Featured Category',
+                    'type' => 'title',
+                  ),
+                ),
+                2 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-module-top-3-3-2',
+                    2 => '',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '640',
+                    'name' => 'Builder / Featured Category + Products',
+                    'type' => 'grid',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'bottom' => 
+    array (
+      'rows' => 
+      array (
+        1 => 
+        array (
+          'color_scheme' => '',
+          'contentAlign' => false,
+          'background' => 
+          array (
+            'background-color' => 'hsla(var(--j-color-scheme-background-secondary-h), var(--j-color-scheme-background-secondary-s), calc(var(--j-color-scheme-background-secondary-l) - 0%), calc(var(--j-color-scheme-background-secondary-a) * 1))',
+            '--background-color' => 'hsla(var(--j-color-scheme-background-secondary-h), var(--j-color-scheme-background-secondary-s), calc(var(--j-color-scheme-background-secondary-l) - 0%), calc(var(--j-color-scheme-background-secondary-a) * 1))',
+            'background-position' => '',
+            'background-attachment' => '',
+            'background-repeat' => 'no-repeat',
+            'background-origin' => '',
+            'background-size' => 'cover',
+            'background-clip' => '',
+            'background-blend-mode' => '',
+          ),
+          'videoBgStatus' => false,
+          'videoBg' => '',
+          'videoInline' => false,
+          'waveStatus' => false,
+          'waveDirection' => '5',
+          'wave2Status' => false,
+          'wave2Direction' => '5',
+          'classes' => 
+          array (
+            0 => 'grid-row',
+            1 => 'grid-row-bottom-1',
+            'align-content-row' => false,
+            'fullwidth-row' => false,
+            2 => '',
+            3 => '',
+          ),
+          'columns' => 
+          array (
+            1 => 
+            array (
+              'color_scheme' => '',
+              'videoColStatus' => false,
+              'videoCol' => '',
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-bottom-1-1',
+                2 => '',
+                3 => '',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-module-bottom-1-1-1',
+                    2 => '',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '643',
+                    'name' => 'Title Module / Home / What are people saying about us',
+                    'type' => 'title',
+                  ),
+                ),
+                2 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-module-bottom-1-1-2',
+                    2 => '',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '1026',
+                    'name' => 'Testimonials / Default Copy',
+                    'type' => 'testimonials',
+                  ),
+                ),
+              ),
+            ),
+            2 => 
+            array (
+              'color_scheme' => '',
+              'videoColStatus' => false,
+              'videoCol' => '',
+              'classes' => 
+              array (
+                0 => 'grid-col',
+                1 => 'grid-col-bottom-1-2',
+                2 => '',
+                3 => '',
+              ),
+              'items' => 
+              array (
+                1 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-module-bottom-1-2-1',
+                    2 => '',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '592',
+                    'name' => 'Title Module / Home Page - From the Blog',
+                    'type' => 'title',
+                  ),
+                ),
+                2 => 
+                array (
+                  'classes' => 
+                  array (
+                    0 => 'grid-item',
+                    1 => 'grid-module-bottom-1-2-2',
+                    2 => '',
+                  ),
+                  'item' => 
+                  array (
+                    'id' => '998',
+                    'name' => 'Blog Posts / Latest Articles List Copy',
+                    'type' => 'blog_posts',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'footer_top' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'footer_bottom' => 
+    array (
+      'rows' => 
+      array (
+      ),
+      'grid_classes' => 
+      array (
+        0 => 'grid-rows',
+      ),
+    ),
+    'global' => 
+    array (
+      0 => 
+      array (
+        'module_id' => '1050',
+        'module_type' => 'popup',
+      ),
+      1 => 
+      array (
+        'module_id' => '137',
+        'module_type' => 'notification',
+      ),
+      2 => 
+      array (
+        'module_id' => '56',
+        'module_type' => 'header_notice',
+      ),
+      3 => 
+      array (
+        'module_id' => '266',
+        'module_type' => 'bottom_menu',
+      ),
+    ),
+  ),
+  'php' => 
+  array (
+    'ContentWidth' => '',
+    'ContentGutter' => '',
+    'headerDesktop' => '',
+    'headerMobile' => '',
+    'footerMenu' => '',
+    'footerMenuPhone' => '',
+  ),
+  'js' => 
+  array (
+  ),
+  'fonts' => 
+  array (
+  ),
+  'css' => '.grid-row-top-1>.grid-cols-wrapper>.grid-cols{min-height:var(--min-height,auto)}.grid-row-top-1{--col-gap:var(--j-gap-spacing-gap-hero);padding-top:var(--j-gap-spacing-gutter-1);padding-bottom:var(--j-gap-spacing-gutter-1)}.grid-row-top-1>.grid-cols-wrapper>.grid-cols>.grid-col{flex-basis:calc((900px + 1px - (100*var(--unit,1%)))*9999)}.grid-row-top-1>.row-bg,.grid-row-top-1>.grid-cols-wrapper>.grid-cols{background-color:hsla(var(--j-color-scheme-background-secondary-h),var(--j-color-scheme-background-secondary-s),calc(var(--j-color-scheme-background-secondary-l) - 0%),calc(var(--j-color-scheme-background-secondary-a)*1));--background-color:hsla(var(--j-color-scheme-background-secondary-h),var(--j-color-scheme-background-secondary-s),calc(var(--j-color-scheme-background-secondary-l) - 0%),calc(var(--j-color-scheme-background-secondary-a)*1))}.grid-row-top-1>.video-row{display:block;max-width:100%;--align-h:0}.grid-row-top-1:before{display:block}.grid-row-top-1>.wave-top{display:block;transform:translate3d(0,-63%,0) scale(1)}.grid-row-top-1>.wave-bottom{transform:translate3d(0,63%,0) scale(-1);display:block} .grid-col-top-1-1{min-width:70%;display:block}.grid-col-top-1-1>.grid-items>.grid-item{height:100%}.grid-col-top-1-1>.grid-items>.grid-item>.module{height:100%}.grid-col-top-1-1>.grid-items>.grid-item>.module>.module-body{height:100%}.grid-col-top-1-1>.grid-items:before{--unit:1%;left:0;right:auto;display:none} .grid-items>.grid-item.grid-module-top-1-1-1{display:flex} .grid-col-top-1-2{min-width:30%;display:block}.grid-col-top-1-2>.grid-items>.grid-item{height:100%}.grid-col-top-1-2>.grid-items>.grid-item>.module{height:100%}.grid-col-top-1-2>.grid-items>.grid-item>.module>.module-body{height:100%}.grid-col-top-1-2>.grid-items:before{--unit:1%;left:0;right:auto;display:none} .grid-items>.grid-item.grid-module-top-1-2-1{display:flex} .grid-row-top-2>.grid-cols-wrapper>.grid-cols{min-height:var(--min-height,auto)}.grid-row-top-2{padding-top:var(--j-gap-spacing-vr-row-s);padding-bottom:var(--j-gap-spacing-vr-row-s)}.grid-row-top-2>.row-bg,.grid-row-top-2>.grid-cols-wrapper>.grid-cols{background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1));--background-color:hsla(var(--j-color-scheme-background-primary-h),var(--j-color-scheme-background-primary-s),calc(var(--j-color-scheme-background-primary-l) - 0%),calc(var(--j-color-scheme-background-primary-a)*1))}.grid-row-top-2>.video-row{display:block}.grid-row-top-2:before{display:block}.grid-row-top-2>.wave-top{display:block;transform:translate3d(0,-63%,0) scale(1)}.grid-row-top-2>.wave-bottom{transform:translate3d(0,63%,0) scale(-1);display:block} .grid-col-top-2-1{min-width:100%;display:block}.grid-col-top-2-1>.grid-items>.grid-item:not(:empty){height:auto}.grid-col-top-2-1>.grid-items:before{--unit:1%;left:0;right:auto;display:none} .grid-items>.grid-item.grid-module-top-2-1-1{display:flex} .grid-row-top-3>.grid-cols-wrapper>.grid-cols{min-height:var(--min-height,auto)}.grid-row-top-3{--col-gap:var(--j-gap-spacing-vr-row-k);padding-top:var(--j-gap-spacing-vr-row-l);padding-bottom:var(--j-gap-spacing-vr-row-l)}.grid-row-top-3>.row-bg,.grid-row-top-3>.grid-cols-wrapper>.grid-cols{background-color:hsla(var(--j-color-scheme-background-secondary-h),var(--j-color-scheme-background-secondary-s),calc(var(--j-color-scheme-background-secondary-l) - 0%),calc(var(--j-color-scheme-background-secondary-a)*1));--background-color:hsla(var(--j-color-scheme-background-secondary-h),var(--j-color-scheme-background-secondary-s),calc(var(--j-color-scheme-background-secondary-l) - 0%),calc(var(--j-color-scheme-background-secondary-a)*1))}.grid-row-top-3>.video-row{display:block}.grid-row-top-3:before{display:block}.grid-row-top-3>.wave-top{display:block;transform:translate3d(0,-63%,0) scale(1)}.grid-row-top-3>.wave-bottom{transform:translate3d(0,63%,0) scale(-1);display:block} .grid-col-top-3-1{min-width:100%;display:block}.grid-col-top-3-1>.grid-items>.grid-item:not(:empty){height:auto}.grid-col-top-3-1>.grid-items:before{--unit:1%;left:0;right:auto;display:none} .grid-items>.grid-item.grid-module-top-3-1-1{display:flex} .grid-items>.grid-item.grid-module-top-3-1-2{display:flex} .grid-col-top-3-2{min-width:100%;display:block}.grid-col-top-3-2>.grid-items>.grid-item:not(:empty){height:auto}.grid-col-top-3-2>.grid-items:before{--unit:1%;left:0;right:auto;display:none} .grid-items>.grid-item.grid-module-top-3-2-1{display:flex} .grid-items>.grid-item.grid-module-top-3-2-2{display:flex} .grid-items>.grid-item.grid-module-top-3-2-3{display:flex} .grid-col-top-3-3{min-width:100%;display:block}.grid-col-top-3-3>.grid-items>.grid-item:not(:empty){height:auto}.grid-col-top-3-3>.grid-items:before{--unit:1%;left:0;right:auto;display:none} .grid-items>.grid-item.grid-module-top-3-3-1{display:flex} .grid-items>.grid-item.grid-module-top-3-3-2{display:flex} .grid-row-bottom-1>.grid-cols-wrapper>.grid-cols{min-height:var(--min-height,auto)}.grid-row-bottom-1{--col-gap:var(--j-gap-spacing-vr-row-k);padding-top:var(--j-gap-spacing-vr-row-k);padding-bottom:var(--j-gap-spacing-vr-row-k)}.grid-row-bottom-1>.row-bg,.grid-row-bottom-1>.grid-cols-wrapper>.grid-cols{background-color:hsla(var(--j-color-scheme-background-secondary-h),var(--j-color-scheme-background-secondary-s),calc(var(--j-color-scheme-background-secondary-l) - 0%),calc(var(--j-color-scheme-background-secondary-a)*1));--background-color:hsla(var(--j-color-scheme-background-secondary-h),var(--j-color-scheme-background-secondary-s),calc(var(--j-color-scheme-background-secondary-l) - 0%),calc(var(--j-color-scheme-background-secondary-a)*1));background-repeat:no-repeat;background-size:cover}.grid-row-bottom-1>.video-row{display:block}.grid-row-bottom-1:before{display:block}.grid-row-bottom-1>.wave-top{display:block;transform:translate3d(0,-63%,0) scale(1)}.grid-row-bottom-1>.wave-bottom{transform:translate3d(0,63%,0) scale(-1);display:block} .grid-col-bottom-1-1{min-width:100%;display:block}.grid-col-bottom-1-1>.grid-items>.grid-item:not(:empty){height:auto}.grid-col-bottom-1-1>.grid-items:before{--unit:1%;left:0;right:auto;display:none} .grid-items>.grid-item.grid-module-bottom-1-1-1{display:flex} .grid-items>.grid-item.grid-module-bottom-1-1-2{display:flex} .grid-col-bottom-1-2{min-width:100%;display:block}.grid-col-bottom-1-2>.grid-items>.grid-item:not(:empty){height:auto}.grid-col-bottom-1-2>.grid-items:before{--unit:1%;left:0;right:auto;display:none} .grid-items>.grid-item.grid-module-bottom-1-2-1{display:flex} .grid-items>.grid-item.grid-module-bottom-1-2-2{display:flex} ',
+);

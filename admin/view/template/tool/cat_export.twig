@@ -1,0 +1,36 @@
+{{ header }}{{ column_left }}
+<div id="content">
+  <div class="page-header">
+    <div class="container-fluid">
+      <div class="pull-right">
+        <a href="{{ export_action }}" data-toggle="tooltip" title="导出" class="btn btn-primary" id="button-export-top"><i class="fa fa-download"></i></a>
+      </div>
+      <h1>分类导出</h1>
+      <ul class="breadcrumb">
+        {% for breadcrumb in breadcrumbs %}
+        <li><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title"><i class="fa fa-sitemap"></i> 导出全部分类结构</h3>
+      </div>
+      <div class="panel-body text-center" style="padding: 50px;">
+        <div style="max-width: 600px; margin: 0 auto;">
+          <i class="fa fa-folder-open-o fa-5x" style="color: #3498db; margin-bottom: 20px;"></i>
+          <h2 style="margin-bottom: 20px;">全部分类导出 (CSV)</h2>
+          <p class="text-muted" style="margin-bottom: 30px;">
+            点击下方按钮将下载当前店铺中所有的分类数据。包含分类层级关系（Parent Name）、SEO URL 以及 Meta 标签。导出格式为 CSV，方便您批量修改分类名称或 SEO 配置。
+          </p>
+          <a href="{{ export_action }}" class="btn btn-primary btn-lg" style="padding: 15px 60px;">
+            <i class="fa fa-download"></i> 立即开始导出
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ footer }}

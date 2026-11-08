@@ -1,0 +1,45 @@
+<?php $val = array (
+  'css' => '.module-text-752 .module-body{--text-module-align-v:flex-start;max-width:950px;font-family:\'Inter\';font-weight:400;font-size:var(--j-font_size-font-size-300);color:hsla(var(--j-color-scheme-foreground-tertiary-h),var(--j-color-scheme-foreground-tertiary-s),calc(var(--j-color-scheme-foreground-tertiary-l) - 0%),calc(var(--j-color-scheme-foreground-tertiary-a)*1));line-height:1.5;margin-top:var(--j-gap-spacing-gap-3);--element-margin-top:var(--j-gap-spacing-gap-3)} ',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Inter' => 
+      array (
+        400 => '400',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => '',
+    'contentType' => 'html',
+    'content' => '<p><strong _ngcontent-ng-c3469197603="" class="ng-star-inserted" style="color: rgb(43, 45, 49); font-family: Inter, sans-serif;">SoccerRetros</strong><span _ngcontent-ng-c3469197603="" class="ng-star-inserted" style="color: rgb(43, 45, 49); font-family: Inter, sans-serif;"> is the premier destination for football fans and collectors worldwide. We specialize in high-quality </span><strong _ngcontent-ng-c3469197603="" class="ng-star-inserted" style="color: rgb(43, 45, 49); font-family: Inter, sans-serif;">retro soccer jerseys</strong><span _ngcontent-ng-c3469197603="" class="ng-star-inserted" style="color: rgb(43, 45, 49); font-family: Inter, sans-serif;"> and the latest </span><strong _ngcontent-ng-c3469197603="" class="ng-star-inserted" style="color: rgb(43, 45, 49); font-family: Inter, sans-serif;">2025/2026 season kits</strong><span _ngcontent-ng-c3469197603="" class="ng-star-inserted" style="color: rgb(43, 45, 49); font-family: Inter, sans-serif;">. From the iconic 1986 Jersey to the modern aesthetics of the J-League, we help you relive the glory days of the beautiful game.</span></p>',
+    'dynamic' => 'journal3/blocks_example',
+    'status' => true,
+    'module_id' => 752,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-text',
+      2 => 'module-text-752',
+      3 => NULL,
+      4 => '',
+    ),
+    'edit' => 'module_layout/text/edit/752',
+    'name' => 'Text / Footer / About us',
+    'items' => 
+    array (
+    ),
+  ),
+);
