@@ -41,13 +41,40 @@ class ControllerToolMyImport extends Controller {
             if ($row) {
                 // 确保索引覆盖 0-15
                 for($i=0; $i<=15; $i++) if(!isset($row[$i])) $row[$i] = '';
-                $this->processProduct($row);
-                $json['success'] = true;
-                $json['msg'] = "导入成功: " . ($row[1] ? substr($row[1], 0, 40) : "无标题");
+
+                $product_name = trim($row[1]);
+                $display_name = $product_name ? substr($product_name, 0, 40) : "无标题";
+
+                // 产品名相同则跳过，不重复导入
+                if ($product_name !== '' && $this->productNameExists($product_name)) {
+                    $json['success'] = true;
+                    $json['skipped'] = true;
+                    $json['msg'] = "已跳过(产品名重复): " . $display_name;
+                } else {
+                    $this->processProduct($row);
+                    $json['success'] = true;
+                    $json['skipped'] = false;
+                    $json['msg'] = "导入成功: " . $display_name;
+                }
             }
         }
         $this->response->addHeader('Content-Type: application/json');
         $this->response->setOutput(json_encode($json));
+    }
+
+    /**
+     * 按产品名称检查是否已存在（当前语言）
+     */
+    private function productNameExists($product_name) {
+        $lang_id = (int)$this->config->get('config_language_id');
+        $query = $this->db->query(
+            "SELECT product_id FROM " . DB_PREFIX . "product_description
+             WHERE language_id = '" . $lang_id . "'
+             AND name = '" . $this->db->escape($product_name) . "'
+             LIMIT 1"
+        );
+
+        return (bool)$query->num_rows;
     }
 
     private function processProduct($row) {
