@@ -133,7 +133,11 @@ function executeImport() {
             $('#progress-text').html('已处理: ' + currentRow + ' / ' + totalRows);
             
             if (json['success']) {
-                $('#log').append('<div><span style="color: #888;">['+new Date().toLocaleTimeString()+']</span> ' + json['msg'] + ' <span style="color:#0f0;">[SUCCESS]</span></div>');
+                if (json['skipped']) {
+                    $('#log').append('<div><span style="color: #888;">['+new Date().toLocaleTimeString()+']</span> ' + json['msg'] + ' <span style="color:#f0ad4e;">[SKIPPED]</span></div>');
+                } else {
+                    $('#log').append('<div><span style="color: #888;">['+new Date().toLocaleTimeString()+']</span> ' + json['msg'] + ' <span style="color:#0f0;">[SUCCESS]</span></div>');
+                }
             } else {
                 $('#log').append('<div style="color:#f00;">第 ' + currentRow + ' 条失败: ' + (json['error'] || '未知错误') + '</div>');
             }
