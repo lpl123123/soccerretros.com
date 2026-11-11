@@ -42,8 +42,9 @@ class ControllerToolMyImport extends Controller {
                 // 确保索引覆盖 0-15
                 for($i=0; $i<=15; $i++) if(!isset($row[$i])) $row[$i] = '';
 
-                $product_name = trim($row[1]);
-                $display_name = $product_name ? substr($product_name, 0, 40) : "无标题";
+                // 使用完整产品名做去重（不做 substr 截断）
+                $product_name = $this->normalizeProductName($row[1]);
+                $display_name = $product_name !== '' ? $product_name : "无标题";
 
                 // 产品名相同则跳过，不重复导入
                 if ($product_name !== '' && $this->productNameExists($product_name)) {
@@ -51,7 +52,7 @@ class ControllerToolMyImport extends Controller {
                     $json['skipped'] = true;
                     $json['msg'] = "已跳过(产品名重复): " . $display_name;
                 } else {
-                    $this->processProduct($row);
+                    $this->processProduct($row, $product_name);
                     $json['success'] = true;
                     $json['skipped'] = false;
                     $json['msg'] = "导入成功: " . $display_name;
@@ -63,24 +64,47 @@ class ControllerToolMyImport extends Controller {
     }
 
     /**
-     * 按产品名称检查是否已存在（当前语言）
+     * 规范化完整产品名：去实体、统一空白、不截断
+     */
+    private function normalizeProductName($name) {
+        $name = html_entity_decode((string)$name, ENT_QUOTES, 'UTF-8');
+        // 统一各类空白（含 NBSP、全角空格等）为普通空格
+        $name = preg_replace('/[\x{00A0}\x{2000}-\x{200B}\x{202F}\x{205F}\x{3000}\x{FEFF}\s]+/u', ' ', $name);
+        $name = trim($name);
+
+        // 与 DB varchar(255) 存库长度对齐，避免超长名比对失败；按字符而非字节截取
+        if ($name !== '' && function_exists('mb_substr')) {
+            $name = mb_substr($name, 0, 255, 'UTF-8');
+        } elseif (strlen($name) > 255) {
+            $name = substr($name, 0, 255);
+        }
+
+        return $name;
+    }
+
+    /**
+     * 按完整产品名称检查是否已存在（任意语言，TRIM 后比对）
      */
     private function productNameExists($product_name) {
-        $lang_id = (int)$this->config->get('config_language_id');
+        $escaped = $this->db->escape($product_name);
+
+        // 精确匹配 + TRIM 匹配，兼容历史数据首尾空白
         $query = $this->db->query(
             "SELECT product_id FROM " . DB_PREFIX . "product_description
-             WHERE language_id = '" . $lang_id . "'
-             AND name = '" . $this->db->escape($product_name) . "'
+             WHERE name = '" . $escaped . "'
+                OR TRIM(name) = '" . $escaped . "'
              LIMIT 1"
         );
 
         return (bool)$query->num_rows;
     }
 
-    private function processProduct($row) {
+    private function processProduct($row, $product_name = null) {
         $this->load->model('catalog/product');
         $lang_id = (int)$this->config->get('config_language_id');
-        $product_name = trim($row[1]);
+        if ($product_name === null) {
+            $product_name = $this->normalizeProductName($row[1]);
+        }
 
         $data = [
             'model'           => (string)$row[5],
@@ -113,7 +137,7 @@ class ControllerToolMyImport extends Controller {
             'product_store'   => [0],
             'product_description' => [
                 $lang_id => [
-                    'name'             => $product_name ?: 'Product '.time(),
+                    'name'             => $product_name !== '' ? $product_name : ('Product '.time()),
                     'description'      => html_entity_decode((string)$row[4]),
                     'meta_title'       => (string)$row[11] ?: $product_name,
                     'meta_description' => (string)$row[12],
