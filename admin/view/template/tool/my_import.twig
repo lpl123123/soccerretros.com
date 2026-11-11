@@ -29,6 +29,21 @@
                 <input type="file" id="input-file" class="hidden" accept=".xlsx" onchange="$('#file-name').text(this.files[0].name);" />
                 <button type="button" class="btn btn-default btn-lg" onclick="$('#input-file').click();">选择文件</button>
                 <div id="file-name" style="margin-top: 10px; font-weight: bold; color: #333;"></div>
+
+                <div class="text-left" style="max-width: 560px; margin: 25px auto 0; padding: 15px 18px; background: #fff; border: 1px solid #e5e5e5; border-radius: 8px;">
+                    <div style="font-weight: bold; margin-bottom: 10px; color: #333;"><i class="fa fa-cogs"></i> 遇到已存在产品时</div>
+                    <label style="display:block; font-weight: normal; margin-bottom: 10px; cursor: pointer;">
+                        <input type="radio" name="import_mode" value="skip_duplicates" checked="checked" />
+                        <strong>跳过重复</strong>
+                        <span style="color:#777;"> — 产品名已存在则不导入（默认去重）</span>
+                    </label>
+                    <label style="display:block; font-weight: normal; margin-bottom: 0; cursor: pointer;">
+                        <input type="radio" name="import_mode" value="restore_images" />
+                        <strong>仅补全图片</strong>
+                        <span style="color:#777;"> — 产品已存在时只把图片写回数据库原路径，不新建产品、不改图片地址</span>
+                    </label>
+                </div>
+
                 <br>
                 <button type="button" id="button-upload" class="btn btn-primary btn-lg" style="padding: 10px 40px; margin-top: 10px;">
                     <i class="fa fa-play"></i> 开始解析并导入
@@ -40,6 +55,7 @@
         <div id="progress-section" style="display:none; padding: 20px;">
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2">
+                    <div id="mode-text" class="text-center" style="margin-bottom: 12px; color: #666;"></div>
                     <div class="progress" style="height: 30px; border-radius: 15px; margin-bottom: 10px; background: #ebebeb;">
                         <div id="progress-bar" class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" style="width: 0%; line-height: 30px; font-size: 14px; font-weight: bold;">0%</div>
                     </div>
@@ -61,7 +77,16 @@
 var totalRows = 0;
 var currentRow = 0;
 var filePath = '';
+var importMode = 'skip_duplicates';
 var waitTime = 5000; // 5秒间隔
+
+function getSelectedImportMode() {
+    return $('input[name="import_mode"]:checked').val() || 'skip_duplicates';
+}
+
+function modeLabel(mode) {
+    return mode === 'restore_images' ? '仅补全图片（写回原路径）' : '跳过重复产品';
+}
 
 $('#button-upload').on('click', function() {
     if (!$('#input-file')[0].files[0]) {
@@ -69,8 +94,11 @@ $('#button-upload').on('click', function() {
         return;
     }
 
+    importMode = getSelectedImportMode();
+
     var formData = new FormData();
     formData.append('file', $('#input-file')[0].files[0]);
+    formData.append('import_mode', importMode);
 
     $.ajax({
         url: 'index.php?route=tool/my_import/upload&user_token={{ user_token }}',
@@ -89,6 +117,10 @@ $('#button-upload').on('click', function() {
             } else {
                 totalRows = json['total'];
                 filePath = json['file_path'];
+                if (json['import_mode']) {
+                    importMode = json['import_mode'];
+                }
+                $('#mode-text').text('当前模式: ' + modeLabel(importMode));
                 $('#upload-section').fadeOut(300, function() {
                     $('#progress-section').fadeIn();
                     processNextRow();
@@ -124,7 +156,7 @@ function executeImport() {
     $.ajax({
         url: 'index.php?route=tool/my_import/importRow&user_token={{ user_token }}',
         type: 'POST',
-        data: { file_path: filePath, row_index: currentRow },
+        data: { file_path: filePath, row_index: currentRow, import_mode: importMode },
         dataType: 'json',
         success: function(json) {
             currentRow++;
@@ -135,6 +167,8 @@ function executeImport() {
             if (json['success']) {
                 if (json['skipped']) {
                     $('#log').append('<div><span style="color: #888;">['+new Date().toLocaleTimeString()+']</span> ' + json['msg'] + ' <span style="color:#f0ad4e;">[SKIPPED]</span></div>');
+                } else if (json['restored']) {
+                    $('#log').append('<div><span style="color: #888;">['+new Date().toLocaleTimeString()+']</span> ' + json['msg'] + ' <span style="color:#5bc0de;">[RESTORED]</span></div>');
                 } else {
                     $('#log').append('<div><span style="color: #888;">['+new Date().toLocaleTimeString()+']</span> ' + json['msg'] + ' <span style="color:#0f0;">[SUCCESS]</span></div>');
                 }

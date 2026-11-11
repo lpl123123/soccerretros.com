@@ -21,6 +21,7 @@ class ControllerToolMyImport extends Controller {
                 $dim = $xlsx->dimension();
                 $json['total'] = $dim[1] - 1;
                 $json['file_path'] = $file;
+                $json['import_mode'] = $this->getImportMode();
                 $json['success'] = "Excel文件解析成功！";
             } else {
                 $json['error'] = SimpleXLSX::parseError();
@@ -34,23 +35,33 @@ class ControllerToolMyImport extends Controller {
         $json = array();
         $file_path = $this->request->post['file_path'];
         $row_index = (int)$this->request->post['row_index'];
+        $import_mode = $this->getImportMode();
 
         if ($xlsx = SimpleXLSX::parse($file_path)) {
             $rows = $xlsx->rows();
             $row = isset($rows[$row_index + 1]) ? $rows[$row_index + 1] : null;
             if ($row) {
                 // 确保索引覆盖 0-15
-                for($i=0; $i<=15; $i++) if(!isset($row[$i])) $row[$i] = '';
+                for ($i = 0; $i <= 15; $i++) if (!isset($row[$i])) $row[$i] = '';
 
                 // 使用完整产品名做去重（不做 substr 截断）
                 $product_name = $this->normalizeProductName($row[1]);
                 $display_name = $product_name !== '' ? $product_name : "无标题";
+                $existing_id = ($product_name !== '') ? $this->getProductIdByName($product_name) : 0;
 
-                // 产品名相同则跳过，不重复导入
-                if ($product_name !== '' && $this->productNameExists($product_name)) {
-                    $json['success'] = true;
-                    $json['skipped'] = true;
-                    $json['msg'] = "已跳过(产品名重复): " . $display_name;
+                if ($existing_id) {
+                    if ($import_mode === 'restore_images') {
+                        $result = $this->restoreProductImages($existing_id, $row[10]);
+                        $json['success'] = true;
+                        $json['skipped'] = false;
+                        $json['restored'] = true;
+                        $json['msg'] = "已补全图片(" . $result['restored'] . "/" . $result['total'] . "): " . $display_name;
+                    } else {
+                        // skip_duplicates：产品名相同则跳过
+                        $json['success'] = true;
+                        $json['skipped'] = true;
+                        $json['msg'] = "已跳过(产品名重复): " . $display_name;
+                    }
                 } else {
                     $this->processProduct($row, $product_name);
                     $json['success'] = true;
@@ -61,6 +72,14 @@ class ControllerToolMyImport extends Controller {
         }
         $this->response->addHeader('Content-Type: application/json');
         $this->response->setOutput(json_encode($json));
+    }
+
+    /**
+     * skip_duplicates | restore_images
+     */
+    private function getImportMode() {
+        $mode = isset($this->request->post['import_mode']) ? (string)$this->request->post['import_mode'] : 'skip_duplicates';
+        return in_array($mode, array('skip_duplicates', 'restore_images'), true) ? $mode : 'skip_duplicates';
     }
 
     /**
@@ -83,12 +102,11 @@ class ControllerToolMyImport extends Controller {
     }
 
     /**
-     * 按完整产品名称检查是否已存在（任意语言，TRIM 后比对）
+     * 按完整产品名称查找 product_id（任意语言，TRIM 后比对）
      */
-    private function productNameExists($product_name) {
+    private function getProductIdByName($product_name) {
         $escaped = $this->db->escape($product_name);
 
-        // 精确匹配 + TRIM 匹配，兼容历史数据首尾空白
         $query = $this->db->query(
             "SELECT product_id FROM " . DB_PREFIX . "product_description
              WHERE name = '" . $escaped . "'
@@ -96,7 +114,133 @@ class ControllerToolMyImport extends Controller {
              LIMIT 1"
         );
 
-        return (bool)$query->num_rows;
+        return $query->num_rows ? (int)$query->row['product_id'] : 0;
+    }
+
+    /**
+     * 兼容旧调用
+     */
+    private function productNameExists($product_name) {
+        return (bool)$this->getProductIdByName($product_name);
+    }
+
+    /**
+     * 仅补全已存在产品的图片文件，数据库中的图片路径保持不变
+     */
+    private function restoreProductImages($product_id, $image_cell) {
+        $urls = array();
+        foreach (explode(',', (string)$image_cell) as $url) {
+            $url = trim($url);
+            if ($url !== '') {
+                $urls[] = $url;
+            }
+        }
+
+        $paths = $this->getProductImagePaths($product_id);
+        $total = count($paths);
+        $restored = 0;
+
+        if (!$total) {
+            return array('total' => 0, 'restored' => 0);
+        }
+
+        foreach ($paths as $index => $relative_path) {
+            if (!isset($urls[$index])) {
+                break;
+            }
+
+            if ($this->downloadAndSaveToPath($urls[$index], $relative_path)) {
+                $restored++;
+            }
+        }
+
+        return array('total' => $total, 'restored' => $restored);
+    }
+
+    /**
+     * 读取数据库中已有的主图 + 附加图路径（顺序与导入时一致）
+     */
+    private function getProductImagePaths($product_id) {
+        $paths = array();
+
+        $query = $this->db->query(
+            "SELECT image FROM " . DB_PREFIX . "product WHERE product_id = '" . (int)$product_id . "' LIMIT 1"
+        );
+
+        if ($query->num_rows && !empty($query->row['image'])) {
+            $paths[] = $query->row['image'];
+        }
+
+        $extra = $this->db->query(
+            "SELECT image FROM " . DB_PREFIX . "product_image
+             WHERE product_id = '" . (int)$product_id . "'
+             ORDER BY sort_order ASC, product_image_id ASC"
+        );
+
+        foreach ($extra->rows as $row) {
+            if (!empty($row['image'])) {
+                $paths[] = $row['image'];
+            }
+        }
+
+        return $paths;
+    }
+
+    /**
+     * 下载远程图片并写入数据库中记录的原路径（不改 DB 地址）
+     */
+    private function downloadAndSaveToPath($url, $relative_path) {
+        $relative_path = ltrim(str_replace('\\', '/', (string)$relative_path), '/');
+        if ($relative_path === '' || strpos($relative_path, '..') !== false) {
+            return false;
+        }
+
+        $destination = DIR_IMAGE . $relative_path;
+        $dir = dirname($destination);
+        if (!is_dir($dir) && !mkdir($dir, 0777, true) && !is_dir($dir)) {
+            return false;
+        }
+
+        $temp_file = DIR_UPLOAD . 'temp_img_restore_' . token(16);
+        $ch = curl_init($url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 30);
+        $content = curl_exec($ch);
+        $http_code = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        curl_close($ch);
+
+        if (!$content || ($http_code && $http_code >= 400)) {
+            if (file_exists($temp_file)) unlink($temp_file);
+            return false;
+        }
+
+        file_put_contents($temp_file, $content);
+
+        $ext = strtolower(pathinfo($destination, PATHINFO_EXTENSION));
+        $ok = false;
+
+        if ($ext === 'webp') {
+            $ok = $this->convertToWebp($temp_file, $destination);
+            // 源已是 webp 且 GD 转换失败时，直接原样写回原路径
+            if (!$ok) {
+                $info = @getimagesize($temp_file);
+                if ($info && isset($info['mime']) && $info['mime'] === 'image/webp') {
+                    $ok = (bool)copy($temp_file, $destination);
+                }
+            }
+        } else {
+            // 原路径不是 webp：尽量保留原扩展可读的图片内容
+            $info = @getimagesize($temp_file);
+            if ($info) {
+                $ok = (bool)copy($temp_file, $destination);
+            }
+        }
+
+        if (file_exists($temp_file)) unlink($temp_file);
+
+        return $ok;
     }
 
     private function processProduct($row, $product_name = null) {
@@ -148,12 +292,12 @@ class ControllerToolMyImport extends Controller {
             'product_category' => $this->getOrCreateCategories($row[6]),
             'product_option'   => !empty($row[2]) ? $this->getOrCreateOptions("Size", explode('|', $row[2])) : [],
             // 补全所有关联数组，防止插件遍历报错
-            'product_image'    => [], 
-            'product_special'  => [], 
-            'product_download' => [], 
-            'product_filter'   => [], 
-            'product_related'  => [], 
-            'product_reward'   => [], 
+            'product_image'    => [],
+            'product_special'  => [],
+            'product_download' => [],
+            'product_filter'   => [],
+            'product_related'  => [],
+            'product_reward'   => [],
             'product_layout'   => []
         ];
 
@@ -165,10 +309,10 @@ class ControllerToolMyImport extends Controller {
         // 处理特价
         if ((float)$row[7] > 0) {
             $data['product_special'][] = [
-                'customer_group_id' => 1, 
-                'priority'          => 1, 
-                'price'             => (float)$row[7], 
-                'date_start'        => '2020-01-01', 
+                'customer_group_id' => 1,
+                'priority'          => 1,
+                'price'             => (float)$row[7],
+                'date_start'        => '2020-01-01',
                 'date_end'          => '2050-01-01'
             ];
         }
@@ -198,7 +342,7 @@ class ControllerToolMyImport extends Controller {
             if (!$name) continue;
 
             $query = $this->db->query("SELECT category_id FROM " . DB_PREFIX . "category_description WHERE name = '" . $this->db->escape($name) . "' LIMIT 1");
-            
+
             if ($query->num_rows) {
                 $category_id = $query->row['category_id'];
             } else {
@@ -281,6 +425,10 @@ class ControllerToolMyImport extends Controller {
             case 'image/jpeg': $image = imagecreatefromjpeg($source); break;
             case 'image/png':  $image = imagecreatefrompng($source); break;
             case 'image/gif':  $image = imagecreatefromgif($source); break;
+            case 'image/webp':
+                if (!function_exists('imagecreatefromwebp')) return false;
+                $image = imagecreatefromwebp($source);
+                break;
             default: return false;
         }
         if ($image) {
